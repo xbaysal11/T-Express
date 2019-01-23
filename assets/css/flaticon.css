@@ -1,0 +1,43 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 16/10/2018 15:01
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("../fonts/Flaticon.eot");
+  src: url("../fonts/Flaticon.eot@") format("embedded-opentype"),
+       url("../fonts/Flaticon.woff") format("woff"),
+       url("../fonts/Flaticon.ttf") format("truetype"),
+       url("../fonts/Flaticon.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("../fonts/Flaticon.svg") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+  font-family: Flaticon;
+        font-size: 40px;
+        font-style: normal;
+}
+
+.flaticon-plane:before { content: "\f100";}
+.flaticon-ship:before { content: "\f101"; }
+.flaticon-truck:before { content: "\f102"; }
+.flaticon-delivery:before { content: "\f103"; }
+.flaticon-travel:before { content: "\f104"; }
+.flaticon-truck-1:before { content: "\f105"; }
+.flaticon-truck-2:before { content: "\f106"; }
+.flaticon-ship-1:before { content: "\f107"; }
+.flaticon-construction-tool-vehicle-with-crane-lifting-materials:before { content: "\f108"; }
+.flaticon-construction:before { content: "\f108"; }
+.flaticon-giftbox:before { content: "\f109"; }
+.flaticon-box:before { content: "\f10a"; }
+.flaticon-trolley:before { content: "\f10b"; }
