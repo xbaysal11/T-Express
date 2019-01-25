@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="37px" height="31px" viewBox="0 0 37 31" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="36.4504505" height="30.483871" rx="1"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="36.4504505" height="30.483871" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <path d="M8.5,18.5 L8.5,1.5" id="path-3"></path>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="3" height="18" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+        <rect id="path-5" x="5" y="0" width="32" height="18" rx="1"></rect>
+        <rect id="path-6" x="0" y="0" width="9" height="18" rx="1"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Mobile" transform="translate(-7.000000, -10.000000)">
+            <g id="Group-2" transform="translate(7.000000, 10.000000)">
+                <use id="Rectangle-5-Copy" stroke="#FFBD96" mask="url(#mask-2)" stroke-width="3" stroke-dasharray="1,1" xlink:href="#path-1"></use>
+                <use id="Line" stroke="#FF6F18" mask="url(#mask-4)" stroke-width="2" stroke-dasharray="1,1" xlink:href="#path-3"></use>
+                <path d="M7.5,18.5 L7.5,0.5" id="Line-2" stroke="#FFBD96" stroke-width="1.5" stroke-dasharray="1"></path>
+                <g id="Group" transform="translate(0.000000, 13.000000)">
+                    <g id="Rectangle-5-Copy">
+                        <use fill-opacity="0.17" fill="#FF6F18" fill-rule="evenodd" xlink:href="#path-5"></use>
+                        <rect stroke="#FF6F18" stroke-width="2" x="6" y="1" width="30" height="16" rx="1"></rect>
+                    </g>
+                    <g id="Rectangle-6">
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-6"></use>
+                        <rect stroke="#FF6F18" stroke-width="2" x="1" y="1" width="7" height="16" rx="1"></rect>
+                    </g>
+                </g>
+                <path d="M12.8,25.8333333 L20.85,25.8333333" id="Line-4" stroke="#FF6F18" stroke-width="2" stroke-linecap="round"></path>
+            </g>
+        </g>
+    </g>
+</svg>

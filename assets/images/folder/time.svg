@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="39px" height="39px" viewBox="0 0 39 39" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Mobile" transform="translate(-6.000000, -6.000000)">
+            <g id="Group" transform="translate(7.000000, 7.000000)">
+                <circle id="Oval-3" stroke="#FFBD96" stroke-dasharray="1,1" cx="18.5" cy="18.5" r="18.5"></circle>
+                <path d="M18.5,34 C9.93958638,34 3,27.0604136 3,18.5 C3,9.93958638 9.93958638,3 18.5,3 C27.0604136,3 34,9.93958638 34,18.5 C34,27.0604136 27.0604136,34 18.5,34 Z M16.7777778,29.4074074 C23.1188249,29.4074074 28.2592593,24.2669731 28.2592593,17.9259259 C28.2592593,11.5848788 23.1188249,6.44444444 16.7777778,6.44444444 C10.4367307,6.44444444 5.2962963,11.5848788 5.2962963,17.9259259 C5.2962963,24.2669731 10.4367307,29.4074074 16.7777778,29.4074074 Z" id="Combined-Shape" fill="#FFE7D8"></path>
+                <circle id="Oval-3" stroke="#FF6F18" stroke-width="2" cx="18.5" cy="18.5" r="15.5"></circle>
+                <circle id="Oval-2" stroke="#FF6F18" stroke-width="1.5" cx="17.5" cy="19.5" r="2.5"></circle>
+                <path d="M17.5,16.4166667 L17.5,11.1343587" id="Line" stroke="#FF6F18" stroke-width="1.5" stroke-linecap="round"></path>
+                <path d="M20,19 L28,19" id="Line" stroke="#FF6F18" stroke-width="1.5" stroke-linecap="round"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,42 @@
+
+<svg width="79px" height="68px" viewBox="0 0 79 68" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="663" y="132" width="41" height="34" rx="2"></rect>
+        <rect id="path-2" x="695" y="132" width="9" height="34" rx="2"></rect>
+        <rect id="path-3" x="636" y="157" width="22" height="9" rx="2"></rect>
+        <rect id="path-4" x="642" y="145" width="14" height="14" rx="2"></rect>
+        <rect id="path-5" x="671" y="142" width="17" height="14" rx="2"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Q3-Static" transform="translate(-961.000000, -658.000000)">
+            <g id="Group-64" transform="translate(330.000000, 560.000000)">
+                <path d="M649.5,134.5 L649.5,155.5" id="Line-5" stroke="#3FABFF" stroke-width="2" stroke-linecap="square"></path>
+                <g id="Rectangle-7">
+                    <use fill="#DFF1FF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    <rect stroke="#3FABFF" stroke-width="2" x="664" y="133" width="39" height="32" rx="2"></rect>
+                </g>
+                <g id="Rectangle-7">
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-2"></use>
+                    <rect stroke="#3FABFF" stroke-width="2" x="696" y="133" width="7" height="32" rx="2"></rect>
+                </g>
+                <path d="M699.029844,164 L632,164 C631.447715,164 631,164.447715 631,165 C631,165.552285 631.447715,166 632,166 L699.029844,166 C699.582129,166 700.029844,165.552285 700.029844,165 C700.029844,164.447715 699.582129,164 699.029844,164 Z" id="Line-6" fill="#3FABFF" fill-rule="nonzero"></path>
+                <g id="Rectangle-8">
+                    <use fill="#DFF1FF" fill-rule="evenodd" xlink:href="#path-3"></use>
+                    <rect stroke="#3FABFF" stroke-width="2" x="637" y="158" width="20" height="7" rx="2"></rect>
+                </g>
+                <g id="Rectangle-8-Copy">
+                    <use fill="#DFF1FF" fill-rule="evenodd" xlink:href="#path-4"></use>
+                    <rect stroke="#3FABFF" stroke-width="2" x="643" y="146" width="12" height="12" rx="2"></rect>
+                </g>
+                <g id="Rectangle-8-Copy">
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-5"></use>
+                    <rect stroke="#3FABFF" stroke-width="2" x="672" y="143" width="15" height="12" rx="2"></rect>
+                </g>
+                <path d="M676.395718,99.5681811 L708.337716,130.719664 C709.128488,131.490866 709.144353,132.757097 708.373151,133.547869 C707.99674,133.933832 707.480452,134.151484 706.941331,134.151484 L641,134.151484 C639.895431,134.151484 639,133.256054 639,132.151484 C639,131.590709 639.235428,131.055694 639.648894,130.676861 L673.648228,99.5253782 C674.430453,98.8086733 675.636198,98.8274575 676.395718,99.5681811 Z" id="Triangle" stroke="#3FABFF" stroke-width="2" fill="#DFF1FF"></path>
+                <circle id="Oval-2" stroke="#3FABFF" stroke-width="2" fill="#DFF1FF" cx="674" cy="124" r="4"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

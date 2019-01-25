@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="42px" height="42px" viewBox="0 0 42 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Mobile" transform="translate(-4.000000, -4.000000)">
+            <g id="Group" transform="translate(5.000000, 5.000000)">
+                <g id="Group-78">
+                    <circle id="Oval-13" stroke="#FF6F18" stroke-width="1.5" fill="#FFE7D8" cx="20" cy="20" r="20"></circle>
+                    <circle id="Oval-13" stroke="#FF6F18" fill="#FFFFFF" stroke-dasharray="1,1" cx="20.1257862" cy="20.1257862" r="15.8490566"></circle>
+                    <circle id="Oval-13" fill="#FFE7D8" cx="20.1257862" cy="20.1257862" r="11.572327"></circle>
+                    <circle id="Oval-13" stroke="#FF6F18" stroke-width="2" fill="#FFFFFF" cx="20.2515723" cy="20.2515723" r="7.42138365"></circle>
+                    <polygon id="Star" fill="#FF6F18" points="20.2515723 22.4230905 16.924486 24.8309138 18.1863359 20.9226083 14.8682336 18.5024195 18.975186 18.4947773 20.2515723 14.591195 21.5279587 18.4947773 25.6349111 18.5024195 22.3168088 20.9226083 23.5786587 24.8309138"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

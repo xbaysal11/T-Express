@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="38px" height="36px" viewBox="0 0 38 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="16" y="23" width="8" height="12" rx="1"></rect>
+        <rect id="path-2" x="12" y="23" width="8" height="12" rx="1"></rect>
+        <path d="M5,7 L33.3783318,7 L33.3783318,7 C34.8262392,7 36,8.17376083 36,9.6216682 L36,9.6216682 L36,24 L36,24 C36,25.1045695 35.1045695,26 34,26 L2,26 L2,26 C0.8954305,26 1.3527075e-16,25.1045695 0,24 L2.42230478e-16,12 L0,12 C-3.38176876e-16,9.23857625 2.23857625,7 5,7 Z" id="path-3"></path>
+        <path d="M33,7 L33,7 L33,7 C35.7614237,7 38,9.23857625 38,12 L38,24 L38,24 C38,25.1045695 37.1045695,26 36,26 L30,26 L30,26 C28.8954305,26 28,25.1045695 28,24 L28,12 L28,12 C28,9.23857625 30.2385763,7 33,7 Z" id="path-4"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Mobile" transform="translate(-6.000000, -8.000000)">
+            <g id="Group" transform="translate(6.000000, 9.000000)">
+                <g id="Rectangle-5-Copy">
+                    <use fill-opacity="0.17" fill="#FF6F18" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    <rect stroke="#FF6F18" stroke-width="1.5" x="16.75" y="23.75" width="6.5" height="10.5" rx="1"></rect>
+                </g>
+                <g id="Rectangle-6">
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-2"></use>
+                    <rect stroke="#FF6F18" stroke-width="1.5" x="12.75" y="23.75" width="6.5" height="10.5" rx="1"></rect>
+                </g>
+                <g id="Rectangle">
+                    <use fill="#FFE7D8" fill-rule="evenodd" xlink:href="#path-3"></use>
+                    <path stroke="#FF6F18" stroke-width="1.5" d="M5,7.75 C2.65278981,7.75 0.75,9.65278981 0.75,12 L0.75,24 C0.75,24.6903559 1.30964406,25.25 2,25.25 L34,25.25 C34.6903559,25.25 35.25,24.6903559 35.25,24 L35.25,9.6216682 C35.25,8.5879744 34.4120256,7.75 33.3783318,7.75 L5,7.75 Z"></path>
+                </g>
+                <polygon id="Triangle" fill="#FFBD96" points="9 2.5 18 0 18 5"></polygon>
+                <path d="M18,0 L18,11.1939394" id="Line-4" stroke="#FF6F18" stroke-width="2" stroke-linecap="round"></path>
+                <g id="Rectangle-2">
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-4"></use>
+                    <path stroke="#FF6F18" stroke-width="1.5" d="M33,7.75 C30.6527898,7.75 28.75,9.65278981 28.75,12 L28.75,24 C28.75,24.6903559 29.3096441,25.25 30,25.25 L36,25.25 C36.6903559,25.25 37.25,24.6903559 37.25,24 L37.25,12 C37.25,9.65278981 35.3472102,7.75 33,7.75 Z"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
