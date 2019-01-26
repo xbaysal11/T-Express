@@ -871,6 +871,10 @@ mobile menu
     font-weight: 700;
     margin-bottom: 10px;
 }
+
+.row{
+  margin-top: 50px;
+}
 .signature-section img{
   float: right;
 }
