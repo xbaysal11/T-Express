@@ -1,5 +1,5 @@
 .container{
-    width: 30%;
+    width: 400px;
     margin: 0 auto;
     font-family: Arial, Helvetica, sans-serif;
     height: 100%;
@@ -152,3 +152,9 @@ input::placeholder{
     text-align: center;
     font-size: 90%;
 }
+@media screen and (max-width: 600px) {
+    .container{
+      width: 100%;
+      height: 100%;
+    }
+  }
