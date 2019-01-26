@@ -3,17 +3,16 @@
     margin: 0 auto;
     font-family: Arial, Helvetica, sans-serif;
     height: 100%;
-   
+}
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(249, 250, 250);
+    height: 100vh;
 }
 .title{
     margin-top: 10%;
     text-align: center;
-}
-body{
-    margin: 0;
-    padding: 0;
-    background-color: rgb(249, 250, 250);
-    height: 100vh;
 }
 .title h3{
     margin: 0;
@@ -42,15 +41,6 @@ p{
 div{
     display: border-box;
 }
-.input_surname{
-    width: 81%;
-}
-.input_name{
-    width: 80%;
-}
-.name{
-    margin-left: 0.7%;
-}
 .registration{
     background: #ffffff;
     border-radius: 5px;
@@ -67,6 +57,7 @@ div{
 }
 .extra_info{
     text-align: center;
+    margin-bottom: 5%;
 }
 
 .extra_info .abc {
@@ -86,8 +77,10 @@ div{
     margin-left: 3%;
 }
 .mail input{
+    margin-top: -1%;
     width: 90.6%;
 }
+
 h2{
     margin: 0;
     padding: 0; 
@@ -127,45 +120,6 @@ input::placeholder{
     font-size: 90%;
     margin: 0% 0% 4% 0%;
 }
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-.agreement{
-    float: left;
-    padding: 5% 0 5% 0;
-    font-size: 90%;
-}
-.check input{
-    float: left; 
-    margin-top: 0.7%;  
-    background:  #fff;
-}
-.check {
-    margin-left: 3%;
-    width: 80%;
-    
-}
-.attention{
-    border-radius: 4px;
-    border: 1px solid rgb(253, 194, 194);
-    margin: 3.5% 3.5% 0% 3.5%; 
-    background-color: rgb(255, 245, 230);
-    padding: 3.5% 0 3.5% 0;
-}
-.attention p{
-    color:rgb(84, 90, 101);
-    margin-left: 5%;
-    font-size: 90%;
-    line-height: 150%;
-}
-.attention p span{
-    margin-top: 5%;
-    color:rgb(101, 113, 128);
-    font-weight: bold;
-}
-
 .come_in a:hover{
     color: rgb(203, 209, 215);
 }
@@ -180,6 +134,9 @@ input::placeholder{
 .abc{
     font-size: 80%;
 }
+.password{
+    padding-top: 3%;
+}
 .img1{
     width: 40%;
     margin: 0 auto;
@@ -187,4 +144,11 @@ input::placeholder{
     padding: 3% 2% 3% 0;
     border-radius: 4px;
     margin-top: 10px;
+}
+.pass_input{
+    margin-bottom: 4%;
+}
+.new_password{
+    text-align: center;
+    font-size: 90%;
 }
