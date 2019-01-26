@@ -831,11 +831,15 @@ mobile menu
 .sec-p{
   padding-left: 30px;
 }
-.about-img img{
-  padding-top: 50px;
+.about-img iframe{
+  margin-top: 150px;
 }
 .about-content p {
     margin-bottom: 30px;
+}
+
+.why{
+  margin-top: 100px;
 }
 .about-content span{
   display: block;
