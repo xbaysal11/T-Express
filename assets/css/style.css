@@ -391,6 +391,14 @@ a:focus {
     -o-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
 }
+.shop_logo{
+  display: flex;
+  justify-content: space-around;
+  padding: 5%;
+}
+.shop_logo_item{
+  margin: 2%;
+}
 
 .main-menu nav>ul>li:hover>.submenu {
     -webkit-transform: scaleY(1);
