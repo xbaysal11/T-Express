@@ -4,7 +4,7 @@
 }
 
 .kg{
-    margin-top: 10%;
+
     color: rgb(141, 188, 244);
     display: flex;
     margin-left: 12%;}
@@ -19,8 +19,15 @@
     margin-left: 5%;
 }
 .names{
-    color: rgb(141, 188, 244);
     margin-top: 10%;
+    color: rgb(141, 188, 244);
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.names p{
+    margin: 0;
+    padding: 0;
 }
 .div_input{
     display: flex;
@@ -51,7 +58,7 @@
     display: flex;
     justify-content: space-between;
     width: 80%;
-    margin-top: 10%;
+    margin-top: 7%;
 }
 .left{
     color: rgb(141, 188, 244);  
@@ -67,14 +74,24 @@
 }
 
 .right{
-    margin-top: 5%;
+    margin-top: 11.5%;
+    margin-bottom: 20px;
     border: rgb(255, 222, 0) 3px solid;
     border-radius: 5px;
-    padding: 3%;
     color: #fff;
-    padding-bottom: 7%;
     font-size: 70%;
-    width: 40%;
-    margin-right: 5%;
-    height: 25%;
+    padding: 3%;
+}
+.names p:nth-child(1){
+    margin-left: 5%;
+}
+.names p:nth-child(2){
+    margin-left: 6%;
+    
+}
+.names p:nth-child(3){
+    margin-left: 5%;
+}
+.names p:nth-child(4){
+    margin-right: 8%;
 }
