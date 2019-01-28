@@ -89,7 +89,7 @@ h4,
 h5,
 h6 {
   font-family: 'Montserrat', sans-serif;
-  color: #282e3f;
+  /* color: #282e3f; */
 }
 
 ul {
@@ -390,6 +390,9 @@ a:focus {
     -webkit-transition: all 0.3s ease 0s;
     -o-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
+}
+.shop{
+  margin: 5%;
 }
 .shop_logo{
   display: flex;
@@ -749,6 +752,7 @@ mobile menu
   }
 }
 
+
 .hero-style-1 .slide-caption h2 span, .hero-style-2 .slide-caption h2 span {
   display:block;
 }
@@ -833,21 +837,27 @@ mobile menu
 }
 .about-img iframe{
   margin-top: 150px;
+  width: 100%;
+  height: 45vh; 
 }
+
+
 .more{
-margin: 2% 0;
+  margin-top: 5%;
   text-align: center;
 }
 .more button{
   padding: 1% 3%;
-
   border-radius: 0;
-  border: none;
-  border-style: none;
-  background: #31B5E1;
-  color: white;
+  border: 1px solid black;
+  background: none;
+  color: black;
 }
 .more button:hover {
+  transition: all .5s;
+  background: #31B5E1;
+  border: 1px solid #31B5E1;
+  color: white;
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 .about-content p {
@@ -888,8 +898,13 @@ margin: 2% 0;
     margin-bottom: 10px;
 }
 
+.row .text-center .segment-xlarge p, .row .text-center .segment-xlarge h3{
+  
+  color: #fff;
+}
 .segment-xxlarge{
   padding: 3% 0;
+
 }
 .signature-section img{
   float: right;
@@ -1097,6 +1112,20 @@ margin: 2% 0;
 
 .form-control {
  border-radius:0px;
+}
+.how_it_work{
+  padding: 10%;
+  color: #fff;
+  background: url(../images/static/ship.jpg) no-repeat center top / cover;
+  position: relative;
+  background-attachment: fixed;
+}
+.how_it_work .text-center{
+  padding: 2%;
+}
+.how_it_work .row{
+  display: flex;
+  justify-content: space-around;
 }
 /*============================================
 0.9 features-area start
