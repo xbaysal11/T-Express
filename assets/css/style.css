@@ -310,16 +310,17 @@ a:focus {
   color:#fff;
 }
 .logo {
+  width: 150px;
     font-size: 200%;
     color: white;
-    margin-top: 27px;
+    margin: 2%;
 }
 .logo a{
     color: white;
 }
 .main-menu .submenu li a {
     padding: 10px 15px 10px 0px;
-    color: : #fff;
+    color: #fff;
     font-size: 14px;
 }
 
@@ -816,6 +817,9 @@ mobile menu
 0.6 about-area start
 =====================================*/
 .about-area{
+  background-image: url("../images/static/bg.jpg");
+
+  background-size: cover;
   padding: 100px 0;
 }
 .about-content .about-icon i{
@@ -870,6 +874,9 @@ mobile menu
 }
 
 .why{
+  background-image: url("../images/static/bg.jpg");
+  background-size: cover;
+
   margin-top: 100px;
 }
 .about-content span{
