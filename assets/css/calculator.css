@@ -19,6 +19,8 @@
 }
 
 .kg select {
+
+    padding-bottom: 10%;
     font-size: 135%;
     margin-left: 10%;
     background-color: rgb(49, 121, 206);
