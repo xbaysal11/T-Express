@@ -310,11 +310,16 @@ a:focus {
   color:#fff;
 }
 .logo {
+    font-size: 200%;
+    color: white;
     margin-top: 27px;
+}
+.logo a{
+    color: white;
 }
 .main-menu .submenu li a {
     padding: 10px 15px 10px 0px;
-    color: :#fff;
+    color: : #fff;
     font-size: 14px;
 }
 
