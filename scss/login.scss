@@ -1,0 +1,160 @@
+.container{
+    width: 400px;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+}
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(249, 250, 250);
+    height: 100vh;
+}
+.title{
+    margin-top: 10%;
+    text-align: center;
+}
+.title h3{
+    margin: 0;
+    padding: 0;
+    color: rgb(70, 76, 91);
+}
+.title p{
+    margin-top: 2%;
+    color: rgb(67, 67, 67);
+    font-size: 90%;
+}
+a{
+    color: rgb(56, 149, 224);
+    text-decoration: none;
+}
+.title a:hover{
+    color: rgb(203, 209, 215);
+}
+
+
+p{
+    padding: 0;
+    margin: 0;
+}
+
+div{
+    display: border-box;
+}
+.registration{
+    background: #ffffff;
+    border-radius: 5px;
+    padding-bottom: 5%;   
+    border: 1px solid rgb(241, 241, 241);
+}
+.second_name{
+    float: right;
+}
+.name_div{
+    margin-left: 2.4%;
+    display: flex;
+    justify-content: space-around;
+}
+.extra_info{
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.extra_info .abc {
+    font-size: 90%;
+    }
+.come_in{
+    text-align: center;
+    padding-bottom: 5%; 
+}    
+.come_in img{
+    width: 12%;
+    margin-bottom: -2.3%;
+    margin-right: 2.5%;
+
+}
+.mail{
+    margin-left: 3%;
+}
+.mail input{
+    margin-top: -1%;
+    width: 90.6%;
+}
+
+h2{
+    margin: 0;
+    padding: 0; 
+}
+.btn{
+    color: #fff;
+    border-radius: 7px;
+    height: 35px;
+    width: 94%;
+    border: 4px solid rgb(85, 168, 237);
+    background-color: rgb(85, 168, 237);
+}
+input{
+    border-radius: 5px;
+    padding: 8px 5px 8px 15px;
+    border: 1px #cccccc solid;
+    font-size: 100%;
+}
+input::placeholder{
+    color: rgb(175, 175, 175);  
+}
+.name p{
+    margin: 15% 0% 8% 0%;
+    color: rgb(187, 197, 207);
+    font-weight: bold;
+    font-size: 90%;
+}
+.surname p{
+    margin: 15% 0% 8% 0%;
+    color:rgb(187, 197, 207);
+    font-weight: bold;
+    font-size: 90%;
+}
+.mail p{
+    color: rgb(187, 197, 207);
+    font-weight: bold;
+    font-size: 90%;
+    margin: 0% 0% 4% 0%;
+}
+.come_in a:hover{
+    color: rgb(203, 209, 215);
+}
+.come_in{
+     margin-top: 8%;
+}
+.come_in p{
+    padding-top: 7%;
+    font-size: 90%;
+    color:rgb(84, 90, 101);
+}
+.abc{
+    font-size: 80%;
+}
+.password{
+    padding-top: 3%;
+}
+.img1{
+    width: 40%;
+    margin: 0 auto;
+    border: 1px solid rgb(85, 168, 237);
+    padding: 3% 2% 3% 0;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+.pass_input{
+    margin-bottom: 4%;
+}
+.new_password{
+    text-align: center;
+    font-size: 90%;
+}
+@media screen and (max-width: 600px) {
+    .container{
+      width: 100%;
+      height: 100%;
+    }
+  }
