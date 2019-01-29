@@ -4,8 +4,7 @@ body {
 
 .btn {
     float: right;
-    margin-top: -2%;
-
+    margin-top: -1%;
     width: 25%;
     background-color: rgb(255, 187, 0);
 }
