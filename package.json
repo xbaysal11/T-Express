@@ -9,6 +9,7 @@
     "bootstrap": "^4.2.1",
     "browser-sync": "^2.26.3",
     "gulp": "^4.0.0",
+    "gulp-copy": "^4.0.1",
     "gulp-nunjucks": "^4.0.0",
     "gulp-nunjucks-html": "^2.0.0",
     "gulp-sass": "^4.0.2"

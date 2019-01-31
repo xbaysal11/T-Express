@@ -4,11 +4,12 @@ const gulp = require("gulp");
 const sass = require("gulp-sass");
 const nunjucks = require("gulp-nunjucks-html");
 const browserSync = require("browser-sync").create();
+var gulpCopy = require("gulp-copy");
 
 const SCSS_FOLDER = "./scss/**/*.scss";
 const TEMPALTES_FOLDER = "./templates/**/*.html";
 
-gulp.task("sass", function(cb) {
+gulp.task("sass", function() {
   return gulp
     .src("./scss/*.scss")
     .pipe(sass())
@@ -43,3 +44,12 @@ gulp.task("browser-sync", function() {
 gulp.task("sass:watch", function() {
   return gulp.watch(SCSS_FOLDER, gulp.series("sass"));
 });
+
+gulp.task("gulp-copy", function() {
+  return gulp.src("./assets/**/*.*").pipe(gulp.dest("./build"));
+});
+
+gulp.task(
+  "start",
+  gulp.series("sass", "nunjucks", "gulp-copy", "browser-sync")
+);
