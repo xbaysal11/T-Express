@@ -8,10 +8,19 @@
   "dependencies": {
     "bootstrap": "^4.2.1",
     "browser-sync": "^2.26.3",
+    "del": "^3.0.0",
+    "fibers": "^3.1.1",
     "gulp": "^4.0.0",
+    "gulp-cli": "^2.0.1",
     "gulp-copy": "^4.0.1",
+    "gulp-debug": "^4.0.0",
+    "gulp-eslint": "^5.0.0",
+    "gulp-if": "^2.0.2",
+    "gulp-notify": "^3.2.0",
     "gulp-nunjucks": "^4.0.0",
     "gulp-nunjucks-html": "^2.0.0",
-    "gulp-sass": "^4.0.2"
+    "gulp-plumber": "^1.2.1",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.4"
   }
 }

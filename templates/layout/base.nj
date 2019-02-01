@@ -1,0 +1,8 @@
+<!DOCTYPE html>
+<html>
+  {% include "head.nj" %}
+  <body>
+    {% include "header.nj" %} {% block content %} {% endblock %} {% include
+    "footer.nj" %}
+  </body>
+</html>

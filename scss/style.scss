@@ -882,7 +882,7 @@ mobile menu
 }
 
 .why {
-  background-image: url("../images/static/bg.jpg");
+  background-image: url("./build/images/static/bg.jpg");
   background-size: cover;
 
   margin-top: 100px;
@@ -3313,7 +3313,8 @@ mobile menu
   padding: 100px 0;
 }
 .contact-us-area {
-  background: url(../images/air/air-fraight.jpg) no-repeat center top / cover;
+  background: url(./assets/images/air/air-fraight.jpg) no-repeat center top /
+    cover;
   position: relative;
   z-index: 1;
   padding: 30px 30px 20px;
@@ -3517,4 +3518,3 @@ page loader
     height: 0%;
   }
 }
-
