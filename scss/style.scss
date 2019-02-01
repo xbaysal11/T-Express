@@ -316,10 +316,10 @@ a:focus {
   color: #fff;
 }
 .logo {
-  width: 150px;
+  width: 200px;
   font-size: 200%;
   color: white;
-  margin: 2%;
+  margin-top: 5%;
 }
 .logo a {
   color: white;
@@ -825,8 +825,7 @@ mobile menu
 0.6 about-area start
 =====================================*/
 .about-area {
-  background-image: url("../images/static/bg.jpg");
-
+  background-image: url("/images/static/bg.jpg");
   background-size: cover;
   padding: 100px 0;
 }
@@ -882,7 +881,7 @@ mobile menu
 }
 
 .why {
-  background-image: url("./build/images/static/bg.jpg");
+  background-image: url("/images/static/bg.jpg");
   background-size: cover;
 
   margin-top: 100px;
@@ -1038,8 +1037,6 @@ mobile menu
   color: #34ccff;
 }
 
-.service-area.service-s2 .service-item {
-}
 .service-area.service-s2 .service-item .service-single {
   background: #fff;
   text-align: center;
@@ -1094,7 +1091,7 @@ mobile menu
 
 .track-section {
   padding: 60px 0 70px;
-  background: url(../images/news/bg.jpg) no-repeat center center / cover;
+  background: url(/images/news/bg.jpg) no-repeat center center / cover;
 }
 
 .track-section .track form {
@@ -2206,7 +2203,7 @@ mobile menu
   font-size: 25px;
 }
 .service-area.service-style-3 {
-  background: url(../images/service/bg.jpg) no-repeat center center / cover;
+  background: url(/images/service/bg.jpg) no-repeat center center / cover;
   position: relative;
 }
 .service-area.service-style-3:before {
@@ -2271,7 +2268,7 @@ mobile menu
 =======================================*/
 
 .breadcumb-area {
-  background: url(../images/breadcumb/bg.jpg) no-repeat center top / cover;
+  background: url(/images/breadcumb/bg.jpg) no-repeat center top / cover;
   min-height: 550px;
   position: relative;
   display: flex;

@@ -35,7 +35,7 @@
           <div class="row">
               <div class="col-lg-3 col-md-9 col-sm-9 col-9">
                   <div class="logo">
-                      <a href="index.html"><img src="./build/images/static/llogo.png" alt="logo"></a>
+                      <a href="index.html"><img src="/images/logo/logo.png" alt="logo"></a>
                   </div>
               </div>
               <div class="col-lg-8 d-none d-lg-block">
@@ -43,32 +43,16 @@
                       <nav class="nav_mobile_menu">
                           <ul>
                               <li class="active"><a href="index.html#">Home</a>
-                              </li>
-                              <li><a href="about.html">About</a></li>
-                              <li><a href="index.html#">Services</a>
-                                  <ul class="submenu">
-                                      <li><a href="service.html">service single</a></li>
-                                      <li><a href="Freight.html">Air Freight</a></li>
-                                      <li><a href="road.html">Road Freight</a></li>
-                                      <li><a href="ocean.html">Ocean Freight</a></li>
-                                  </ul>
-                              </li>
-                              <li><a href="http://wpocean.com/tf/html/shipter/case.html">Pages</a>
-                                  <ul class="submenu">
-                                      <li><a href="pricing.html">pricing table</a></li>
-                                      <li><a href="team.html">Team</a></li>
-                                  </ul>
-                              </li>
-                              <li><a href="contact.html">Contact</a></li>
-                              <li><a href="blogs.html">Blog</a>
-                               <!--    <ul class="submenu">
-                                      <li><a href="blog.html">Blog with right sidebar</a></li>
-                                      <li><a href="blog-right.html">Blog with Left sidebar</a></li>
-                                      <li><a href="blog-fullwidth.html">Blog full width</a></li>
-                                      <li><a href="blog-details.html">Blog single right sidebar</a></li>
-                                      <li><a href="blog-details-right.html">Blog single left sidebar</a></li>
-                                      <li><a href="blog-details-fullwidth.html">Blog single fullwidth</a></li>
-                                  </ul> -->
+                                </li>
+                                <li><a href="about.html">Online Shops</a></li>
+                                <li><a href="blogs.html">Blogs</a>
+                                <li><a href="contact.html">Contact</a></li>
+                                <li><a href="http://wpocean.com/tf/html/shipter/case.html">Example</a>
+                                    <ul class="submenu">
+                                        <li><a href="pricing.html">pricing table</a></li>
+                                        <li><a href="team.html">Team</a></li>
+                                    </ul>
+                                </li>
                               </li>
                           </ul>
                       </nav>

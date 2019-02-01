@@ -10,7 +10,7 @@
 <section class="hero hero-slider-wrapper hero-style-1 hero-style-2">
   <div class="hero-slider">
     <div class="slide">
-      <img src="/build/images/slider/1.jpg" alt class="slider-bg" />
+      <img src="/images/slider/1.jpg" alt class="slider-bg" />
       <div class="container">
         <div class="row">
           <div class="col col-lg-9 slide-caption">
@@ -28,7 +28,7 @@
       </div>
     </div>
     <div class="slide">
-      <img src="./assets/images/slider/2.jpg" alt class="slider-bg" />
+      <img src="/images/slider/2.jpg" alt class="slider-bg" />
       <div class="container">
         <div class="row">
           <div class="col col-lg-9 slide-caption">
@@ -46,7 +46,7 @@
       </div>
     </div>
     <div class="slide">
-      <img src="./assets/images/slider/3.jpg" alt class="slider-bg" />
+      <img src="/images/slider/3.jpg" alt class="slider-bg" />
       <div class="container">
         <div class="row">
           <div class="col col-lg-9 slide-caption">
@@ -118,11 +118,11 @@
           rel="noopener noreferrer"
           class="jsx-1554089227"
           ><img
-            src="./assets/images/static/shops/bestbuy.png"
+            src="/images/static/bestbuy.png"
             srcset="
-              ./assets/images/static/shops/bestbuy.png    1x,
-              ./assets/images/static/shops/bestbuy@2x.png 2x,
-              ./assets/images/static/shops/bestbuy@3x.png 3x
+              /images/static/bestbuy.png    1x,
+              /images/static/bestbuy@2x.png 2x,
+              /images/static/bestbuy@3x.png 3x
             "
             alt="Best Buy"
             title="Best Buy"
@@ -136,11 +136,11 @@
           rel="noopener noreferrer"
           class="jsx-1554089227"
           ><img
-            src="./assets/images/static/shops/amazon.png"
+            src="/images/static/amazon.png"
             srcset="
-              ./assets/images/static/shops/amazon.png    1x,
-              ./assets/images/static/shops/amazon@2x.png 2x,
-              ./assets/images/static/shops/amazon@3x.png 3x
+              /images/static/amazon.png    1x,
+              /images/static/amazon@2x.png 2x,
+              /images/static/amazon@3x.png 3x
             "
             alt="Amazon"
             title="Amazon"
@@ -154,11 +154,11 @@
           rel="noopener noreferrer"
           class="jsx-1554089227"
           ><img
-            src="./assets/images/static/shops/ebay.png"
+            src="/images/static/ebay.png"
             srcset="
-              ./assets/images/static/shops/ebay.png    1x,
-              ./assets/images/static/shops/ebay@2x.png 2x,
-              ./assets/images/static/shops/ebay@3x.png 3x
+              /images/static/ebay.png    1x,
+              /images/static/ebay@2x.png 2x,
+              /images/static/ebay@3x.png 3x
             "
             alt="Ebay"
             title="Ebay"
@@ -172,11 +172,11 @@
           rel="noopener noreferrer"
           class="jsx-1554089227"
           ><img
-            src="./assets/images/static/shops/walmart.png"
+            src="/images/static/walmart.png"
             srcset="
-              ./assets/images/static/shops/walmart.png    1x,
-              ./assets/images/static/shops/walmart@2x.png 2x,
-              ./assets/images/static/shops/walmart@3x.png 3x
+              /images/static/walmart.png    1x,
+              /images/static/walmart@2x.png 2x,
+              /images/static/walmart@3x.png 3x
             "
             alt="Walmart"
             title="Walmart"
@@ -190,11 +190,11 @@
           rel="noopener noreferrer"
           class="jsx-1554089227"
           ><img
-            src="./assets/images/static/shops/zappos.png"
+            src="/images/static/zappos.png"
             srcset="
-              ./assets/images/static/shops/zappos.png    1x,
-              ./assets/images/static/shops/zappos@2x.png 2x,
-              ./assets/images/static/shops/zappos@3x.png 3x
+              /images/static/zappos.png    1x,
+              /images/static/zappos@2x.png 2x,
+              /images/static/zappos@3x.png 3x
             "
             alt="Zappos"
             title="Zappos"
@@ -208,11 +208,11 @@
           rel="noopener noreferrer"
           class="jsx-1554089227"
           ><img
-            src="./assets/images/static/shops/apple.png"
+            src="/images/static/apple.png"
             srcset="
-              ./assets/images/static/shops/apple.png    1x,
-              ./assets/images/static/shops/apple@2x.png 2x,
-              ./assets/images/static/shops/apple@3x.png 3x
+              /images/static/apple.png    1x,
+              /images/static/apple@2x.png 2x,
+              /images/static/apple@3x.png 3x
             "
             alt="Apple"
             title="Apple"
@@ -246,12 +246,12 @@
         <p class="text-white">Товары в любом интернет-магазине США и Европы</p>
       </div>
       <div class="col-xs-12 col-sm-3 segment-xs-xlarge">
-        <img alt="Отправляйте" src="./assets/images/static/30.png" />
+        <img alt="Отправляйте" src="/images/static/30.png" />
         <h3>Отправляйте</h3>
         <p class="text-white">Купленные товары себе и своим близким домой</p>
       </div>
       <div class="col-xs-12 col-sm-3 segment-xs-xlarge">
-        <img alt="Получайте" src="./assets/images/static/31.png" />
+        <img alt="Получайте" src="/images/static/31.png" />
         <h3>Получайте</h3>
         <p class="text-white">Посылки прямо у себя дома или в пунктах выдачи</p>
       </div>
@@ -291,7 +291,7 @@
             <p>Ketty Raigott</p>
             <span>Chairman & Chief Executive Officer</span>
           </div>
-          <img src="./assets/images/about/1.png" alt="" />
+          <img src="/images/about/1.png" alt="" />
         </div>
       </div>
     </div>
@@ -395,7 +395,7 @@
       <div class="col-sm-5 col-xs-12 text-xs-center">
         <img
           class="pic lazy"
-          src="./assets/images/static/factory.jpg"
+          src="/images/static/factory.jpg"
           style="display: inline;"
         />
       </div>
@@ -427,7 +427,7 @@
         <div class="alert segment-small">
           <img
             class="lazy"
-            src="./assets/images/static/info-icon.svg"
+            src="/images/static/info-icon.svg"
             style="display: block;"
           />
           <p>
@@ -439,7 +439,7 @@
       <div class="col-sm-5 col-xs-12 visible-xs-block text-xs-center">
         <img
           class="pic lazy"
-          src="./assets/images/static/truck.jpg"
+          src="/images/static/truck.jpg"
           style="display: inline;"
         />
       </div>
@@ -453,7 +453,7 @@
       <div class="col-sm-5 col-xs-12 text-xs-center">
         <img
           class="pic lazy"
-          src="./assets/images/static/warranty.jpg"
+          src="/images/static/warranty.jpg"
           style="display: inline;"
         />
       </div>
@@ -470,7 +470,7 @@
         <div class="alert segment-small">
           <img
             class="lazy"
-            src="./assets/images/static/info-icon.svg"
+            src="/images/static/info-icon.svg"
             style="display: block;"
           />
           <p>
@@ -490,7 +490,7 @@
         <div class="testimonial-active owl-carousel">
           <div class="testimonial-wrap">
             <div class="testimonial-img">
-              <img src="./assets/images/testimonial/2.jpg" alt="" />
+              <img src="/images/testimonial/2.jpg" alt="" />
             </div>
             <div class="testimonial-item">
               <div class="testimonial-content">
@@ -507,7 +507,7 @@
           </div>
           <div class="testimonial-wrap">
             <div class="testimonial-img">
-              <img src="./assets/images/testimonial/2.jpg" alt="" />
+              <img src="/images/testimonial/2.jpg" alt="" />
             </div>
             <div class="testimonial-item">
               <div class="testimonial-content">
@@ -535,11 +535,11 @@
 <!-- .footer-area end -->
 <!-- All JavaScript files
 ================================================== -->
-<script src="./assets/js/jquery.min.js"></script>
-<script src="./assets/js/bootstrap.min.js"></script>
+<script src="/js/jquery.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
 <!-- Plugins for this template -->
-<script src="./assets/js/jquery-plugin-collection.js"></script>
-<script src="./assets/js/jquery.slicknav.min.js"></script>
+<script src="/js/jquery-plugin-collection.js"></script>
+<script src="/js/jquery.slicknav.min.js"></script>
 <!-- Custom script for this template -->
-<script src="./assets/js/script.js"></script>
+<script src="/js/script.js"></script>
 {% endblock %}
