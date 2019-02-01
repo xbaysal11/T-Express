@@ -8,6 +8,8 @@ const del = require("del");
 const notify = require("gulp-notify");
 const plumber = require("gulp-plumber");
 const eslint = require("gulp-eslint");
+const changed = require("gulp-changed");
+const imagemin = require("gulp-imagemin");
 
 // const Fiber = require("fibers");
 // const debug = require("gulp-debug");
@@ -77,6 +79,14 @@ gulp.task("sass:watch", function() {
 
 gulp.task("gulp-copy", function() {
   return gulp.src("./assets/**/*.*").pipe(gulp.dest("./build"));
+});
+
+gulp.task("img", function() {
+  return gulp
+    .src("assets/images/**/*.{jpg,jpeg,png,gif}")
+    .pipe(changed("build/images"))
+    .pipe(imagemin())
+    .pipe(gulp.dest("build/images"));
 });
 
 gulp.task("clean", function() {
