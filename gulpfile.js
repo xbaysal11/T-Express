@@ -78,7 +78,9 @@ gulp.task("sass:watch", function() {
 });
 
 gulp.task("gulp-copy", function() {
-  return gulp.src("./assets/**/*.*").pipe(gulp.dest("./build"));
+  return gulp
+    .src(["./assets/**/*.*", "!./assets/css/"])
+    .pipe(gulp.dest("./build"));
 });
 
 gulp.task("img", function() {
