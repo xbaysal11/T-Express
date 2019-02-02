@@ -241,12 +241,13 @@
         </p>
       </div>
       <div class="col-xs-12 col-sm-3 segment-xs-xlarge">
-        <img alt="Выбирайте" src="/assets/images/static/27.png" />
+        <img alt="Выбирайте" src="/images/static/27.png" />
         <h3>Выбирайте</h3>
         <p class="text-white">Товары в любом интернет-магазине США и Европы</p>
       </div>
       <div class="col-xs-12 col-sm-3 segment-xs-xlarge">
-        <img alt="Отправляйте" src="/images/static/30.png" />
+        <img alt="Отправляйте" src="/im
+        ages/static/30.png" />
         <h3>Отправляйте</h3>
         <p class="text-white">Купленные товары себе и своим близким домой</p>
       </div>
@@ -539,6 +540,7 @@
 <script src="/js/bootstrap.min.js"></script>
 <!-- Plugins for this template -->
 <script src="/js/jquery-plugin-collection.js"></script>
+<script src="/js/slick.js"></script>
 <script src="/js/jquery.slicknav.min.js"></script>
 <!-- Custom script for this template -->
 <script src="/js/script.js"></script>
