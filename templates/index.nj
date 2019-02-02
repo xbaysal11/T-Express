@@ -7,64 +7,50 @@
 <!-- header-area end -->
 <!-- start of hero -->
 {% block content %}
+
 <section class="hero hero-slider-wrapper hero-style-1 hero-style-2">
-  <div class="hero-slider">
-    <div class="slide">
-      <img src="/images/slider/1.jpg" alt class="slider-bg" />
-      <div class="container">
-        <div class="row">
-          <div class="col col-lg-9 slide-caption">
-            <h2>
-              <span>We Provide the Best Solution</span>
-              <span>For Your Transport.</span>
-            </h2>
-            <div class="btns">
-              <div class="btn-style">
-                <a href="index.html#">Contact us now</a>
-              </div>
+        <div class="hero-slider">
+            <div class="slide">
+                <img src="/images/slider/1.jpg" alt class="slider-bg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col col-lg-9 slide-caption">
+                            <h2><span>We Provide the Best Solution</span> <span>For Your Transport.</span></h2>
+                            <div class="btns">
+                                <div class="btn-style"><a href="index.html#">Contact us now</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="slide">
-      <img src="/images/slider/2.jpg" alt class="slider-bg" />
-      <div class="container">
-        <div class="row">
-          <div class="col col-lg-9 slide-caption">
-            <h2>
-              <span>We Provide the Best Solution</span>
-              <span>For Your Transport.</span>
-            </h2>
-            <div class="btns">
-              <div class="btn-style">
-                <a href="index.html#">Contact us now</a>
-              </div>
+            <div class="slide">
+                <img src="/images/slider/2.jpg" alt class="slider-bg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col col-lg-9 slide-caption">
+                            <h2><span>We Provide the Best Solution</span> <span>For Your Transport.</span></h2>
+                            <div class="btns">
+                                <div class="btn-style"><a href="index.html#">Contact us now</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="slide">
-      <img src="/images/slider/3.jpg" alt class="slider-bg" />
-      <div class="container">
-        <div class="row">
-          <div class="col col-lg-9 slide-caption">
-            <h2>
-              <span>We Provide the Best Solution</span>
-              <span>For Your Transport.</span>
-            </h2>
-            <div class="btns">
-              <div class="btn-style">
-                <a href="index.html#">Contact us now</a>
-              </div>
+            <div class="slide">
+                <img src="/images/slider/3.jpg" alt class="slider-bg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col col-lg-9 slide-caption">
+                            <h2><span>We Provide the Best Solution</span> <span>For Your Transport.</span></h2>
+                            <div class="btns">
+                                <div class="btn-style"><a href="index.html#">Contact us now</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
-    </div>
-  </div>
-</section>
+    </section>
 <!-- end of hero slider -->
 <!-- section-section start -->
 <!-- <div class="section-area">
@@ -580,12 +566,12 @@
 <!-- .footer-area end -->
 <!-- All JavaScript files
 ================================================== -->
-<script src="/js/jquery.min.js"></script>
-<script src="/js/bootstrap.min.js"></script>
-<!-- Plugins for this template -->
-<script src="/js/jquery-plugin-collection.js"></script>
-<script src="/js/slick.js"></script>
-<script src="/js/jquery.slicknav.min.js"></script>
-<!-- Custom script for this template -->
-<script src="/js/script.js"></script>
+    <script type="text/javascript" src="/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/js/bootstrap.min.js"></script>
+    <!-- Plugins for this template -->
+    <script type="text/javascript" src="/js/jquery-plugin-collection.js"></script>
+    <script type="text/javascript" src="/js/jquery.slicknav.min.js"></script>
+    <script type="text/javascript" src="/js/slick.min.js"></script>
+    <!-- Custom script for this template -->
+    <script type="text/javascript" src="/js/script.js"></script>
 {% endblock %}

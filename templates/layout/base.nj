@@ -2,6 +2,7 @@
 <html>
   {% include "head.nj" %}
   <body>
+  {% include "loader.nj"%}
     {% include "header.nj" %} {% block content %} {% endblock %} {% include
     "footer.nj" %}
   </body>
