@@ -6,13 +6,33 @@
 
 {% block link %}
   <link  type="text/css" href="/css/blogs.css" rel="stylesheet" /> 
-  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
 {% endblock %}
 
 {% block content %}
-
+<div class="empty" ></div>
+<div class="header-top header-top-2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-10 col-sm-12 col-12 col-lg-10">
+                        <ul class="d-flex account_login-area">
+                            <li class="account-item">
+                               <img src="/images/icon/call.svg" alt="">
+                                <h5><span>Call Us Now</span>T+(008) 001-234-567 </h5>
+                            </li>
+                            <li class="account-item account-item-2">
+                               <img src="/images/icon/message.svg" alt="">
+                                <h5><span>Mail Us Today</span>youremail@gmail.com</h5> 
+                            </li>
+                            <li class="account-item">
+                                 <img src="/images/icon/map.svg" alt="">
+                                <h5><span>Company Location</span>1230 Banena Street, London</h5>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
 <body id="main_blogs">
-    <div class="head_blogs"></div>
     <div class="container container_blogs">
         <h1 class="title_blogs">
             Блог

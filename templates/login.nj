@@ -10,7 +10,7 @@
 
 {% block content %}
 <div class="layout">
-        <div class="head_blogs"></div>
+  <div class="empty" ></div>
       <div class="container_log">
         <div class="title_log">
           <h3>Авторизация</h3>

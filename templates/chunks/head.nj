@@ -3,6 +3,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link  rel="shortcut icon" type="image/png" href="./images/testimonial/T-EXPlogo.png" />
 <!-- Icon fonts -->
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+
 <link type="text/css" href="/css/font-awesome.min.css" rel="stylesheet" />
 <link type="text/css" href="/css/flaticon.css" rel="stylesheet" />
 <!-- Bootstrap core CSS -->

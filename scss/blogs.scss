@@ -1,7 +1,3 @@
-#main_blogs {
-  font-family: "Roboto Slab", serif;
-}
-
 .head_blogs {
   background-color: rgba(0, 0, 0, 0.5);
   height: 90px;
@@ -79,12 +75,11 @@
 }
 
 .nav_right ul li:hover {
-    color: rgb(101, 188, 219);
+  color: rgb(101, 188, 219);
 }
-.nav_top{
-    font-size: 130%;
-    border: 1px rgb(226, 226, 226) solid;
-    
+.nav_top {
+  font-size: 130%;
+  border: 1px rgb(226, 226, 226) solid;
 }
 .clearfix::after {
   content: "";

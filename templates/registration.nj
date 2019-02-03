@@ -9,18 +9,19 @@
 {% endblock %}
 
 {% block content %}
+<body>
 <div class="layout">
-  <div class="head_blogs"></div>
-  <div class="container_reg">
-    <div class="title_reg">
-      <h3>Регистрация</h3>
-      <p class="a_reg">
-        Получите личный адрес в США прямо сейчас! <br />
-        <br />
-        <a class="a_reg" href="#">Войти</a>
-      </p>
-      <br />
-    </div>
+    <div class="empty" ></div>  
+      <div class="container_reg">
+        <div class="title_reg">
+          <h3>Регистрация</h3>
+          <p class="a_reg">
+            Получите личный адрес в США прямо сейчас! <br />
+            <br />
+            <a class="a_reg" href="#">Войти</a>
+          </p>
+          <br />
+        </div>
 
     <div class="registration">
       <div class="name_div">
@@ -62,6 +63,5 @@
       </div>
       <p>Уже есть учетная запись?? <a href="#">Войти</a></p>
     </div>
-  </div>
-</div>
+</body>
 {% endblock %}

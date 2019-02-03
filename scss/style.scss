@@ -64,11 +64,18 @@ TABLE OF CONTENTS:
 --------------------------------------------------------------*/
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Slab", serif;
+
   font-size: 16px;
   -webkit-font-smoothing: antialiased;
   overflow-x: hidden;
   color: #333;
+}
+.empty {
+  margin: 0;
+  padding: 0;
+  height: 13.1vh;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 @media (max-width: 767px) {
@@ -319,7 +326,6 @@ a:focus {
 }
 .logo {
   width: 70px;
-  // font-size: 200%;
   color: white;
   margin-top: 5%;
 }
