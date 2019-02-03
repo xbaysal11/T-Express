@@ -17,10 +17,8 @@
             <img src="/images/testimonial/T-EXPlogo.png" alt="" />
           </div>
           <p>
-            There are many variations of Lorem passages of Lorem Ipsum
-            available, but the majority
+            T-Express: мы обучаем всем тонкостям онлайн-шопинга, предоставляя возможность клиентам максимально выгодно совершать свои покупки.
           </p>
-          <p>By injected humour, or randomised words</p>
           <div class="social">
             <ul class="d-flex">
               <li>
@@ -43,30 +41,30 @@
         </div>
         <div class="col-lg-3 col-md-6 col-sm-6 footer-t">
           <div class="footer-link">
-            <h3>Quick Link</h3>
+            <h3>Перейти</h3>
             <ul>
-              <li><a href="index.html#">О нас</a></li>
-              <li><a href="index.html#">Онлаин магазины</a></li>
-              <li><a href="index.html#">Месторасположение</a></li>
-              <li><a href="index.html#">Контакты</a></li>
-              <li><a href="index.html#">Блоги</a></li>
+              <li><a href="/login.html">Авторизация</a></li>
+              <li><a href="/registration.html">Регистрация</a></li>
+              <li><a href="/shops.html">Онлайн магазины</a></li>
+              <li><a href="/blogs.html">Блоги</a></li>
+              <li><a href="/contact.html">Контакты</a></li>
             </ul>
           </div>
         </div>
         <div class="col-lg-3 col-md-6 col-sm-6 footer-b">
           <div class="Recent-News-area">
-            <h3>Recent News</h3>
+            <h3>Новости</h3>
             <div class="resent-sub">
-              <p>There are many variations of passages of Lorem</p>
+              <p>Доставка авто из США: льготы на растаможку в 2019</p>
               <span
-                ><i class="fa fa-clock-o" aria-hidden="true"></i> Octobor 10,
-                2018</span
+                ><i class="fa fa-clock-o" aria-hidden="true"></i> Февраль 4,
+              2019</span
               >
             </div>
-            <p>There are many variations of passages of Lorem</p>
+            <p>Доставка авто из США: льготы на растаможку в 2019</p>
             <span
-              ><i class="fa fa-clock-o" aria-hidden="true"></i> Octobor 10,
-              2018</span
+              ><i class="fa fa-clock-o" aria-hidden="true"></i> Февраль 4,
+              2019</span
             >
           </div>
         </div>

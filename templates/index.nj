@@ -3,6 +3,7 @@
   ГЛАВНАЯ - T-Express
 {% endblock %}
 {% block content %}
+<body>
 
 <section class="hero hero-slider-wrapper hero-style-1 hero-style-2">
         <div class="hero-slider">
@@ -13,7 +14,7 @@
                         <div class="col col-lg-9 slide-caption">
                             <h2><span>Наша компания является официальным </span> <span> представителем американской компании T-Express в Кыргызстане.</span></h2>
                             <div class="btns">
-                                <div class="btn-style"><a href="index.html#">Связаться с нами</a></div>
+                                <div class="btn-style"><a href="/contact.html">Связаться с нами</a></div>
                             </div>
                         </div>
                     </div>
@@ -26,7 +27,7 @@
                         <div class="col col-lg-9 slide-caption">
                             <h2><span>Офисы компании находятся в городе Бишкек, </span> <span>Кыргызстан и в городе Нью-Йорк, США.</span></h2>
                             <div class="btns">
-                                <div class="btn-style"><a href="index.html#">Связаться с нами</a></div>
+                                <div class="btn-style"><a href="/contact.html">Связаться с нами</a></div>
                             </div>
                         </div>
                     </div>
@@ -39,7 +40,7 @@
                         <div class="col col-lg-9 slide-caption">
                             <h2><span>Компания оперирует двумя </span> <span>складами в штате Нью-Йорк и Дэлавер.</span></h2>
                             <div class="btns">
-                                <div class="btn-style"><a href="index.html#">Связаться с нами</a></div>
+                                <div class="btn-style"><a href="/contact.html">Связаться с нами</a></div>
                             </div>
                         </div>
                     </div>
@@ -203,7 +204,7 @@
       </li>
     </ul>
 
-    <div class="more"><button type="text">Подробнее</button></div>
+    <div class="more"><button type="text"><a href="/shops.html" >Подробнее</a></button></div>
   </div>
 </div>
 
@@ -301,25 +302,25 @@
             <div>
               <h2><span class="odometer" data-count="4,012">00</span></h2>
             </div>
-            <p>Delivered Packages</p>
+            <p>Доставленные<br> товары</p>
           </div>
           <div class="grid">
             <div>
               <h2><span class="odometer" data-count="605">00</span></h2>
             </div>
-            <p>Countries Covered</p>
+            <p>Охваченные <br>страны</p>
           </div>
           <div class="grid">
             <div>
               <h2><span class="odometer" data-count="920">00</span></h2>
             </div>
-            <p>Satisfied Clients</p>
+            <p>Довольные <br> клиенты</p>
           </div>
           <div class="grid">
             <div>
               <h2><span class="odometer" data-count="3,592">00</span></h2>
             </div>
-            <p>Tons of Goods</p>
+            <p>Тонны <br>товаров</p>
           </div>
         </div>
       </div>
@@ -554,5 +555,6 @@
     </div>
   </div>
 </div>
+</body>
 
 {% endblock %}

@@ -9,6 +9,7 @@
 {% endblock %}
 
 {% block content %}
+
 <div class="empty" ></div>
 <div class="header-top header-top-2">
             <div class="container">
@@ -32,6 +33,7 @@
                 </div>
             </div>
         </div>
+        
 <body id="main_blogs">
     <div class="container container_blogs">
         <h1 class="title_blogs">

@@ -10,6 +10,8 @@
 {% endblock %}
 
 {% block content %}
+<body>
+
 <div class="empty" ></div>
 <section class="online">
             <div class="container">
@@ -923,4 +925,6 @@
         
     </div>            </div>
         </section>
+</body>
+
 {% endblock %}

@@ -33,7 +33,7 @@
                           <ul>
                               <li>
                                   <form action="http://wpocean.com/tf/html/shipter/search">
-                                      <input type="text" placeholder="search here..">
+                                      <input type="text" placeholder="Поиск...">
                                       <button><i class="fa fa-search"></i></button>
                                   </form>
                               </li>
