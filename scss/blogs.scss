@@ -1,7 +1,10 @@
-@import "../node_modules/bootstrap/scss/bootstrap.scss";
-
-body {
+#main_blogs {
   font-family: "Roboto Slab", serif;
+}
+
+.head_blogs {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 90px;
 }
 
 .btn_blogs {
@@ -11,35 +14,35 @@ body {
   background-color: rgb(255, 187, 0);
 }
 
-.title {
+.title_blogs {
   color: rgb(82, 77, 71);
   margin-top: 40px;
   margin-bottom: -1%;
   font-weight: 900;
 }
 
-.row {
+.row_blogs {
   padding-top: 1%;
   width: 75%;
   margin-top: 5%;
   overflow: hidden;
 }
 
-.row p {
+.row_blogs p {
   font-size: 120%;
   color: rgb(89, 85, 85);
   font-weight: 700;
 }
 
-.row a {
+.row_blogs a {
   text-decoration: none;
 }
 
-.row a:hover > p {
+.row_blogs a:hover > p {
   color: rgb(255, 187, 0);
 }
 
-.row a:hover > img {
+.row_blogs a:hover > img {
   color: black;
   box-shadow: 0px 0px 15px 0px;
 }

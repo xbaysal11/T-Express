@@ -1,23 +1,24 @@
 {% extends "base.nj" %}
 {% block content %}
-<body id="main">
-    <div class="container">
-        <h1 class="title">
+<body id="main_blogs">
+    <div class="head_blogs" ></div>
+    <div class="container container_blogs">
+        <h1 class="title_blogs">
             Блог
         </h1>
-        <button class="btn btn_blogs">Полезные советы</button>
+        <button class="btn_blogs btn">Полезные советы</button>
         <div class="clearfix">
-            <div class="row float">
+            <div class="row_blogs row float_row">
                 <a href="#" class="col-md-4">
                     <img class="blogs_img" src="https://www.jquery-az.com/html/images/banana.jpg" title="Title of image" alt="">
                     <p class="blog-art-item-txt">Доставка авто из США: льготы на растаможку в 2019</p>
                 </a>
                 <a href="#" class="col-md-4">
-                    <img class="blogs_img" src="http://www.hyperlinkcode.com/images/sample-image.jpg" alt="">
+                    <img class="blogs_img " src="http://www.hyperlinkcode.com/images/sample-image.jpg" alt="">
                     <p class="blog-art-item-txt">Доставка авто из США: льготы на растаможку в 2019</p>
                 </a>
                 <a href="#" class="col-md-4">
-                    <img class="blogs_img" src="./assets/images/blogs/Samyie-krasivyie-foto-kosmosa-za-proshedshiy-mesyats-po-versii-NASA-2.jpg"
+                    <img class="blogs_img" src="https://www.jquery-az.com/html/images/banana.jpg"
                         alt="">
                     <p class="blog-art-item-txt">Доставка авто из США: льготы на растаможку в 2019</p>
                 </a>
@@ -40,22 +41,22 @@
                 </ul>
             </div>
 
-            <div class="row float_row">
+            <div class="row_blogs row float_row">
                 <a href="#" class="col-md-4">
-                    <img class="blogs_img"src="./assets/images/blogs/273578490-1-696x392.jpg" alt="">
+                    <img class="blogs_img"src="https://www.jquery-az.com/html/images/banana.jpg" alt="">
                     <p class="blog-art-item-txt">Доставка авто из США: льготы на растаможку в 2019</p>
                 </a>
                 <a href="#" class="col-md-4">
-                    <img class="blogs_img" src="./assets/images/blogs/images.jpeg" alt="">
+                    <img class="blogs_img" src="https://www.jquery-az.com/html/images/banana.jpg" alt="">
                     <p class="blog-art-item-txt">Доставка авто из США: льготы на растаможку в 2019</p>
                 </a>
                 <a href="#" class="col-md-4">
-                    <img class="blogs_img" src="./assets/images/blogs/krasivye_foto_pro_ljubov_09.jpg" alt="">
+                    <img class="blogs_img" src="https://www.jquery-az.com/html/images/banana.jpg" alt="">
                     <p class="blog-art-item-txt">Доставка авто из США: льготы на растаможку в 2019</p>
                 </a>
             </div>
 
-            <div class="row float_row">
+            <div class="row_blogs row float_row">
                 <a href="#" class="col-md-4">
                     <img class="blogs_img" src="https://www.jquery-az.com/html/images/banana.jpg" title="Title of image" alt="">
                     <p class="blog-art-item-txt">Доставка авто из США: льготы на растаможку в 2019</p>
@@ -65,25 +66,26 @@
                     <p class="blog-art-item-txt">Доставка авто из США: льготы на растаможку в 2019</p>
                 </a>
                 <a href="#" class="col-md-4">
-                    <img class="blogs_img" src="./assets/images/blogs/Samyie-krasivyie-foto-kosmosa-za-proshedshiy-mesyats-po-versii-NASA-2.jpg"
+                    <img class="blogs_img" src="https://www.jquery-az.com/html/images/banana.jpg"
                         alt="">
                     <p class="blog-art-item-txt">Доставка авто из США: льготы на растаможку в 2019</p>
                 </a>
             </div>
-            <div class="row_blogs float_row">
+            <div class="row_blogs row float_row">
                 <a href="#" class="col-md-4">
-                    <img class="blogs_img" src="./assets/images/blogs/273578490-1-696x392.jpg" alt="">
+                    <img class="blogs_img" src="https://www.jquery-az.com/html/images/banana.jpg" alt="">
                     <p class="blog-art-item-txt">Доставка авто из США: льготы на растаможку в 2019</p>
                 </a>
                 <a href="#" class="col-md-4">
-                    <img class="blogs_img" src="./assets/images/blogs/images.jpeg" alt="">
+                    <img class="blogs_img" src="https://www.jquery-az.com/html/images/banana.jpg" alt="">
                     <p class="blog-art-item-txt">Доставка авто из США: льготы на растаможку в 2019</p>
                 </a>
                 <a href="#" class="col-md-4">
-                    <img class="blogs_img" src="./assets/images/blogs/krasivye_foto_pro_ljubov_09.jpg" alt="">
+                    <img class="blogs_img" src="https://www.jquery-az.com/html/images/banana.jpg" alt="">
                     <p class="blog-art-item-txt">Доставка авто из США: льготы на растаможку в 2019</p>
                 </a>
             </div>
         </div>
     </div>
+</body>
 {% endblock %}
