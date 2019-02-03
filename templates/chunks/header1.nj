@@ -1,0 +1,34 @@
+<header>
+  <div class="header-top">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-6 col-sm-12 col-12 col-lg-6">
+                  <ul class="d-flex account_login-area">
+                      <li><i class="fa fa-clock-o" aria-hidden="true"></i></i>Пн - Пт : 10:00 - 19:00 ,  
+Сб - Вс : Выходные дни</li>
+                  </ul>
+              </div>
+              <div class="col-md-6 col-sm-12 col-12 col-lg-6">
+                  <div class="row">
+                      <div class="col-lg-5 col-md-6">
+                          <ul class="d-flex header-social">
+                              <li><a href="index.html#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                              <li><a href="index.html#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                              <li><a href="index.html#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                              <li><a href="index.html#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                          </ul>
+                      </div>
+                      <div class="col-lg-7 col-md-6">
+                          <ul class="login-r">
+                              <li><a href="login.html">Авторизация</a></li>
+                              <li><a href="registration.html">Регистрация</a></li>
+                          </ul>
+                      </div>
+                  </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  
+  
+</header>

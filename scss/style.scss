@@ -221,8 +221,8 @@ a:focus {
 }
 .header-top ul.login-r li + li:before {
   position: absolute;
-  content: "or";
-  left: -8px;
+  content: " |";
+  left: -5px;
   top: 14px;
 }
 .header-top ul.header-social {
@@ -318,8 +318,8 @@ a:focus {
   color: #fff;
 }
 .logo {
-  width: 200px;
-  font-size: 200%;
+  width: 70px;
+  // font-size: 200%;
   color: white;
   margin-top: 5%;
 }
@@ -1389,6 +1389,8 @@ mobile menu
 .testimonial-img img {
   border-radius: 50%;
   border: 5px solid #bbb;
+  // width: 50px;
+  // height: 20px;
 }
 .testimonial-item {
   text-align: center;
@@ -1771,6 +1773,11 @@ mobile menu
 }
 .footer-logo {
   margin-bottom: 30px;
+  width: 100px;
+  // display: flex;
+  // justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
 }
 .social li a {
   display: block;

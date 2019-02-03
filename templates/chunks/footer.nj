@@ -1,10 +1,20 @@
-<div class="footer-area">
+
+<!-- All JavaScript files
+================================================== -->
+    <script type="text/javascript" src="/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/js/bootstrap.min.js"></script>
+    <!-- Plugins for this template -->
+    <script type="text/javascript" src="/js/jquery-plugin-collection.js"></script>
+    <script type="text/javascript" src="/js/jquery.slicknav.min.js"></script>
+    <script type="text/javascript" src="/js/slick.min.js"></script>
+    <!-- Custom script for this template -->
+    <script type="text/javascript" src="/js/script.js"></script><div class="footer-area">
   <div class="footer-top">
     <div class="container">
       <div class="row">
         <div class="col-lg-3 col-md-6 col-sm-6 footer-t">
           <div class="footer-logo">
-            <img src="/images/logo/logo.png" alt="" />
+            <img src="/images/testimonial/T-EXPlogo.png" alt="" />
           </div>
           <p>
             There are many variations of Lorem passages of Lorem Ipsum

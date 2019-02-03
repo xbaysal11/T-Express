@@ -1,11 +1,4 @@
 {% extends "base.nj" %}
-<!-- start page-loader -->
-
-<!-- end page-loader -->
-<!-- header-area start -->
-
-<!-- header-area end -->
-<!-- start of hero -->
 {% block content %}
 
 <section class="hero hero-slider-wrapper hero-style-1 hero-style-2">
@@ -15,9 +8,9 @@
                 <div class="container">
                     <div class="row">
                         <div class="col col-lg-9 slide-caption">
-                            <h2><span>We Provide the Best Solution</span> <span>For Your Transport.</span></h2>
+                            <h2><span>Наша компания является официальным </span> <span> представителем американской компании T-Express в Кыргызстане.</span></h2>
                             <div class="btns">
-                                <div class="btn-style"><a href="index.html#">Contact us now</a></div>
+                                <div class="btn-style"><a href="index.html#">Связаться с нами</a></div>
                             </div>
                         </div>
                     </div>
@@ -28,9 +21,9 @@
                 <div class="container">
                     <div class="row">
                         <div class="col col-lg-9 slide-caption">
-                            <h2><span>We Provide the Best Solution</span> <span>For Your Transport.</span></h2>
+                            <h2><span>Офисы компании находятся в городе Бишкек, </span> <span>Кыргызстан и в городе Нью-Йорк, США.</span></h2>
                             <div class="btns">
-                                <div class="btn-style"><a href="index.html#">Contact us now</a></div>
+                                <div class="btn-style"><a href="index.html#">Связаться с нами</a></div>
                             </div>
                         </div>
                     </div>
@@ -41,9 +34,9 @@
                 <div class="container">
                     <div class="row">
                         <div class="col col-lg-9 slide-caption">
-                            <h2><span>We Provide the Best Solution</span> <span>For Your Transport.</span></h2>
+                            <h2><span>Компания оперирует двумя </span> <span>складами в штате Нью-Йорк и Дэлавер.</span></h2>
                             <div class="btns">
-                                <div class="btn-style"><a href="index.html#">Contact us now</a></div>
+                                <div class="btn-style"><a href="index.html#">Связаться с нами</a></div>
                             </div>
                         </div>
                     </div>
@@ -380,7 +373,7 @@
 <!-- why -->
 <section class="why">
   <div class="container narrow">
-    <div class="text-center"><h2>Почему Ostin Road</h2></div>
+    <div class="text-center"><h2>Почему T-Express ?</h2></div>
 
     <div class="row segment-xxlarge">
       <div class="col-sm-5 col-xs-12 text-xs-center">
@@ -391,10 +384,10 @@
         />
       </div>
       <div class="col-sm-7 col-xs-12 text-xs-center">
-        <h3> Ostin Road экономит время</h3>
+        <h3> T-Express экономит время</h3>
         <p>
           Опираясь на многолетний опыт, смело заявляем — 
-          мы и сами заядлые шоперы. Сотрудники Ostin Road с 
+          мы и сами заядлые шоперы. Сотрудники T-Express с 
           радостью всем помогут разобраться во всех тонкостях шопинга,
            подскажут в какое время выгодно совершать покупки и как сократить 
            свои расходы, используя промо-коды и другие скидочные фишки
@@ -407,7 +400,7 @@
             style="display: block;"
           />
         <p>
-          Ostin Road экономит время каждого клиента, 
+          T-Express экономит время каждого клиента, 
           предлагая лучшие опции шопинга и доставки 
           из США всего в несколько кликов.
         </p>
@@ -558,20 +551,5 @@
     </div>
   </div>
 </div>
-<!-- testimonial-area end -->
 
-<!-- end track-section -->
-<!-- .footer-area start -->
-
-<!-- .footer-area end -->
-<!-- All JavaScript files
-================================================== -->
-    <script type="text/javascript" src="/js/jquery.min.js"></script>
-    <script type="text/javascript" src="/js/bootstrap.min.js"></script>
-    <!-- Plugins for this template -->
-    <script type="text/javascript" src="/js/jquery-plugin-collection.js"></script>
-    <script type="text/javascript" src="/js/jquery.slicknav.min.js"></script>
-    <script type="text/javascript" src="/js/slick.min.js"></script>
-    <!-- Custom script for this template -->
-    <script type="text/javascript" src="/js/script.js"></script>
 {% endblock %}
