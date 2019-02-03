@@ -26,6 +26,7 @@
                       </nav>
                   </div>
               </div>
+             
               <div class="col-lg-1 col-md-3 col-sm-3 col-3 search">
                   <ul>
                       <li><a href="javascript:void(0);"><i class="fa fa-search"></i></a>
@@ -46,3 +47,10 @@
           </div>
       </div>
   </div>
+<script type=""text/javascript>
+blogs function(){
+  const blogs = document.getElementByClassName("nav_mobile_menu");
+  console.log(blogs);
+}
+
+</script>

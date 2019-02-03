@@ -1,3 +1,4 @@
+
 <head>
   <!-- Meta Tags -->
   
@@ -24,6 +25,7 @@
   <link type="text/css" href="/css/style.css" rel="stylesheet" />
   <link  type="text/css" href="/css/responsive.css" rel="stylesheet" />
   <link  type="text/css" href="/css/calculator.css" rel="stylesheet" />
+  <link  type="text/css" href="/css/blogs.css" rel="stylesheet" />
 
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
   <!--[if lt IE 9]>
