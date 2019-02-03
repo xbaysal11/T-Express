@@ -11,7 +11,7 @@
   float: right;
   margin-top: -2%;
   width: 25%;
-  background-color: rgb(255, 187, 0);
+  background-color: rgb(32, 180, 238);
 }
 
 .title_blogs {
@@ -39,7 +39,7 @@
 }
 
 .row_blogs a:hover > p {
-  color: rgb(255, 187, 0);
+  color: rgb(101, 188, 219);
 }
 
 .row_blogs a:hover > img {
@@ -79,9 +79,13 @@
 }
 
 .nav_right ul li:hover {
-  color: rgb(237, 117, 6);
+    color: rgb(101, 188, 219);
 }
-
+.nav_top{
+    font-size: 130%;
+    border: 1px rgb(226, 226, 226) solid;
+    
+}
 .clearfix::after {
   content: "";
   clear: both;
