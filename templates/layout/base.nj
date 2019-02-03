@@ -3,7 +3,10 @@
   {% include "head.nj" %}
   <body>
   {% include "loader.nj"%}
-    {% include "header.nj" %} {% block content %} {% endblock %} {% include
+    {% include "header1.nj" %}{% include "header2.nj" %} {% block content %} {% endblock %} {% include
     "footer.nj" %}
   </body>
 </html>
+{# {% extends "base.nj" %}
+{% block content %}
+{% endblock %} #}

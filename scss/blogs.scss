@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #main_blogs {
     font-family: 'Roboto Slab', serif;
 }
@@ -5,11 +6,21 @@
 .btn_blogs {
     float: right;
     margin-top: -2%;
+=======
+// body {
+//     font-family: 'Roboto Slab', serif;
+// }
 
-    width: 25%;
-    background-color: rgb(255, 187, 0);
+.btn {
+  float: right;
+  margin-top: -2%;
+>>>>>>> acdefaac37fbd07599d165fa590f9c66ead6cc42
+
+  width: 25%;
+  background-color: rgb(255, 187, 0);
 }
 
+<<<<<<< HEAD
 .title_blogs {
     color: rgb(82, 77, 71);
     margin-top: 40px;
@@ -50,36 +61,84 @@
 .blogs_img {
     width: 250px;
     height: 165px;
+=======
+.title {
+  color: rgb(82, 77, 71);
+  margin-top: 40px;
+  margin-bottom: -1%;
+  font-weight: 900;
+}
+
+.row {
+  padding-top: 1%;
+  width: 75%;
+  margin-top: 5%;
+  overflow: hidden;
+}
+
+.row p {
+  font-size: 120%;
+  color: rgb(89, 85, 85);
+  font-weight: 700;
+}
+
+.row a {
+  text-decoration: none;
+}
+
+.row a:hover > p {
+  color: rgb(255, 187, 0);
+}
+
+.row a:hover > img {
+  color: black;
+  box-shadow: 0px 0px 15px 0px;
+}
+
+.float {
+  float: left;
+}
+
+img {
+  width: 250px;
+  height: 165px;
+>>>>>>> acdefaac37fbd07599d165fa590f9c66ead6cc42
 }
 
 .nav_right {
-    width: 25%;
-    color: rgb(89, 85, 85);
-    font-size: 90%;
-    height: 100%;
-    margin-top: 3.5%;
-    float: right;
-    border: 1px rgb(226, 226, 226) solid;
+  width: 25%;
+  color: rgb(89, 85, 85);
+  font-size: 90%;
+  height: 100%;
+  margin-top: 3.5%;
+  float: right;
+  border: 1px rgb(226, 226, 226) solid;
 }
+<<<<<<< HEAD
 .blogs_ul{
     margin: 0;
     padding-left: 15%;
+=======
+ul {
+  margin: 0;
+  padding-left: 15%;
+>>>>>>> acdefaac37fbd07599d165fa590f9c66ead6cc42
 }
 .nav_right ul li {
-    margin-top: 12%;
-    list-style: none;
+  margin-top: 12%;
+  list-style: none;
 }
 
 .nav_right ul li:last-child {
-    margin-bottom: 15%;
+  margin-bottom: 15%;
 }
 
 .nav_right ul li:hover {
-    color: rgb(237, 117, 6);
+  color: rgb(237, 117, 6);
 }
 
 .clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
+  content: "";
+  clear: both;
+  display: table;
 }
