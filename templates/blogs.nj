@@ -1,4 +1,14 @@
 {% extends "base.nj" %}
+
+{% block title %}
+  БЛОГИ - T-Express
+{% endblock %}
+
+{% block link %}
+  <link  type="text/css" href="/css/blogs.css" rel="stylesheet" /> 
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+{% endblock %}
+
 {% block content %}
 <body id="main_blogs">
     <div class="head_blogs" ></div>

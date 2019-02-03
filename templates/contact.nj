@@ -1,4 +1,10 @@
 {% extends "base.nj" %}
+
+{% block title %}
+  КОНТАКТЫ - T-Express
+{% endblock %}
+
+
 {% block content %}
 
 <header>

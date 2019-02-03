@@ -1,4 +1,7 @@
 {% extends "base.nj" %}
+{% block title %}
+  ГЛАВНАЯ - T-Express
+{% endblock %}
 {% block content %}
 
 <section class="hero hero-slider-wrapper hero-style-1 hero-style-2">

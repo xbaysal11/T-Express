@@ -1,12 +1,22 @@
 <!DOCTYPE html>
 <html>
-  {% include "head.nj" %}
+  <head>
+    {% include "head.nj"%}
+    <title>{% block title %}{% endblock %}</title>
+    {% block link %}{% endblock %}
+  </head>
   <body>
-  {% include "loader.nj"%}
-    {% include "header1.nj" %}{% include "header2.nj" %} {% block content %} {% endblock %} {% include
-    "footer.nj" %}
+    {% include "loader.nj"%}
+    {% include "header1.nj" %}
+    {% include "header2.nj" %}
+
+    {% block content %} {% endblock %}
+
+    {% include "footer.nj" %}
   </body>
 </html>
+
+
 {# {% extends "base.nj" %}
 {% block content %}
 {% endblock %} #}
