@@ -1,160 +1,161 @@
-.container_log{
-    width: 400px;
-    margin: 0 auto;
-    font-family: Arial, Helvetica, sans-serif;
-    height: 100%;
+body {
+  font-family: "Roboto Slab", serif;
 }
-.body_log{
-    padding: 0;
-    margin: 0;
-    background-color: rgb(249, 250, 250);
-    height: 100vh;
+.container_log {
+  width: 400px;
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100%;
 }
-.title_log{
-    margin-top: 10%;
-    text-align: center;
+.body_log {
+  padding: 0;
+  margin: 0;
+  background-color: rgb(249, 250, 250);
+  height: 100vh;
 }
-.title_log h3{
-    margin: 0;
-    padding: 0;
-    color: rgb(70, 76, 91);
+.title_log {
+  margin-top: 10%;
+  text-align: center;
 }
-.title_log p{
-    margin-top: 2%;
-    color: rgb(67, 67, 67);
-    font-size: 90%;
+.title_log h3 {
+  margin: 0;
+  padding: 0;
+  color: rgb(70, 76, 91);
 }
-.a_log{
-    color: rgb(56, 149, 224);
-    text-decoration: none;
+.title_log p {
+  margin-top: 2%;
+  color: rgb(67, 67, 67);
+  font-size: 90%;
 }
-.title .a_log:hover{
-    color: rgb(203, 209, 215);
+.a_log {
+  color: rgb(56, 149, 224);
+  text-decoration: none;
 }
-
-
-.p_log{
-    padding: 0;
-    margin: 0;
+.title .a_log:hover {
+  color: rgb(203, 209, 215);
 }
 
-div{
-    display: border-box;
+.p_log {
+  padding: 0;
+  margin: 0;
 }
-.registration{
-    background: #ffffff;
-    border-radius: 5px;
-    padding-bottom: 5%;   
-    border: 1px solid rgb(241, 241, 241);
+
+div {
+  display: border-box;
 }
-.second_name{
-    float: right;
+.registration {
+  background: #ffffff;
+  border-radius: 5px;
+  padding-bottom: 5%;
+  border: 1px solid rgb(241, 241, 241);
 }
-.name_div{
-    margin-left: 2.4%;
-    display: flex;
-    justify-content: space-around;
+.second_name {
+  float: right;
 }
-.extra_info{
-    text-align: center;
-    margin-bottom: 5%;
+.name_div {
+  margin-left: 2.4%;
+  display: flex;
+  justify-content: space-around;
+}
+.extra_info {
+  text-align: center;
+  margin-bottom: 5%;
 }
 
 .extra_info .abc {
-    font-size: 90%;
-    }
-.come_in{
-    text-align: center;
-    padding-bottom: 5%; 
-}    
-.come_in img{
-    width: 12%;
-    margin-bottom: -2.3%;
-    margin-right: 2.5%;
+  font-size: 90%;
+}
+.come_in {
+  text-align: center;
+  padding-bottom: 5%;
+}
+.come_in img {
+  width: 12%;
+  margin-bottom: -2.3%;
+  margin-right: 2.5%;
+}
+.mail_log {
+  margin-left: 3%;
+}
+.mail_log input {
+  margin-top: -1%;
+  width: 90.6%;
+}
 
+h2 {
+  margin: 0;
+  padding: 0;
 }
-.mail_log{
-    margin-left: 3%;
+.btn_log {
+  color: #fff;
+  border-radius: 7px;
+  height: 35px;
+  width: 94%;
+  border: 4px solid rgb(85, 168, 237);
+  background-color: rgb(85, 168, 237);
 }
-.mail_log input{
-    margin-top: -1%;
-    width: 90.6%;
+.input_log {
+  border-radius: 5px;
+  padding: 8px 5px 8px 15px;
+  border: 1px #cccccc solid;
+  font-size: 100%;
 }
-
-h2{
-    margin: 0;
-    padding: 0; 
+.input_log::placeholder {
+  color: rgb(175, 175, 175);
 }
-.btn_log{
-    color: #fff;
-    border-radius: 7px;
-    height: 35px;
-    width: 94%;
-    border: 4px solid rgb(85, 168, 237);
-    background-color: rgb(85, 168, 237);
+.name_log p {
+  margin: 15% 0% 8% 0%;
+  color: rgb(187, 197, 207);
+  font-weight: bold;
+  font-size: 90%;
 }
-.input_log{
-    border-radius: 5px;
-    padding: 8px 5px 8px 15px;
-    border: 1px #cccccc solid;
-    font-size: 100%;
+.surname_log p {
+  margin: 15% 0% 8% 0%;
+  color: rgb(187, 197, 207);
+  font-weight: bold;
+  font-size: 90%;
 }
-.input_log::placeholder{
-    color: rgb(175, 175, 175);  
+.mail_log p {
+  color: rgb(187, 197, 207);
+  font-weight: bold;
+  font-size: 90%;
+  margin: 0% 0% 4% 0%;
 }
-.name_log p{
-    margin: 15% 0% 8% 0%;
-    color: rgb(187, 197, 207);
-    font-weight: bold;
-    font-size: 90%;
+.come_in a:hover {
+  color: rgb(203, 209, 215);
 }
-.surname_log p{
-    margin: 15% 0% 8% 0%;
-    color:rgb(187, 197, 207);
-    font-weight: bold;
-    font-size: 90%;
+.come_in {
+  margin-top: 8%;
 }
-.mail_log p{
-    color: rgb(187, 197, 207);
-    font-weight: bold;
-    font-size: 90%;
-    margin: 0% 0% 4% 0%;
+.come_in p {
+  padding-top: 7%;
+  font-size: 90%;
+  color: rgb(84, 90, 101);
 }
-.come_in a:hover{
-    color: rgb(203, 209, 215);
+.abc {
+  font-size: 80%;
 }
-.come_in{
-     margin-top: 8%;
+.password {
+  padding-top: 3%;
 }
-.come_in p{
-    padding-top: 7%;
-    font-size: 90%;
-    color:rgb(84, 90, 101);
+.img_log {
+  width: 40%;
+  margin: 0 auto;
+  border: 1px solid rgb(85, 168, 237);
+  padding: 3% 2% 3% 0;
+  border-radius: 4px;
+  margin-top: 10px;
 }
-.abc{
-    font-size: 80%;
+.pass_input {
+  margin-bottom: 4%;
 }
-.password{
-    padding-top: 3%;
-}
-.img_log{
-    width: 40%;
-    margin: 0 auto;
-    border: 1px solid rgb(85, 168, 237);
-    padding: 3% 2% 3% 0;
-    border-radius: 4px;
-    margin-top: 10px;
-}
-.pass_input{
-    margin-bottom: 4%;
-}
-.new_password{
-    text-align: center;
-    font-size: 90%;
+.new_password {
+  text-align: center;
+  font-size: 90%;
 }
 @media screen and (max-width: 600px) {
-    .container{
-      width: 100%;
-      height: 100%;
-    }
+  .container {
+    width: 100%;
+    height: 100%;
   }
+}
