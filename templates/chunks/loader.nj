@@ -1,5 +1,5 @@
-<div class="page-loader">
-        <div class="page-loader-inner">
-            <div class="inner"></div>
-        </div>
-</div>
+  <div class="page-loader">
+    <div class="page-loader-inner">
+      <div class="inner"></div>
+    </div>
+  </div>

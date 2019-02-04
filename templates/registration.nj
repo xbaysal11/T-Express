@@ -1,12 +1,8 @@
 {% extends "base.nj" %}
 
-{% block title %}
-РЕГИСТРАЦИЯ - T-Express
-{% endblock %}
+{% block title %}РЕГИСТРАЦИЯ - T-Express {% endblock %}
 
-{% block link %}
-<link href="/css/registration.css" type="text/css" rel="stylesheet">
-{% endblock %}
+{% block link %}<link href="/css/registration.css" type="text/css" rel="stylesheet"> {% endblock %}
 
 {% block content %}
 <div class="layout">
@@ -63,5 +59,4 @@
       <p>Уже есть учетная запись?? <a href="#">Войти</a></p>
     </div>
     </div>
-
 {% endblock %}

@@ -1,14 +1,11 @@
 {% extends "base.nj" %}
 
-{% block title %}
-  БЛОГИ - T-Express
-{% endblock %}
+{% block title %}БЛОГИ - T-Express {% endblock %}
 
-{% block link %}
-  <link  type="text/css" href="/css/blogs.css" rel="stylesheet" /> 
-{% endblock %}
+{% block link %}<link  type="text/css" href="/css/blogs.css" rel="stylesheet" /> {% endblock %}
 
 {% block content %}
+
 <div class="empty" ></div>
 <div class="header-top header-top-2">
             <div class="container">
@@ -32,7 +29,7 @@
                 </div>
             </div>
         </div>
-<body id="main_blogs">
+      
     <div class="container container_blogs">
         <h1 class="title_blogs">
             Блог
@@ -127,5 +124,4 @@
             </div>
         </div>
     </div>
-</body>
 {% endblock %}
