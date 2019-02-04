@@ -9,7 +9,6 @@
 {% endblock %}
 
 {% block content %}
-<body>
 <div class="layout">
     <div class="empty" ></div>  
       <div class="container_reg">
@@ -63,5 +62,6 @@
       </div>
       <p>Уже есть учетная запись?? <a href="#">Войти</a></p>
     </div>
-</body>
+    </div>
+
 {% endblock %}

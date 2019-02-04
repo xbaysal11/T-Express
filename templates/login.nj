@@ -9,6 +9,7 @@
 {% endblock %}
 
 {% block content %}
+<body>
 <div class="layout">
   <div class="empty" ></div>
       <div class="container_log">
@@ -43,3 +44,4 @@
       </div>
     </div>
 {% endblock %}
+</body>
