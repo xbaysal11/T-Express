@@ -61,7 +61,7 @@ TABLE OF CONTENTS:
 /*--------------------------------------------------------------
 #0.1    Theme Reset Style
 --------------------------------------------------------------*/
-*{
+* {
   font-family: "Roboto Slab", serif;
 }
 body {
@@ -2108,6 +2108,11 @@ mobile menu
 .blog-right-bar .img-holder {
   float: left;
   padding-right: 14px;
+}
+.shop_title {
+  background-image: url("/images/bg_shops.jpg");
+  width: 100%;
+  height: 20vh;
 }
 
 /*============================

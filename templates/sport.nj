@@ -1,0 +1,153 @@
+{% extends "base.nj" %}
+
+{% block title %}СПОРТ МАГАЗИНЫ - T-Express {% endblock %}
+
+{% block link %}<link href="/css/shops.css" type="text/css" rel="stylesheet">
+    <script type="text/javascript" src="/js/frontend.js"></script> {% endblock %}
+
+{% block content %}
+
+<div class="empty" ></div>
+
+<section class="online">
+            <div class="container">
+                <h2 class="h2 to-animate animated">Спорт Магазины</h2>
+
+                <div class="searching-input to-animate animated">
+    <div id="sb-search" class="sb-search">
+        <form id="w0" action="https://easyxpress.com.ua/store" method="get">        
+<input type="text" id="tags1" class="sb-search-input ui-autocomplete-input" name="search" placeholder="Поиск по названию магазинов" data-url="https://easyxpress.com.ua/search/search/autocomplete" autocomplete="off">
+            <input class="sb-search-submit" type="submit" value="">
+            <span class="sb-icon-search">
+                <i>
+                <svg class="icon__search" width="12" height="12" id="search" viewbox="0 0 12 12"><path fill="#FFF" class="st0" d="M5.6 11.1C2.5 11.1 0 8.7 0 5.6S2.5 0 5.6 0s5.6 2.5 5.6 5.6-2.5 5.5-5.6 5.5zm0-9.4c-2.2 0-3.9 1.7-3.9 3.9s1.7 3.9 3.9 3.9 3.9-1.7 3.9-3.9-1.7-3.9-3.9-3.9z"></path><path fill="#FFF" class="st0" d="M11.7 12L8.9 9.2 10.1 8l2.8 2.8z"></path></svg>
+                </i>
+            </span>
+        </form>    </div>
+</div>
+                <div class="shop_title"></div>
+                            <div class="online-tabs-shops">
+                                <div class="open-open"></div>
+                                <div class="online-tabs-list">                                                                   <div class="online-tabs-magazine ">
+             <a href="https://easyxpress.com.ua/content/amazon">Amazon                                                <svg class="icon__arrow" width="4" height="11" id="arrow" viewbox="0 0 4 11"><path d="M.563.984l2.82 5.01L.5 10.97" class="cls-1" stroke="#ed7506"></path></svg>
+                                            </a>
+                                            <p class="store-short-description">
+                                             Крупнейшая торговая интернет-площадка. Огромный ассортимент книг, журналов, музыки, DVD, электро...                                            </p>
+                                        </div>
+                                            <div class="online-tabs-magazine ">
+                                            <a href="https://easyxpress.com.ua/content/6pm">6pm                                                <svg class="icon__arrow" width="4" height="11" id="arrow" viewbox="0 0 4 11"><path d="M.563.984l2.82 5.01L.5 10.97" class="cls-1" stroke="#ed7506"></path></svg>
+                                            </a>
+                                            <p class="store-short-description">
+                                            Интернет-магазин, в котором Вы можете приобрести одежду, обувь, аксессуары самых популярных бренд...                                            </p>
+                                        </div>
+                                          <div class="online-tabs-magazine ">
+                                              <a href="https://easyxpress.com.ua/content/zappos">Zappos                                                <svg class="icon__arrow" width="4" height="11" id="arrow" viewbox="0 0 4 11"><path d="M.563.984l2.82 5.01L.5 10.97" class="cls-1" stroke="#ed7506"></path></svg>
+                                            </a>
+                                            <p class="store-short-description">
+                                            Очень популярный интернет-магазин, в котором представлены обувь, одежда, аксессуары самых популяр...                                            </p>
+                                        </div>
+                                            <div class="online-tabs-magazine tablet-hide">
+                                            <a href="https://easyxpress.com.ua/content/thinkgeek">ThinkGeek                                                <svg class="icon__arrow" width="4" height="11" id="arrow" viewbox="0 0 4 11"><path d="M.563.984l2.82 5.01L.5 10.97" class="cls-1" stroke="#ed7506"></path></svg>
+                                            </a>
+                                            <p class="store-short-description">
+                                             ThinkGeek - лучший магазин подарков для тех, кто действительно любит дарить подарки со смыслом. ...                                            </p>
+                                        </div>
+                                                                                                                    <div class="online-tabs-magazine tablet-hide">
+                                            <a href="https://easyxpress.com.ua/content/disney-store">Disney Store                                                <svg class="icon__arrow" width="4" height="11" id="arrow" viewbox="0 0 4 11"><path d="M.563.984l2.82 5.01L.5 10.97" class="cls-1" stroke="#ed7506"></path></svg>
+                                            </a>
+                                            <p class="store-short-description">
+                                            Интернет-магазин Disney Store: любимые персонажи мультфильмов в одежде, игрушках и детской комнат...                                            </p>
+                                        </div>
+                                                                                                                    <div class="online-tabs-magazine tablet-hide">
+                                            <a href="https://easyxpress.com.ua/content/mattel">Mattel                                                <svg class="icon__arrow" width="4" height="11" id="arrow" viewbox="0 0 4 11"><path d="M.563.984l2.82 5.01L.5 10.97" class="cls-1" stroke="#ed7506"></path></svg>
+                                            </a>
+                                            <p class="store-short-description">
+                                            Официальный магазин марки Mattel — известного производителя детских игрушек. Здесь можно купить о...                                            </p>
+                                        </div>
+                                                                                                                    <div class="online-tabs-magazine tablet-hide">
+                                            <a href="https://easyxpress.com.ua/content/toys-r-us">Toys R us                                                <svg class="icon__arrow" width="4" height="11" id="arrow" viewbox="0 0 4 11"><path d="M.563.984l2.82 5.01L.5 10.97" class="cls-1" stroke="#ed7506"></path></svg>
+                                            </a>
+                                            <p class="store-short-description">
+                                            Toysrus.com - сайт известной американской торговой сети игрушек для детей разного возраста....                                            </p>
+                                        </div>
+                                          <div class="online-tabs-magazine mobile-hide">
+                                            <a href="https://easyxpress.com.ua/content/diapers">Diapers                                                <svg class="icon__arrow" width="4" height="11" id="arrow" viewbox="0 0 4 11"><path d="M.563.984l2.82 5.01L.5 10.97" class="cls-1" stroke="#ed7506"></path></svg>
+                                            </a>
+                                            <p class="store-short-description">
+                                            Официальный раздел на Амазоне крупнейшего американского онлайн-сервиса товаров по уходу за новоро...                                            </p>
+                                        </div>
+                                                                                                                    <div class="online-tabs-magazine mobile-hide">
+                                            <a href="https://easyxpress.com.ua/content/ebay">Ebay                                                <svg class="icon__arrow" width="4" height="11" id="arrow" viewbox="0 0 4 11"><path d="M.563.984l2.82 5.01L.5 10.97" class="cls-1" stroke="#ed7506"></path></svg>
+                                            </a>
+                                            <p class="store-short-description">
+                                             Самый огромный в мире онлайн - аукцион. Здесь действительно можно найти всё....                                            </p>
+                                        </div>
+                                                                                                                    <div class="online-tabs-magazine mobile-hide">
+                                            <a href="https://easyxpress.com.ua/content/eddie-bauer">Eddie Bauer                                                <svg class="icon__arrow" width="4" height="11" id="arrow" viewbox="0 0 4 11"><path d="M.563.984l2.82 5.01L.5 10.97" class="cls-1" stroke="#ed7506"></path></svg>
+                                            </a>
+                                            <p class="store-short-description">
+                                             Бренд для любителей активного образа жизни — отличный выбор одежды и обуви для спорта, походов и...                                            </p>
+                                        </div>
+                                                    <div class="online-tabs-magazine mobile-hide">
+                                            <a href="https://easyxpress.com.ua/content/newegg">newegg                                                <svg class="icon__arrow" width="4" height="11" id="arrow" viewbox="0 0 4 11"><path d="M.563.984l2.82 5.01L.5 10.97" class="cls-1" stroke="#ed7506"></path></svg>
+                                            </a>
+                                            <p class="store-short-description">
+                                             Все технические новинки, какие только можно себе представить - в магазине Newegg. Настоящий рай ...                                            </p>
+                                        </div>
+                                            <div class="online-tabs-magazine mobile-hide">
+                                            <a href="https://easyxpress.com.ua/content/guitar-center">Guitar Center                                                <svg class="icon__arrow" width="4" height="11" id="arrow" viewbox="0 0 4 11"><path d="M.563.984l2.82 5.01L.5 10.97" class="cls-1" stroke="#ed7506"></path></svg>
+                                            </a>
+                                            <p class="store-short-description">
+                                            Все для гитариста - от инструментов до аксессуаров и средств ухода. ...                                            </p>
+                                        </div>
+                                                                        <div class="btn-center">
+                                        <a href="https://easyxpress.com.ua/online-shops" class="btn btn-orange btn-huge">
+                                            <span class="btn-overlay"></span>
+                                            <span class="btn-text">Смотреть все магазины</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                                            </div>
+                </div>
+                <div class="banners banners-online center cf">
+    <section class="stage stage-service stage-online to-animate container animated" style="background-image:url(/images/static/42.jpg)">
+        <div class="overlay-service overlay-holder overlay-online">
+            <div class="stage-overlay service-stage-overlay online-stage-overlay stage-overlay__ltr to-animate animated">
+                <img class="icon__overlay-ltr" src="/images/static/base.png" alt="">
+            </div>
+        </div>
+        <div class="stage-half left to-animate animated">
+            <div class="h2 h2-service"> Запрещенные товары <span>к пересылке</span></div>
+        </div>
+
+        <div class="stage-half center right to-animate animated">
+            <div class="ban-products__all">
+                <div class="ban-product">
+                    <img src="/images/static/weapon.png" alt="">
+                    <span>Оружие</span>
+                </div>
+                <div class="ban-product">
+                    <img src="/images/static/drugs.png" alt="">
+                    <span>Наркотики</span>
+                </div>
+                <div class="ban-product">
+                    <img src="/images/static/medicines.png" alt="">
+                    <span>Лекарства</span>
+                </div>
+            </div>
+            {# <a href="" class="btn btn-middle">
+                <span class="btn-overlay"></span>
+                <span class="btn-text">Подробнее</span>
+            </a> #}
+        </div>
+    </section>
+        
+    </div>            </div>
+        </section>
+
+{% endblock %}

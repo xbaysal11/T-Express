@@ -8964,12 +8964,14 @@ html.stop-scroll {
 
 .online-tabs-item {
   display: inline-block;
-  background-color: #f2f2f2;
+  background-color: #142440;
   width: 170px;
   height: 170px;
   vertical-align: top;
   box-sizing: border-box;
   position: relative;
+  transition: all 0.5s;
+
 }
 
 @media (max-width: 750px) {
@@ -8987,13 +8989,14 @@ html.stop-scroll {
   top: 0;
   left: 50%;
   -webkit-transition: all 0.3s;
-  transition: all 0.3s;
+  transition: all 0.5s;
   width: 0;
   margin-left: 0;
 }
 
 .online-tabs-item:hover, .online-tabs-item.active {
   background-color: transparent;
+
 }
 
 .online-tabs-item:hover:before, .online-tabs-item.active:before {
@@ -9050,7 +9053,7 @@ html.stop-scroll {
 .online-tabs-name {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-  color: #524d47;
+  color: #fff;
   font-family: 'GothamPro', sans-serif;
   font-size: 18px;
   font-weight: 500;

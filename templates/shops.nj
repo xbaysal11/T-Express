@@ -8,6 +8,7 @@
 {% block content %}
 
 <div class="empty" ></div>
+
 <section class="online">
             <div class="container">
                 <h2 class="h2 to-animate animated">Магазины</h2>
@@ -24,10 +25,14 @@
             </span>
         </form>    </div>
 </div>
+<div class="intro center to-animate animated">
+            <h2 class="h2">Онлайн магазины</h2>
+            <div class="intro-text">Для вашего удобства мы собрали проверенные и самые популярные онлайн магазины США. Они разделены по категориям, а так же вы сможете сортировать их по удобным вам параметрам. Указывайте в качестве адреса доставки полученный вами адрес в безналоговом штате Делавэр.</div>
+        </div>
                 <div class="for-mask" style="opacity: 1; pointer-events: visible;">
                     <div class="online-tabs to-animate animated">
                         <div class="online-tabs__open active">
-                            <a href="#" class="online-tabs-item">
+                            <a href="sport.html" class="online-tabs-item">
                                 <div class="online-tabs__center">
                                     <div class="online-tabs-icon">
                                         <svg class="icon__tabs-basket" width="38" height="35" viewbox=""></svg>
