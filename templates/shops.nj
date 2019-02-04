@@ -1,16 +1,11 @@
 {% extends "base.nj" %}
 
-{% block title %}
-  ОНЛАЙН МАГАЗИНЫ - T-Express
-{% endblock %}
+{% block title %}ОНЛАЙН МАГАЗИНЫ - T-Express {% endblock %}
 
-{% block link %}
-    <link href="/css/shops.css" type="text/css" rel="stylesheet">
-    <script type="text/javascript" src="/js/frontend.js"></script>
-{% endblock %}
+{% block link %}<link href="/css/shops.css" type="text/css" rel="stylesheet">
+    <script type="text/javascript" src="/js/frontend.js"></script> {% endblock %}
 
 {% block content %}
-<body>
 
 <div class="empty" ></div>
 <section class="online">
@@ -128,7 +123,7 @@
                                 <a href="#" class="online-tabs-item">
                                     <div class="online-tabs__center">
                                         <div class="online-tabs-icon">
-                                            <img src="/uploads/0/95-tabs-market.svg" alt="">
+                                            <img src="/images/static/95-tabs-market.svg" alt="">
                                         </div>
                                         <div class="online-tabs-name">Интернет-гипермаркеты</div>
                                     </div>
@@ -189,7 +184,7 @@
                                 <a href="#" class="online-tabs-item">
                                     <div class="online-tabs__center">
                                         <div class="online-tabs-icon">
-                                            <img src="/uploads/0/92-tabs-shoes.svg" alt="">
+                                            <img src="/images/static/92-tabs-shoes.svg" alt="">
                                         </div>
                                         <div class="online-tabs-name">Обувь</div>
                                     </div>
@@ -271,7 +266,7 @@
                                 <a href="#" class="online-tabs-item">
                                     <div class="online-tabs__center">
                                         <div class="online-tabs-icon">
-                                            <img src="/uploads/0/93-tabs-dress.svg" alt="">
+                                            <img src="/images/static/93-tabs-dress.svg" alt="">
                                         </div>
                                         <div class="online-tabs-name">Одежда</div>
                                     </div>
@@ -352,7 +347,7 @@
                                 <a href="#" class="online-tabs-item">
                                     <div class="online-tabs__center">
                                         <div class="online-tabs-icon">
-                                            <img src="/uploads/0/174-tabs-home.svg" alt="">
+                                            <img src="/images/static/174-tabs-home.svg" alt="">
                                         </div>
                                         <div class="online-tabs-name">Дом и сад</div>
                                     </div>
@@ -433,7 +428,7 @@
                                 <a href="#" class="online-tabs-item">
                                     <div class="online-tabs__center">
                                         <div class="online-tabs-icon">
-                                            <img src="/uploads/0/105-tabs-auction.svg" alt="">
+                                            <img src="/images/static/105-tabs-auction.svg" alt="">
                                         </div>
                                         <div class="online-tabs-name">Аукционы</div>
                                     </div>
@@ -459,7 +454,7 @@
                                 <a href="#" class="online-tabs-item">
                                     <div class="online-tabs__center">
                                         <div class="online-tabs-icon">
-                                            <img src="/uploads/0/109-tabs-other.svg" alt="">
+                                            <img src="/images/static/109-tabs-other.svg" alt="">
                                         </div>
                                         <div class="online-tabs-name">Другие</div>
                                     </div>
@@ -500,7 +495,7 @@
                                 <a href="#" class="online-tabs-item">
                                     <div class="online-tabs__center">
                                         <div class="online-tabs-icon">
-                                            <img src="/uploads/0/90-tabs-technics.svg" alt="">
+                                            <img src="/images/static/90-tabs-technics.svg" alt="">
                                         </div>
                                         <div class="online-tabs-name">Техника и электроника</div>
                                     </div>
@@ -581,7 +576,7 @@
                                 <a href="#" class="online-tabs-item">
                                     <div class="online-tabs__center">
                                         <div class="online-tabs-icon">
-                                            <img src="/uploads/0/96-tabs-sport.svg" alt="">
+                                            <img src="/images/static/96-tabs-sport.svg" alt="">
                                         </div>
                                         <div class="online-tabs-name">Хобби и спорт</div>
                                     </div>
@@ -662,7 +657,7 @@
                                 <a href="#" class="online-tabs-item">
                                     <div class="online-tabs__center">
                                         <div class="online-tabs-icon">
-                                            <img src="/uploads/0/94-tabs-product.svg" alt="">
+                                            <img src="/images/static/94-tabs-product.svg" alt="">
                                         </div>
                                         <div class="online-tabs-name">Товары для мам и детей</div>
                                     </div>
@@ -743,7 +738,7 @@
                                 <a href="#" class="online-tabs-item">
                                     <div class="online-tabs__center">
                                         <div class="online-tabs-icon">
-                                            <img src="/uploads/0/98-tabs-beauty.svg" alt="">
+                                            <img src="/images/static/98-tabs-beauty.svg" alt="">
                                         </div>
                                         <div class="online-tabs-name">Красота и здоровье</div>
                                     </div>
@@ -820,7 +815,7 @@
                                 <a href="#" class="online-tabs-item">
                                     <div class="online-tabs__center">
                                         <div class="online-tabs-icon">
-                                            <img src="/uploads/0/731-auto.png" alt="">
+                                            <img src="/images/static/731-auto.png" alt="">
                                         </div>
                                         <div class="online-tabs-name">Авто - мото</div>
                                     </div>
@@ -890,10 +885,10 @@
                                             </div>
                 </div>
                 <div class="banners banners-online center cf">
-    <section class="stage stage-service stage-online to-animate container animated" style="background-image:url(/img/42.jpg)">
+    <section class="stage stage-service stage-online to-animate container animated" style="background-image:url(/images/static/42.jpg)">
         <div class="overlay-service overlay-holder overlay-online">
             <div class="stage-overlay service-stage-overlay online-stage-overlay stage-overlay__ltr to-animate animated">
-                <img class="icon__overlay-ltr" src="/static/img/content/home/steps/base.png" alt="">
+                <img class="icon__overlay-ltr" src="/images/static/base.png" alt="">
             </div>
         </div>
         <div class="stage-half left to-animate animated">
@@ -903,28 +898,26 @@
         <div class="stage-half center right to-animate animated">
             <div class="ban-products__all">
                 <div class="ban-product">
-                    <img src="/static/img/content/pages/weapon.png" alt="">
+                    <img src="/images/static/weapon.png" alt="">
                     <span>Оружие</span>
                 </div>
                 <div class="ban-product">
-                    <img src="/static/img/content/pages/drugs.png" alt="">
+                    <img src="/images/static/drugs.png" alt="">
                     <span>Наркотики</span>
                 </div>
                 <div class="ban-product">
-                    <img src="/static/img/content/pages/medicines.png" alt="">
+                    <img src="/images/static/medicines.png" alt="">
                     <span>Лекарства</span>
                 </div>
             </div>
-            <a href="/ulinks/%D0%B2%D0%B5%D1%89%D0%B8-%D0%B7%D0%B0%D0%BF%D1%80%D0%B5%D1%89%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5-%D0%BA-%D0%BF%D0%B5%D1%80%D0%B5%D1%81%D1%8B%D0%BB%D0%BA%D0%B5" class="btn btn-middle">
+            {# <a href="" class="btn btn-middle">
                 <span class="btn-overlay"></span>
                 <span class="btn-text">Подробнее</span>
-            </a>
+            </a> #}
         </div>
-        <!--</div>-->
     </section>
         
     </div>            </div>
         </section>
-</body>
 
 {% endblock %}

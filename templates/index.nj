@@ -1,9 +1,7 @@
 {% extends "base.nj" %}
-{% block title %}
-  ГЛАВНАЯ - T-Express
-{% endblock %}
+{% block title %}ГЛАВНАЯ - T-Express{% endblock %}
+
 {% block content %}
-<body>
 
 <section class="hero hero-slider-wrapper hero-style-1 hero-style-2">
         <div class="hero-slider">
@@ -360,11 +358,11 @@
             </div>
             <footer class="foot">
               <div class="foot_div">
-                <div class="left">
+                <div class="left_cal">
                   Предполагаемая стоимость
                   <p>2019 SOM</p>
                 </div>
-                <div class="right">ВЫЧИСЛИТЬ СТОИМОСТЬ ТРАНСПОРТИРОВКИ</div>
+                <div class="right_cal">ВЫЧИСЛИТЬ СТОИМОСТЬ ТРАНСПОРТИРОВКИ</div>
               </div>
             </footer>
           </div>
@@ -555,6 +553,5 @@
     </div>
   </div>
 </div>
-</body>
 
 {% endblock %}

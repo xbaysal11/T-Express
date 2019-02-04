@@ -9,11 +9,10 @@
               <div class="col-lg-8 d-none d-lg-block">
                   <div class="main-menu">
                       <nav class="nav_mobile_menu">
-                          <ul>
-                              <li class="active"><a href="index.html#">Главная</a>
-                                </li>
+                          <ul class="nav-list">
+                              <li><a href="index.html">Главная</a></li>
                                 <li><a href="shops.html">Онлайн магазины</a></li>
-                                <li><a href="blogs.html">Блоги</a>
+                                <li><a href="blogs.html">Блоги</a></li>
                                 <li><a href="contact.html">Контакты</a></li>
                                 {# <li><a href="http://wpocean.com/tf/html/shipter/case.html">Example</a>
                                     <ul class="submenu">
@@ -21,12 +20,10 @@
                                         <li><a href="team.html">Team</a></li>
                                     </ul>
                                 </li> #}
-                              </li>
                           </ul>
                       </nav>
                   </div>
               </div>
-             
               <div class="col-lg-1 col-md-3 col-sm-3 col-3 search">
                   <ul>
                       <li><a href="javascript:void(0);"><i class="fa fa-search"></i></a>
@@ -47,10 +44,3 @@
           </div>
       </div>
   </div>
-<script type=""text/javascript>
-blogs function(){
-  const blogs = document.getElementByClassName("nav_mobile_menu");
-  console.log(blogs);
-}
-
-</script>
