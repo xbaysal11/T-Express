@@ -1,5 +1,5 @@
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
-@import "./font-awesome.min.scss";
+@import "../node_modules/font-awesome/scss/font-awesome.scss";
 
 $main-color: #7e57c2;
 $second-color: #db26fa;
@@ -2213,7 +2213,7 @@ mobile menu
   transition: all 0.3s;
 }
 .service-area.service-style-3 .service-item .service-text h3:hover {
-  color: #34ccff;
+  color: #ffffff;
 }
 .service-area.service-style-3 .service-item .service-text p {
   color: #ddd;
