@@ -445,11 +445,8 @@
               </p>
             </div>
             <div class="alert segment-small">
-              <img
-            class="lazy"
-            src="/images/static/info-icon.svg"
-            style="display: block;"
-/>
+              <i class="fas fa-info-circle fa-fa"></i>
+
               <p>
                 Все посылки на складе в США проходят через сканирование, а актуальную информацию о местонахождении посылки можно найти в своем личном кабинете.
               </p>
