@@ -8973,6 +8973,10 @@ html.stop-scroll {
   transition: all 0.5s;
 
 }
+.shop-tabs-item-white{
+  background-color: #fff;
+  
+}
 
 @media (max-width: 750px) {
   .online-tabs-item {
@@ -9059,6 +9063,11 @@ html.stop-scroll {
   font-weight: 500;
   line-height: 28px;
   padding: 0 1px;
+  
+}
+.shop-name{
+  color: #3FC3EF;
+  margin-top: 50px;
 }
 
 .online-tabs-name span {
