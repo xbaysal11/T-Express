@@ -30,7 +30,7 @@
         </div>
     <!-- header-area end -->
     <!-- .breadcumb-area start -->
-    <div class="breadcumb-area">
+    {# <div class="breadcumb-area">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -44,7 +44,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> #}
     <!-- .breadcumb-area end -->
     <!-- .contact-page-area start -->
    <div class="contact-page-area section-padding">
@@ -52,7 +52,7 @@
             <div class="row">
                 <div class="col-lg-5 col-md-12">
                     <div class="contact-page-item">
-                        <h2>Our Contacts</h2>
+                        <h2>Наши контакты</h2>
                         <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
                         <div class="adress">
                             <h3>Address</h3>

@@ -1,0 +1,149 @@
+{% extends "base.nj" %}
+
+{% block title %}СПОРТ МАГАЗИНЫ - T-Express
+{% endblock %}
+
+{% block link %}<link href="/css/shops.css" type="text/css" rel="stylesheet">
+  <script type="text/javascript" src="/js/frontend.js"></script>
+{% endblock %}
+
+{% block content %}
+  <div class="empty"></div>
+  <section class="online">
+
+    <div class="container">
+      {# name and tag #}
+      <h2 class="h2 to-animate animated">Магазины</h2>
+
+      {# search #}
+      <div class="searching-input to-animate animated">
+        <div id="sb-search" class="sb-search">
+          <form id="w0" action="https://easyxpress.com.ua/store" method="get">
+            <input type="text" id="tags1" class="sb-search-input ui-autocomplete-input" name="search" placeholder="Поиск по названию магазинов" data-url="https://easyxpress.com.ua/search/search/autocomplete" autocomplete="off">
+            <input class="sb-search-submit" type="submit" value="">
+            <span class="sb-icon-search">
+              <i>
+                <svg class="icon__search" width="12" height="12" id="search" viewbox="0 0 12 12">
+                  <path fill="#FFF" class="st0" d="M5.6 11.1C2.5 11.1 0 8.7 0 5.6S2.5 0 5.6 0s5.6 2.5 5.6 5.6-2.5 5.5-5.6 5.5zm0-9.4c-2.2 0-3.9 1.7-3.9 3.9s1.7 3.9 3.9 3.9 3.9-1.7 3.9-3.9-1.7-3.9-3.9-3.9z"></path>
+                  <path fill="#FFF" class="st0" d="M11.7 12L8.9 9.2 10.1 8l2.8 2.8z"></path>
+                </svg>
+              </i>
+            </span>
+          </form>
+        </div>
+      </div>
+      {# description #}
+      <div class="intro center to-animate animated">
+        <h2 class="h2">Онлайн магазины</h2>
+        <div class="intro-text">Современные американские интернет-магазины - это всегда большой ассортимент товаров и выгодные условия для покупки. А купить товар со скидкой или просто дешевле, чем в другом магазине - это всегда приятно. И для того, чтобы стать счастливым обладателем «двух товаров по цене одного» или приобрести продукт со скидкой, совсем не обязательно ждать, когда в магазине начнется сезон распродаж. Тем более, если настольная лампа или постельное белье нужны уже сегодня? Или через неделю-вторую у вашего малыша День рождения, и вы хотите порадовать его классной игрушкой, «как в том мультике»? С EasyXpress делать покупки в американских интернет-магазинах стало просто, легко и выгодно!</div>
+      </div>
+
+      {# boxes #}
+      <div class="for-mask" style="opacity: 1; pointer-events: visible;">
+        <div class="online-tabs to-animate animated">
+
+          {# box #}
+          <div class="online-tabs__open active">
+            <a href="https://easyxpress.com.ua/content/amazon" class="online-tabs-item shop-tabs-item-white">
+              <div class="online-tabs__center">
+                <div class="online-tabs-icon">
+                  <img src="/images/slider/1.jpg"  alt="slider-bg">
+                </div>
+                <div class="online-tabs-name shop-name">Все магазины</div>
+              </div>
+            </a>
+          </div>
+          <div class="online-tabs__open active">
+            <a href="https://easyxpress.com.ua/content/amazon" class="online-tabs-item shop-tabs-item-white">
+              <div class="online-tabs__center">
+                <div class="online-tabs-icon">
+                  <img src="/images/slider/1.jpg"  alt="slider-bg">
+                </div>
+                <div class="online-tabs-name shop-name">Все магазины</div>
+              </div>
+            </a>
+          </div>
+          <div class="online-tabs__open active">
+            <a href="https://easyxpress.com.ua/content/amazon" class="online-tabs-item shop-tabs-item-white">
+              <div class="online-tabs__center">
+                <div class="online-tabs-icon">
+                  <img src="/images/slider/1.jpg"  alt="slider-bg">
+                </div>
+                <div class="online-tabs-name shop-name">Все магазины</div>
+              </div>
+            </a>
+          </div>
+          <div class="online-tabs__open active">
+            <a href="https://easyxpress.com.ua/content/amazon" class="online-tabs-item shop-tabs-item-white">
+              <div class="online-tabs__center">
+                <div class="online-tabs-icon">
+                  <img src="/images/slider/1.jpg"  alt="slider-bg">
+                </div>
+                <div class="online-tabs-name shop-name">Все магазины</div>
+              </div>
+            </a>
+          </div>
+          <div class="online-tabs__open active">
+            <a href="https://easyxpress.com.ua/content/amazon" class="online-tabs-item shop-tabs-item-white">
+              <div class="online-tabs__center">
+                <div class="online-tabs-icon">
+                  <img src="/images/slider/1.jpg"  alt="slider-bg">
+                </div>
+                <div class="online-tabs-name shop-name">Все магазины</div>
+              </div>
+            </a>
+          </div>
+          <div class="online-tabs__open active">
+            <a href="https://easyxpress.com.ua/content/amazon" class="online-tabs-item shop-tabs-item-white">
+              <div class="online-tabs__center">
+                <div class="online-tabs-icon">
+                  <img src="/images/slider/1.jpg"  alt="slider-bg">
+                </div>
+                <div class="online-tabs-name shop-name">Все магазины</div>
+              </div>
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <div class="banners banners-online center cf">
+      <section class="stage stage-service stage-online to-animate container animated" style="background-image:url(/images/static/42.jpg)">
+        <div class="overlay-service overlay-holder overlay-online">
+          <div class="stage-overlay service-stage-overlay online-stage-overlay stage-overlay__ltr to-animate animated">
+            <img class="icon__overlay-ltr" src="/images/static/base.png" alt="">
+          </div>
+        </div>
+        <div class="stage-half left to-animate animated">
+          <div class="h2 h2-service">
+            Запрещенные товары
+            <span>к пересылке</span></div>
+        </div>
+
+        <div class="stage-half center right to-animate animated">
+          <div class="ban-products__all">
+            <div class="ban-product">
+              <img src="/images/static/weapon.png" alt="">
+              <span>Оружие</span>
+            </div>
+            <div class="ban-product">
+              <img src="/images/static/drugs.png" alt="">
+              <span>Наркотики</span>
+            </div>
+            <div class="ban-product">
+              <img src="/images/static/medicines.png" alt="">
+              <span>Лекарства</span>
+            </div>
+          </div>
+          {# <a href="" class="btn btn-middle">
+                <span class="btn-overlay"></span>
+                <span class="btn-text">Подробнее</span>
+            </a> #}
+        </div>
+      </section>
+
+    </div>
+
+  </section>
+
+{% endblock %}
