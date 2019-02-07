@@ -10,7 +10,7 @@ $third-color: #796698;
 * {
   font-family: "Roboto Slab", serif;
 }
-.fa-fa{
+.fa-fa {
   font-size: 80px;
 }
 body {
@@ -338,7 +338,7 @@ a:focus {
 
 .main-menu nav ul li:hover > a,
 .main-menu nav ul li.active > a {
-  color: #34ccff;
+  color: #ffffff;
 }
 
 .main-menu .submenu {
@@ -1089,6 +1089,16 @@ mobile menu
   background: url(../images/static/ship.png) no-repeat center top / cover;
   position: relative;
   background-attachment: fixed;
+  &:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), $main-color);
+    opacity: 0.6;
+  }
 }
 .how_it_work .text-center {
   padding: 2%;
@@ -1154,18 +1164,19 @@ mobile menu
 .counter-area:before {
   content: "";
   position: absolute;
-  left: 0px;
-  top: 0px;
-  width: 100%;
-  height: 100%;
-  background: rgba(20, 36, 64, 0.8);
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), $main-color);
+  opacity: 0.6;
 }
 .counter-content {
-  background: rgb(49, 121, 206);
+  background: $main-color;
   padding: 44px 70px 94px;
   padding-right: 80px;
-  margin-bottom: -70px;
-  max-height: 500px;
+  margin-bottom: -50px;
+  max-height: 480px;
   position: relative;
 }
 .counter-content p {
@@ -1230,7 +1241,7 @@ mobile menu
   bottom: 0;
   width: 60px;
   height: 3px;
-  background: #34ccff;
+  background: $second-color;
 }
 /*====================================
 1.1 pricing-area start
@@ -1331,6 +1342,14 @@ mobile menu
   width: 100%;
   height: 100%;
   background: rgba(20, 36, 64, 0.7);
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: linear-gradient(rgba(255, 255, 255, 0), $main-color);
+  opacity: 0.6;
 }
 .testimonial-img {
   width: 20%;
@@ -1803,8 +1822,8 @@ mobile menu
 }
 
 .footer-bottom {
-  background: #101e35;
-  padding: 30px 0;
+  background: $main-color;
+  padding: 10px 0;
 }
 .footer-bottom-content {
   text-align: center;

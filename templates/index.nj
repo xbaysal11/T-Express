@@ -62,47 +62,6 @@
       </div>
     </div>
   </section>
-  <!-- end of hero slider -->
-  <!-- section-section start -->
-  <!-- <div class="section-area">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3 col-md-3 col-sm-6 col-6 col-d">
-                    <div class="section-item">
-                        
-                        <div class="section-content">
-                            <i class="fi flaticon-ship"></i>
-                            <p><a href="#">Ocean Freight</a></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-3 col-sm-6 col-6 col-d">
-                    <div class="section-item">
-                        <div class="section-content">
-                            <i class="fi flaticon-truck"></i>
-                            <p><a href="#">Road Freight</a></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-3 col-sm-6 col-6 col-d">
-                    <div class="section-item">
-                        <div class="section-content">
-                            <i class="fi flaticon-plane"></i>
-                            <p><a href="#">Air Freight</a></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-3 col-sm-6 col-6 col-d">
-                    <div class="section-item">
-                        <div class="section-content">
-                            <i class="fi flaticon-delivery"></i>
-                            <p><a href="#">Warehousing</a></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
 
   <!-- Shop Logo -->
   <div class="shop">
@@ -354,42 +313,43 @@
             <div class="container_of">
               <div class="kg">
                 <div class="col-lg-6">
-                  Мера<br/>
-                  длины
-                  <select>
-                    <option vlaue="cm" class="input_kg">CM</option>
-                    <option vlaue="in" class="input_kg">IN</option>
+                  <span>Мера длины</span>
+                  <select name="length_unit" id="length_unit" class="calculate">
+                    <option value="cm">CM</option>
+                    <option value="in">IN</option>
                   </select>
                 </div>
                 <div class="col-lg-6">
-                  Мера<br/>
-                  веса
-                  <select>
-                    <option vlaue="kg" class="input_kg">KG</option>
-                    <option value="lb" class="input_kg">LB</option>
+                  <span>Мера веса</span>
+                  <select name="weight_unit" id="weight_unit" class="calculate">
+                    <option value="kg">KG</option>
+                    <option value="lb">LB</option>
                   </select>
                 </div>
               </div>
+
               <div class="names">
                 <p>Вес</p>
-
                 <p>Длина</p>
                 <p>Высота</p>
                 <p>Ширина</p>
               </div>
               <div class="div_input">
-                <input type="number" class="input_names" placeholder="0"/>
-                <input type="number" class="input_names" placeholder="0"/>
-                <input type="number" class="input_names" placeholder="0"/>
-                <input type="number" class="input_names" placeholder="0"/>
+                <input type="" class="input_names" placeholder="0"/>
+                <input type="" class="input_names" placeholder="0"/>
+                <input type="" class="input_names" placeholder="0"/>
+                <input type="" class="input_names" placeholder="0"/>
               </div>
               <footer class="foot">
                 <div class="foot_div">
+                  <a href="" >
+                    <div class="right_cal">ВЫЧИСЛИТЬ СТОИМОСТЬ ТРАНСПОРТИРОВКИ</div>
+                  </a>
                   <div class="left_cal">
                     Предполагаемая стоимость
                     <p>2019 SOM</p>
                   </div>
-                  <div class="right_cal">ВЫЧИСЛИТЬ СТОИМОСТЬ ТРАНСПОРТИРОВКИ</div>
+
                 </div>
               </footer>
             </div>
