@@ -62,47 +62,7 @@
       </div>
     </div>
   </section>
-  <!-- end of hero slider -->
-  <!-- section-section start -->
-  <!-- <div class="section-area">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3 col-md-3 col-sm-6 col-6 col-d">
-                    <div class="section-item">
-                        
-                        <div class="section-content">
-                            <i class="fi flaticon-ship"></i>
-                            <p><a href="#">Ocean Freight</a></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-3 col-sm-6 col-6 col-d">
-                    <div class="section-item">
-                        <div class="section-content">
-                            <i class="fi flaticon-truck"></i>
-                            <p><a href="#">Road Freight</a></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-3 col-sm-6 col-6 col-d">
-                    <div class="section-item">
-                        <div class="section-content">
-                            <i class="fi flaticon-plane"></i>
-                            <p><a href="#">Air Freight</a></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-3 col-sm-6 col-6 col-d">
-                    <div class="section-item">
-                        <div class="section-content">
-                            <i class="fi flaticon-delivery"></i>
-                            <p><a href="#">Warehousing</a></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
+  
 
   <!-- Shop Logo -->
   <div class="shop">
