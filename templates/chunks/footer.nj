@@ -13,9 +13,10 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-3 col-md-6 col-sm-6 footer-t">
-          <div class="footer-logo">
+          {# <div class="footer-logo">
             <img src="/images/testimonial/T-EXPlogo.png" alt=""/>
-          </div>
+          </div> #}
+          <h3>О нас</h3>
           <p>
             T-Express: мы обучаем всем тонкостям онлайн-шопинга, предоставляя возможность клиентам максимально выгодно совершать свои покупки.
           </p>
