@@ -94,6 +94,9 @@ $third-color: #582c9e;
   font-weight: 700;
   font-size: 40px;
 }
+.left_cal span{
+  color: rgb(211, 175, 131);
+}
 
 .right_cal {
   margin-top: 11.5%;
@@ -110,7 +113,7 @@ $third-color: #582c9e;
 }
 
 .names p:nth-child(1) {
-  margin-left: 5%;
+  margin-left: 8%;
 }
 
 .names p:nth-child(2) {
