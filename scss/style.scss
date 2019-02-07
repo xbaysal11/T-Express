@@ -8,12 +8,13 @@ $third-color: #796698;
 // -------------------------------------------------
 
 * {
-  font-family: "Roboto Slab", serif;
+  font-family: "Rubik", sans-serif;
 }
 .fa-fa {
   font-size: 80px;
 }
 body {
+  font-family: "Rubik", sans-serif;
   font-size: 16px;
   -webkit-font-smoothing: antialiased;
   overflow-x: hidden;
@@ -830,9 +831,8 @@ mobile menu
 }
 .more a {
   color: black;
-  &:hover{
-  color: white;
-
+  &:hover {
+    color: white;
   }
 }
 
@@ -1101,6 +1101,8 @@ mobile menu
   border-radius: 0px;
 }
 .how_it_work {
+  font-family: "Rubik", sans-serif;
+
   padding: 10%;
   color: #fff;
   background: url(../images/static/ship.png) no-repeat center top / cover;
@@ -1119,6 +1121,9 @@ mobile menu
 }
 .how_it_work .text-center {
   padding: 2%;
+}
+.how_it_work .text-center h2 {
+  font-family: "Rubik", sans-serif;
 }
 .how_it_work .row {
   display: flex;
