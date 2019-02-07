@@ -15,18 +15,18 @@
         <div class="col-md-10 col-sm-12 col-12 col-lg-10">
           <ul class="d-flex account_login-area">
             <li class="account-item">
-              <img src="/images/icon/call.svg" alt="">
+              <i class="fas fa-phone"></i>
               <h5>
                 <span>Call Us Now</span>T+(008) 001-234-567
               </h5>
             </li>
             <li class="account-item account-item-2">
-              <img src="/images/icon/message.svg" alt="">
+              <i class="fas fa-envelope-open"></i>
               <h5>
                 <span>Mail Us Today</span>youremail@gmail.com</h5>
             </li>
             <li class="account-item">
-              <img src="/images/icon/map.svg" alt="">
+              <i class="fas fa-map-marker-alt"></i>
               <h5>
                 <span>Company Location</span>1230 Banena Street, London</h5>
             </li>

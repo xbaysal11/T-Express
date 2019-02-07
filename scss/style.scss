@@ -1,7 +1,7 @@
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
-
+// @import "https://use.fontawesome.com/releases/v5.7.1/css/all.css";
 // @import "../node_modules/@fontawesome/fontawesome-free/scss/fontawesome";
-// @import "../node_modules/@fontawesome/fontawesome-free/scss/brands";
+// @import "../node_fontawesomemodules/@/fontawesome-free/scss/brands";
 // @import "../node_modules/@fontawesome/fontawesome-free/scss/regular";
 // @import "../node_modules/@fontawesome/fontawesome-free/scss/solid";
 // @import "../node_modules/@fontawesome/fontawesome-free/scss/v4-shims";
@@ -17,10 +17,7 @@ $third-color: #796698;
 }
 .fa-info-circle {
   font-size: 50px;
-  color: #3fabff;
-}
-.fa-map-marker-alt {
-  color: black;
+  color: $second-color;
 }
 
 body {
@@ -32,7 +29,7 @@ body {
 .empty {
   margin: 0;
   padding: 0;
-  height: 11.5vh;
+  height: 7.5vh;
   background-color: $main-color;
 }
 
@@ -221,7 +218,7 @@ a:focus {
   padding-left: 0;
 }
 .account_login-area li i {
-  color: $second-color;
+  // color: $second-color;
   // font-size: 15px;
 }
 
@@ -285,9 +282,10 @@ a:focus {
   color: #fff;
 }
 .logo {
-  width: 5vw;
+  height: auto;
+  width: 4vw;
   color: white;
-  margin-top: 5%;
+  margin-top: 1%;
 }
 .logo a {
   color: white;
@@ -310,7 +308,7 @@ a:focus {
   padding-right: 0;
 }
 .main-menu nav ul li {
-  padding: 25px 18px 0 18px;
+  padding: 15px 18px 0 18px;
 }
 .main-menu nav ul li a {
   display: block;
@@ -320,7 +318,7 @@ a:focus {
   letter-spacing: 0;
   text-transform: uppercase;
   position: relative;
-  padding-bottom: 33px;
+  padding-bottom: 15px;
 }
 .main-menu nav ul li a:before {
   position: absolute;
@@ -507,7 +505,7 @@ mobile menu
 }
 .search {
   text-align: right;
-  margin-top: 25px;
+  margin-top: 15px;
 }
 .search ul li a {
   text-align: right;
@@ -654,8 +652,8 @@ mobile menu
 }
 
 .hero .slick-next:before {
-  font-family: "FontAwesome";
-  content: "\f105";
+  font-family: "Font Awesome 5 Free";
+  content: "";
   opacity: 1;
   color: #fff;
 }
@@ -1825,7 +1823,7 @@ mobile menu
 }
 .Recent-News-area span i {
   padding-right: 10px;
-  color: $second-color;
+  // color: $second-color;
 }
 .resent-sub {
   margin-bottom: 35px;
@@ -2146,7 +2144,7 @@ mobile menu
   padding: 10px 20px;
   margin-top: 3px;
   border-radius: 0;
-  // margin-top: 22px;
+  margin-top: 22px;
   background: #fff;
   color: $main-color;
   font-weight: 400;

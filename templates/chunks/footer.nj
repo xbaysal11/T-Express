@@ -51,14 +51,14 @@
               <p>Доставка авто из США: льготы на растаможку в 2019</p>
               <span
                 >
-                <i class="fa fa-clock-o" aria-hidden="true"></i>
+                <i class="far fa-clock" aria-hidden="true"></i>
                 Февраль 4, 2019</span
               >
             </div>
             <p>Доставка авто из США: льготы на растаможку в 2019</p>
             <span
               >
-              <i class="fa fa-clock-o" aria-hidden="true"></i>
+              <i class="far fa-clock" aria-hidden="true"></i>
               Февраль 4, 2019</span
             >
           </div>
@@ -71,21 +71,21 @@
                 <li>
                   <a href="index.html#"
                   >
-                    <i class="fa fa-facebook" aria-hidden="true"></i
+                    <i class="fab fa-facebook" aria-hidden="true"></i
                 >
                   </a>
                 </li>
                 <li>
                   <a href="index.html#"
                   >
-                    <i class="fa fa-twitter" aria-hidden="true"></i
+                    <i class="fab fa-twitter" aria-hidden="true"></i
                 >
                   </a>
                 </li>
                 <li>
                   <a href="index.html#"
                   >
-                    <i class="fa fa-linkedin" aria-hidden="true"></i
+                    <i class="fab fa-linkedin" aria-hidden="true"></i
                 >
                   </a>
                 </li>
