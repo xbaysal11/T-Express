@@ -1,13 +1,10 @@
+$main-color: #7e57c2;
+$second-color: #db26fa;
+$third-color: #796698;
+
 .head_blogs {
   background-color: rgba(0, 0, 0, 0.5);
   height: 90px;
-}
-
-.btn_blogs {
-  float: right;
-  margin-top: -2%;
-  width: 25%;
-  background-color: rgb(32, 180, 238);
 }
 
 .title_blogs {
@@ -35,12 +32,8 @@
 }
 
 .row_blogs a:hover > p {
-  color: rgb(101, 188, 219);
-}
-
-.row_blogs a:hover > img {
-  color: black;
-  box-shadow: 0px 0px 15px 0px;
+  color: $main-color;
+  transition: 0.3s;
 }
 
 .float_row {
@@ -75,7 +68,7 @@
 }
 
 .nav_right ul li:hover {
-  color: rgb(101, 188, 219);
+  color: $main-color;
 }
 .nav_top {
   font-size: 130%;

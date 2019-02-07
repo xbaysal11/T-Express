@@ -1,5 +1,10 @@
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
-@import "../node_modules/font-awesome/scss/font-awesome.scss";
+
+// @import "../node_modules/@fontawesome/fontawesome-free/scss/fontawesome";
+// @import "../node_modules/@fontawesome/fontawesome-free/scss/brands";
+// @import "../node_modules/@fontawesome/fontawesome-free/scss/regular";
+// @import "../node_modules/@fontawesome/fontawesome-free/scss/solid";
+// @import "../node_modules/@fontawesome/fontawesome-free/scss/v4-shims";
 
 $main-color: #7e57c2;
 $second-color: #db26fa;
@@ -8,11 +13,16 @@ $third-color: #796698;
 // -------------------------------------------------
 
 * {
-  font-family: "Roboto Slab", serif;
+  font-family: "Rubik", sans-serif;
 }
-.fa-fa{
-  font-size: 80px;
+.fa-info-circle {
+  font-size: 50px;
+  color: #3fabff;
 }
+.fa-map-marker-alt {
+  color: black;
+}
+
 body {
   font-size: 16px;
   -webkit-font-smoothing: antialiased;
@@ -22,8 +32,8 @@ body {
 .empty {
   margin: 0;
   padding: 0;
-  height: 13.1vh;
-  background-color: rgba(0, 0, 0, 0.5);
+  height: 11.5vh;
+  background-color: $main-color;
 }
 
 @media (max-width: 767px) {
@@ -46,8 +56,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Montserrat", sans-serif;
   /* color: #282e3f; */
+  font-family: "Rubik", sans-serif;
 }
 
 ul {
@@ -92,10 +102,9 @@ a:focus {
     padding: 80px 0;
   }
 }
-.pic .lazy img {
-  opacity: 0.5;
-  width: 200px;
-  height: 200px;
+.text-xs-center img {
+  width: 70%;
+  height: auto;
 }
 /*** back to top **/
 .back-to-top {
@@ -177,7 +186,7 @@ a:focus {
 }
 .header-top ul.login-r li + li:before {
   position: absolute;
-  content: " |";
+  content: "";
   left: -5px;
   top: 14px;
 }
@@ -192,7 +201,7 @@ a:focus {
   top: 30%;
   width: 1px;
   height: 25px;
-  background: #016a8d;
+  background: white;
   opacity: 0.5;
 }
 .header-top ul.header-social li:last-child {
@@ -213,6 +222,7 @@ a:focus {
 }
 .account_login-area li i {
   color: $second-color;
+  // font-size: 15px;
 }
 
 .account_login-area .account-item {
@@ -239,7 +249,8 @@ a:focus {
 }
 .account_login-area .account-item h5 {
   font-size: 16px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Rubik", sans-serif;
+  // font-family: "Roboto", sans-serif;
   margin-bottom: 0;
   font-weight: 400;
   color: #666;
@@ -299,7 +310,7 @@ a:focus {
   padding-right: 0;
 }
 .main-menu nav ul li {
-  padding: 35px 18px 0;
+  padding: 25px 18px 0 18px;
 }
 .main-menu nav ul li a {
   display: block;
@@ -338,7 +349,7 @@ a:focus {
 
 .main-menu nav ul li:hover > a,
 .main-menu nav ul li.active > a {
-  color: #34ccff;
+  color: #ffffff;
 }
 
 .main-menu .submenu {
@@ -481,7 +492,7 @@ mobile menu
   text-align: right;
 }
 .btn-style a {
-  background-color: #34ccff;
+  background-color: $main-color;
   font-size: 15px;
   font-weight: 600;
   color: #fff;
@@ -496,7 +507,7 @@ mobile menu
 }
 .search {
   text-align: right;
-  margin-top: 35px;
+  margin-top: 25px;
 }
 .search ul li a {
   text-align: right;
@@ -541,7 +552,7 @@ mobile menu
   top: 0;
   width: 40px;
   height: 40px;
-  background: #34ccff;
+  background: $second-color;
   color: #fff;
   border: none;
   cursor: pointer;
@@ -562,6 +573,16 @@ mobile menu
   overflow: hidden;
 }
 .slide {
+  &:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient($main-color, rgba(0, 0, 0, 0));
+    opacity: 0.7;
+  }
   position: relative;
 }
 .slide:after {
@@ -572,7 +593,7 @@ mobile menu
   left: 0;
   top: 0;
   background: #333;
-  opacity: 0.6;
+  opacity: 0.2;
 }
 
 .slide-caption {
@@ -641,7 +662,7 @@ mobile menu
 
 .hero .slick-prev:hover,
 .hero .slick-next:hover {
-  background: #34ccff;
+  background: $second-color;
   border: none;
 }
 
@@ -749,14 +770,14 @@ mobile menu
   transition: all 0.5s;
 }
 .section-item:hover .section-content {
-  background: #34ccff;
+  background: $main-color;
   color: #fff;
 }
 .section-item:hover .section-content p a {
   color: #fff;
 }
 .section-item:hover .section-icon i.fi {
-  background: #34ccff;
+  background: $main-color;
   color: #fff;
 }
 .section-content p {
@@ -787,7 +808,7 @@ mobile menu
   padding: 100px 0;
 }
 .about-content .about-icon i {
-  color: #34ccff;
+  color: $main-color;
 }
 .about-content h2 {
   font-size: 30px;
@@ -803,7 +824,7 @@ mobile menu
   bottom: 0;
   width: 50px;
   height: 5px;
-  background: #34ccff;
+  background: $main-color;
 }
 .sec-p {
   padding-left: 30px;
@@ -818,6 +839,13 @@ mobile menu
   margin-top: 5%;
   text-align: center;
 }
+.more a {
+  color: black;
+  &:hover {
+    color: white;
+  }
+}
+
 .more button {
   padding: 1% 3%;
   border-radius: 0;
@@ -829,7 +857,6 @@ mobile menu
   transition: all 0.5s;
   background: $second-color;
   border: 1px solid $second-color;
-  color: white;
   box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
     0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
@@ -840,7 +867,6 @@ mobile menu
 .why {
   background-image: url("/images/static/bg.jpg");
   background-size: cover;
-
   margin-top: 100px;
 }
 .about-content span {
@@ -856,7 +882,7 @@ mobile menu
   top: 5px;
   width: 15px;
   height: 15px;
-  background: #34ccff;
+  background: $main-color;
 }
 .about-content .about-icon i:before {
   font-size: 60px;
@@ -893,7 +919,7 @@ mobile menu
 }
 .section-title span {
   font-size: 16px;
-  color: #34ccff;
+  color: $main-color;
 }
 .section-title h2 {
   font-size: 36px;
@@ -910,7 +936,7 @@ mobile menu
   bottom: 0;
   width: 60px;
   height: 3px;
-  background: #34ccff;
+  background: $main-color;
 }
 .service-single {
   overflow: hidden;
@@ -954,7 +980,9 @@ mobile menu
 }
 .service-content h3 {
   font-size: 20px;
-  font-family: "Roboto", sans-serif;
+  // font-family: "Roboto", sans-serif;
+  font-family: "Rubik", sans-serif;
+
   position: relative;
   color: #fff;
 }
@@ -965,7 +993,7 @@ mobile menu
   top: -15px;
   font-family: Flaticon;
   font-size: 42px;
-  color: #34ccff;
+  color: $main-color;
 }
 .service-content2 h3:before {
   content: "\f107";
@@ -991,7 +1019,7 @@ mobile menu
   line-height: 30px;
 }
 .service-content a {
-  color: #34ccff;
+  color: $main-color;
 }
 
 .service-area.service-s2 .service-item .service-single {
@@ -1055,7 +1083,7 @@ mobile menu
   position: relative;
 }
 .track-section .track button {
-  background: #34ccff;
+  background: $main-color;
   color: #fff;
   border: 0;
   outline: 0;
@@ -1089,10 +1117,21 @@ mobile menu
   background: url(../images/static/ship.png) no-repeat center top / cover;
   position: relative;
   background-attachment: fixed;
+  &:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), $main-color);
+    opacity: 0.6;
+  }
 }
 .how_it_work .text-center {
   padding: 2%;
 }
+
 .how_it_work .row {
   display: flex;
   justify-content: space-around;
@@ -1133,7 +1172,7 @@ mobile menu
   font-size: 25px;
 }
 .features-item .fi {
-  color: #34ccff;
+  color: $main-color;
 }
 .features-icon2 {
   transform: rotate(45deg);
@@ -1154,18 +1193,19 @@ mobile menu
 .counter-area:before {
   content: "";
   position: absolute;
-  left: 0px;
-  top: 0px;
-  width: 100%;
-  height: 100%;
-  background: rgba(20, 36, 64, 0.8);
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), $main-color);
+  opacity: 0.6;
 }
 .counter-content {
-  background: rgb(49, 121, 206);
+  background: $main-color;
   padding: 44px 70px 94px;
   padding-right: 80px;
-  margin-bottom: -70px;
-  max-height: 500px;
+  margin-bottom: -50px;
+  max-height: 480px;
   position: relative;
 }
 .counter-content p {
@@ -1230,7 +1270,7 @@ mobile menu
   bottom: 0;
   width: 60px;
   height: 3px;
-  background: #34ccff;
+  background: $second-color;
 }
 /*====================================
 1.1 pricing-area start
@@ -1254,13 +1294,15 @@ mobile menu
 }
 .pricing-header h3 {
   color: #fff;
-  font-family: "Roboto", sans-serif;
+  // font-family: "Roboto", sans-serif;
+  font-family: "Rubik", sans-serif;
+
   font-weight: 500;
   font-size: 30px;
 }
 .pricing-header {
   padding: 25px 0 13px;
-  background: #34ccff;
+  background: $main-color;
   color: #fff;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
@@ -1282,7 +1324,7 @@ mobile menu
 }
 .price-sub-header h4 {
   font-size: 36px;
-  color: #34ccff;
+  color: $main-color;
 }
 .pricing-table {
   padding-bottom: 30px;
@@ -1306,7 +1348,7 @@ mobile menu
   top: 96px;
   width: 65%;
   height: 84%;
-  border: 10px solid #34ccff;
+  border: 10px solid $main-color;
   z-index: -1;
 }
 .btn-style.btn-style-4 {
@@ -1331,6 +1373,14 @@ mobile menu
   width: 100%;
   height: 100%;
   background: rgba(20, 36, 64, 0.7);
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: linear-gradient(rgba(255, 255, 255, 0), $main-color);
+  opacity: 0.6;
 }
 .testimonial-img {
   width: 20%;
@@ -1397,7 +1447,7 @@ mobile menu
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 18px;
-  color: #34ccff;
+  color: $main-color;
   padding-top: 10px;
 }
 .testimonial-item span {
@@ -1418,6 +1468,17 @@ mobile menu
   color: #fff;
   font-size: 24px;
 }
+.alert {
+  display: flex;
+  p {
+    padding: 2% 0 0 2%;
+  }
+  img {
+    width: 7%;
+    height: auto;
+  }
+}
+
 /*==========================================
 1.3 team-area start
 ============================================*/
@@ -1438,7 +1499,7 @@ mobile menu
   z-index: 1;
   width: 100%;
   height: 100%;
-  background: #34ccff;
+  background: $main-color;
   opacity: 0;
   transition: all 0.3s;
   -webkit-transition: all 0.3s;
@@ -1516,7 +1577,7 @@ mobile menu
   border-radius: 50%;
 }
 .social-1st li a:hover {
-  background: #34ccff;
+  background: $main-color;
   color: #fff;
 }
 
@@ -1550,7 +1611,7 @@ mobile menu
   transition: all 0.3s;
 }
 .team-content h4:hover {
-  color: #34ccff;
+  color: $main-color;
 }
 .team-content span {
   font-size: 14px;
@@ -1600,7 +1661,7 @@ mobile menu
   transition: all 0.3s;
 }
 .blog-content h3 a:hover {
-  color: #34ccff;
+  color: $main-color;
 }
 .blog-content-sub {
   background: #fff;
@@ -1614,7 +1675,7 @@ mobile menu
   padding: 10px;
 }
 .blog-content-sub ul li a {
-  color: #34ccff;
+  color: $main-color;
 }
 .blog-content-sub ul li:before {
   position: absolute;
@@ -1688,7 +1749,7 @@ mobile menu
   width: 105%;
 }
 .newsletter-section .newsletter button {
-  background: #34ccff;
+  background: $main-color;
   color: #fff;
   border: 0;
   outline: 0;
@@ -1724,7 +1785,7 @@ mobile menu
   background: $main-color;
 }
 .footer-top {
-  padding: 60px 0;
+  padding: 60px 0 30px 0;
 }
 .footer-logo {
   margin-bottom: 30px;
@@ -1746,7 +1807,7 @@ mobile menu
   margin-top: 5px;
 }
 .social li a:hover {
-  background: #34ccff;
+  background: $second-color;
   color: #fff;
 }
 .footer-top p {
@@ -1764,7 +1825,7 @@ mobile menu
 }
 .Recent-News-area span i {
   padding-right: 10px;
-  color: #34ccff;
+  color: $second-color;
 }
 .resent-sub {
   margin-bottom: 35px;
@@ -1803,8 +1864,8 @@ mobile menu
 }
 
 .footer-bottom {
-  background: #101e35;
-  padding: 30px 0;
+  background: $main-color;
+  padding: 10px 0;
 }
 .footer-bottom-content {
   text-align: center;
@@ -1835,7 +1896,7 @@ mobile menu
   flex-direction: column;
 }
 .section-area.section-style-2 .section-content p a:hover {
-  color: #34ccff;
+  color: $main-color;
 }
 .section-area.section-style-2 .section-content {
   text-align: left;
@@ -1850,7 +1911,7 @@ mobile menu
   padding: 0;
   width: 90px;
   height: 90px;
-  background: #34ccff;
+  background: $main-color;
   border-radius: 50%;
   line-height: 75px;
   text-align: center;
@@ -1908,7 +1969,7 @@ mobile menu
 .features-area.features-style-2 .features-icon {
   width: 90px;
   height: 90px;
-  background: #34ccff;
+  background: $main-color;
   border-radius: 50%;
   line-height: 75px;
   text-align: center;
@@ -2027,13 +2088,13 @@ mobile menu
   color: #333;
 }
 .blog-text .blog-content h3 a:hover {
-  color: #34ccff;
+  color: $main-color;
 }
 .blog-text .blog-content a {
-  color: #34ccff;
+  color: $main-color;
 }
 .blog-text .blog-content-sub ul li a {
-  color: #34ccff;
+  color: $main-color;
 }
 .blog-text .blog-content-sub {
   background: none;
@@ -2085,13 +2146,13 @@ mobile menu
   padding: 10px 20px;
   margin-top: 3px;
   border-radius: 0;
-  margin-top: 22px;
+  // margin-top: 22px;
   background: #fff;
-  color: #34ccff;
+  color: $main-color;
   font-weight: 400;
 }
 .header-area.header-style-2 {
-  background: #34ccff;
+  background: $main-color;
   position: relative;
   z-index: 9999;
 }
@@ -2101,7 +2162,7 @@ mobile menu
 }
 .header-area.header-style-2 .main-menu nav ul li ul li:hover > a,
 .header-area.header-style-2 .main-menu nav ul li ul li.active > a {
-  color: #34ccff;
+  color: $main-color;
 }
 .hero-slider-wrapper.hero-style-1.hero-style-3 .slide-caption {
   z-index: 991;
@@ -2122,7 +2183,7 @@ mobile menu
   border-radius: 5px;
 }
 .section-item-3:hover .section-icon i.fi {
-  background: #34ccff;
+  background: $main-color;
   color: #fff;
 }
 .about-ss {
@@ -2142,7 +2203,7 @@ mobile menu
   z-index: 99;
 }
 .about-title .img-holder img {
-  border: 10px solid #34ccff;
+  border: 10px solid $main-color;
 }
 .about-title .img-holder {
   position: relative;
@@ -2228,7 +2289,7 @@ mobile menu
   margin-top: -35px;
 }
 .section-area.section-area-3 .section-content p a:hover {
-  color: #34ccff;
+  color: $main-color;
 }
 /*=====================================
 4.0 about-page start
@@ -2274,11 +2335,11 @@ mobile menu
 }
 
 .breadcumb-wrap ul li a:hover {
-  color: #34ccff;
+  color: $main-color;
 }
 
 .breadcumb-wrap ul li:last-child {
-  color: #34ccff;
+  color: $main-color;
 }
 
 .breadcumb-wrap ul li:after {
@@ -2336,7 +2397,7 @@ mobile menu
 }
 
 .blog-page-area .blog-item .post-meta .clr {
-  color: #34ccff;
+  color: $main-color;
 }
 
 .blog-page-area .blog-item .post-meta > li:first-child {
@@ -2382,7 +2443,7 @@ mobile menu
 .blog-content-2 a {
   font-size: 16px;
   text-transform: uppercase;
-  color: #34ccff;
+  color: $main-color;
   font-weight: 600;
 }
 
@@ -2427,7 +2488,7 @@ mobile menu
 }
 
 .blog-page-area .blog-content-3 .post-meta .clr {
-  color: #34ccff;
+  color: $main-color;
 }
 
 .pagination-wrapper ul {
@@ -2452,7 +2513,7 @@ mobile menu
 .pagination-wrapper ul li span,
 .pagination-wrapper ul li a:hover,
 .pagination-wrapper ul li span:hover {
-  background-color: #34ccff;
+  background-color: $main-color;
   color: #fff;
 }
 
@@ -2494,7 +2555,7 @@ mobile menu
 }
 
 .blog-right-bar .tag-widget ul li a:hover {
-  background: #34ccff;
+  background: $main-color;
   color: #fff;
 }
 
@@ -2588,7 +2649,7 @@ mobile menu
 }
 
 .blog-left-bar .tag-share .tag a:hover {
-  color: #34ccff;
+  color: $main-color;
 }
 
 .blog-left-bar .tag-share .tag ul li {
@@ -2617,7 +2678,7 @@ mobile menu
 }
 
 .blog-left-bar .tag-share .share a:hover {
-  color: #34ccff;
+  color: $main-color;
 }
 
 .blog-left-bar .tag-share ul {
@@ -2686,7 +2747,7 @@ mobile menu
 }
 
 .blog-left-bar .author-box .social-lnk a:hover {
-  color: #34ccff;
+  color: $main-color;
 }
 
 .blog-left-bar .more-posts {
@@ -2726,7 +2787,7 @@ mobile menu
 }
 
 .blog-left-bar .more-posts a:hover .post-control-link {
-  color: #34ccff;
+  color: $main-color;
 }
 
 .blog-left-bar .comments-area {
@@ -2802,7 +2863,7 @@ mobile menu
 
 .blog-left-bar .comments-area .comment-reply-link {
   font-size: 16px;
-  color: #34ccff;
+  color: $main-color;
   float: right;
 }
 
@@ -2854,7 +2915,7 @@ mobile menu
 .blog-left-bar .comment-respond form textarea:focus {
   -webkit-box-shadow: none;
   box-shadow: none;
-  border-color: #34ccff;
+  border-color: $main-color;
 }
 
 .blog-left-bar .comment-respond form textarea {
@@ -2878,7 +2939,7 @@ mobile menu
 
 .blog-left-bar .comment-respond .form-submit input {
   max-width: 120px;
-  background-color: #34ccff;
+  background-color: $main-color;
   color: #fff;
   font-weight: bold;
   margin-bottom: 0;
@@ -2962,7 +3023,7 @@ mobile menu
 }
 
 .category-section ul li a:hover {
-  color: #34ccff;
+  color: $main-color;
 }
 
 .category-section ul li {
@@ -3207,7 +3268,7 @@ mobile menu
   display: block;
 }
 .theme-btn-s3 {
-  background-color: #34ccff;
+  background-color: $main-color;
   font-size: 15px;
   font-weight: 700;
   color: #fff;
@@ -3267,7 +3328,7 @@ mobile menu
   top: 7px;
   width: 10px;
   height: 10px;
-  background: #34ccff;
+  background: $main-color;
   border-radius: 50%;
 }
 /*=======================
@@ -3308,7 +3369,7 @@ mobile menu
   bottom: 0;
   width: 30px;
   height: 5px;
-  background: #34ccff;
+  background: $main-color;
 }
 .contact-s span {
   color: #fff;
@@ -3316,7 +3377,7 @@ mobile menu
 }
 .contact-s span i {
   padding-right: 5px;
-  color: #34ccff;
+  color: $main-color;
 }
 .contact-s p {
   color: #fff;
@@ -3360,7 +3421,7 @@ mobile menu
   top: 7px;
   width: 10px;
   height: 10px;
-  background: #34ccff;
+  background: $main-color;
   border-radius: 50%;
 }
 
@@ -3380,7 +3441,7 @@ page loader
   width: 50px;
   height: 50px;
   position: relative;
-  border: 4px solid #34ccff;
+  border: 4px solid $main-color;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -3396,7 +3457,7 @@ page loader
   vertical-align: top;
   display: inline-block;
   width: 100%;
-  background-color: #34ccff;
+  background-color: $main-color;
   -webkit-animation: loader-inner 2s infinite ease-in;
   animation: loader-inner 2s infinite ease-in;
 }

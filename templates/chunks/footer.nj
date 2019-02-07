@@ -1,53 +1,46 @@
-
 <!-- All JavaScript files
 ================================================== -->
-    <script type="text/javascript" src="/js/jquery.min.js"></script>
-    <script type="text/javascript" src="/js/bootstrap.min.js"></script>
-    <!-- Plugins for this template -->
-    <script type="text/javascript" src="/js/jquery-plugin-collection.js"></script>
-    <script type="text/javascript" src="/js/jquery.slicknav.min.js"></script>
-    <script type="text/javascript" src="/js/slick.min.js"></script>
-    <!-- Custom script for this template -->
-    <script type="text/javascript" src="/js/script.js"></script><div class="footer-area">
+<script type="text/javascript" src="/js/jquery.min.js"></script>
+<script type="text/javascript" src="/js/bootstrap.min.js"></script>
+<!-- Plugins for this template -->
+<script type="text/javascript" src="/js/jquery-plugin-collection.js"></script>
+<script type="text/javascript" src="/js/jquery.slicknav.min.js"></script>
+<script type="text/javascript" src="/js/slick.min.js"></script>
+<!-- Custom script for this template -->
+<script type="text/javascript" src="/js/script.js"></script>
+<div class="footer-area">
   <div class="footer-top">
     <div class="container">
       <div class="row">
         <div class="col-lg-3 col-md-6 col-sm-6 footer-t">
-          <div class="footer-logo">
-            <img src="/images/testimonial/T-EXPlogo.png" alt="" />
-          </div>
+          {# <div class="footer-logo">
+            <img src="/images/testimonial/T-EXPlogo.png" alt=""/>
+          </div> #}
+          <h3>О нас</h3>
           <p>
             T-Express: мы обучаем всем тонкостям онлайн-шопинга, предоставляя возможность клиентам максимально выгодно совершать свои покупки.
           </p>
-          <div class="social">
-            <ul class="d-flex">
-              <li>
-                <a href="index.html#"
-                  ><i class="fa fa-facebook" aria-hidden="true"></i
-                ></a>
-              </li>
-              <li>
-                <a href="index.html#"
-                  ><i class="fa fa-twitter" aria-hidden="true"></i
-                ></a>
-              </li>
-              <li>
-                <a href="index.html#"
-                  ><i class="fa fa-linkedin" aria-hidden="true"></i
-                ></a>
-              </li>
-            </ul>
-          </div>
+
         </div>
         <div class="col-lg-3 col-md-6 col-sm-6 footer-t">
           <div class="footer-link">
             <h3>Перейти</h3>
             <ul>
-              <li><a href="/login.html">Авторизация</a></li>
-              <li><a href="/registration.html">Регистрация</a></li>
-              <li><a href="/shops.html">Онлайн магазины</a></li>
-              <li><a href="/blogs.html">Блоги</a></li>
-              <li><a href="/contact.html">Контакты</a></li>
+              <li>
+                <a href="/login.html">Авторизация</a>
+              </li>
+              <li>
+                <a href="/registration.html">Регистрация</a>
+              </li>
+              <li>
+                <a href="/shops.html">Онлайн магазины</a>
+              </li>
+              <li>
+                <a href="/blogs.html">Блоги</a>
+              </li>
+              <li>
+                <a href="/contact.html">Контакты</a>
+              </li>
             </ul>
           </div>
         </div>
@@ -57,52 +50,47 @@
             <div class="resent-sub">
               <p>Доставка авто из США: льготы на растаможку в 2019</p>
               <span
-                ><i class="fa fa-clock-o" aria-hidden="true"></i> Февраль 4,
-              2019</span
+                >
+                <i class="fa fa-clock-o" aria-hidden="true"></i>
+                Февраль 4, 2019</span
               >
             </div>
             <p>Доставка авто из США: льготы на растаможку в 2019</p>
             <span
-              ><i class="fa fa-clock-o" aria-hidden="true"></i> Февраль 4,
-              2019</span
+              >
+              <i class="fa fa-clock-o" aria-hidden="true"></i>
+              Февраль 4, 2019</span
             >
           </div>
         </div>
         <div class="col-lg-3 col-sm-6 col-12">
           <div class="footer-widget instagram">
-            <h3>Instagram</h3>
-            <ul class="d-flex">
-              <li>
-                <a href="index.html#"
-                  ><img src="/images/instragram/1.jpg" alt=""
-                /></a>
-              </li>
-              <li>
-                <a href="index.html#"
-                  ><img src="/images/instragram/2.jpg" alt=""
-                /></a>
-              </li>
-              <li>
-                <a href="index.html#"
-                  ><img src="/images/instragram/3.jpg" alt=""
-                /></a>
-              </li>
-              <li>
-                <a href="index.html#"
-                  ><img src="/images/instragram/4.jpg" alt=""
-                /></a>
-              </li>
-              <li>
-                <a href="index.html#"
-                  ><img src="/images/instragram/5.jpg" alt=""
-                /></a>
-              </li>
-              <li>
-                <a href="index.html#"
-                  ><img src="/images/instragram/6.jpg" alt=""
-                /></a>
-              </li>
-            </ul>
+            <h3>Социальные сети</h3>
+            <div class="social">
+              <ul class="d-flex">
+                <li>
+                  <a href="index.html#"
+                  >
+                    <i class="fa fa-facebook" aria-hidden="true"></i
+                >
+                  </a>
+                </li>
+                <li>
+                  <a href="index.html#"
+                  >
+                    <i class="fa fa-twitter" aria-hidden="true"></i
+                >
+                  </a>
+                </li>
+                <li>
+                  <a href="index.html#"
+                  >
+                    <i class="fa fa-linkedin" aria-hidden="true"></i
+                >
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
@@ -113,7 +101,7 @@
       <div class="footer-bottom-content">
         <div class="row">
           <div class="col-12">
-            <span>© Copyrights 2018. All Rights Reserved.</span>
+            <span>© Copyrights 2019. All Rights Reserved.</span>
           </div>
         </div>
       </div>
