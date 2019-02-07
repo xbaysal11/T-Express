@@ -1,38 +1,25 @@
 @charset "UTF-8";
-/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+
+$main-color: #7e57c2;
+$second-color: #db26fa;
+$third-color: #796698;
+
 * {
   box-sizing: border-box;
 }
 
-/**
- * 1. Set default font family to sans-serif.
- * 2. Prevent iOS and IE text size adjust after device orientation change,
- *    without disabling user zoom.
- */
 html {
-  /* 1 */
 
   -ms-text-size-adjust: 100%;
-  /* 2 */
+
   -webkit-text-size-adjust: 100%;
-  /* 2 */
+ 
 }
 
-/**
- * Remove default margin.
- */
 body {
   margin: 0;
 }
 
-/* HTML5 display definitions
-   ========================================================================== */
-/**
- * Correct `block` display not defined for any HTML5 element in IE 8/9.
- * Correct `block` display not defined for `details` or `summary` in IE 10/11
- * and Firefox.
- * Correct `block` display not defined for `main` in IE 11.
- */
 article,
 aside,
 details,
@@ -2452,7 +2439,7 @@ html, body {
 }
 
 .icon__down-small, .icon__down-large {
-  fill: #3FC3EF;
+  fill: $second-color;
 }
 
 .icon__find {
@@ -2495,7 +2482,7 @@ html, body {
 }
 
 .icon__copy {
-  fill: #3FC3EF;
+  fill: $second-color;
 }
 
 .btn {
@@ -2522,7 +2509,7 @@ html, body {
 }
 
 .btn-huge.btn-orange:hover {
-  background: #3FC3EF;
+  background: $second-color;
   border-color: #222;
 }
 
@@ -2555,11 +2542,11 @@ html, body {
 }
 
 .btn-gray:hover {
-  background: #3FC3EF;
+  background: $second-color;
 }
 
 .btn-orange {
-  background: #3FC3EF;
+  background: $second-color;
 }
 
 .btn-orange:hover {
@@ -2579,20 +2566,20 @@ html, body {
 }
 
 .btn-middle.btn-orange {
-  border: 1px solid #3FC3EF;
+  border: 1px solid $second-color;
   color: #524d47;
   background: #fff;
 }
 
 .btn-middle.btn-orange:hover {
-  background: #3FC3EF;
+  background: $second-color;
   color: #fff;
 }
 
 .btn-middle.btn-orange-reverse {
-  border-color: #3FC3EF;
+  border-color: $second-color;
   color: #fff;
-  background: #3FC3EF;
+  background: $second-color;
 }
 
 .btn-middle.btn-orange-reverse:hover {
@@ -2676,7 +2663,7 @@ html, body {
 .skew svg {
   -webkit-transition: all 0.35s;
   transition: all 0.35s;
-  fill: #3FC3EF;
+  fill: $second-color;
   vertical-align: middle;
   top: 10px;
   right: 9px;
@@ -2707,7 +2694,7 @@ html, body {
 }
 
 .skew:hover {
-  background: #3FC3EF;
+  background: $second-color;
   color: #fff;
 }
 
@@ -2716,11 +2703,11 @@ html, body {
 }
 
 .skew:hover:before {
-  border-right-color: #3FC3EF;
+  border-right-color: $second-color;
 }
 
 .skew:hover:after {
-  border-left-color: #3FC3EF;
+  border-left-color: $second-color;
 }
 
 .progress-button {
@@ -2762,7 +2749,7 @@ html, body {
 }
 
 .progress-button.done {
-  background: #3FC3EF;
+  background: $second-color;
   border: transparent;
 }
 
@@ -2916,7 +2903,7 @@ h2, .h2 {
 }
 
 .orange {
-  color: #3FC3EF;
+  color: $second-color;
 }
 
 .gray {
@@ -3054,7 +3041,7 @@ h2, .h2 {
 }
 
 .footer ul li a:hover {
-  color: #3FC3EF;
+  color: $second-color;
 }
 
 .footer .soc {
@@ -3142,11 +3129,11 @@ h2, .h2 {
 }
 
 .footer-phones a:hover {
-  color: #3FC3EF;
+  color: $second-color;
 }
 
 .footer-phones a:hover * {
-  color: #3FC3EF;
+  color: $second-color;
 }
 
 #vintage {
@@ -3430,7 +3417,7 @@ h2, .h2 {
 }
 
 .logo {
-  margin: 3px 0 1px;
+  // margin: 3px 0 1px;
   display: block;
   height: 30px;
 }
@@ -3452,7 +3439,7 @@ h2, .h2 {
 }
 
 .nav-item:hover, .nav-item.active {
-  color: #3FC3EF;
+  color: $second-color;
   
 }
 
@@ -3490,7 +3477,7 @@ h2, .h2 {
   bottom: 0;
   left: 50%;
   height: 2px;
-  background: #3FC3EF;
+  background: $second-color;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
   visibility: hidden;
@@ -3570,7 +3557,7 @@ h2, .h2 {
   bottom: 0;
   left: 50%;
   height: 2px;
-  background: #3FC3EF;
+  background: $second-color;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
   visibility: hidden;
@@ -3621,7 +3608,7 @@ h2, .h2 {
 }
 
 .phone-opened .phone-item a:hover {
-  color: #3FC3EF;
+  color: $second-color;
 }
 
 .phone-opened .phone-item, .phone-item.active {
@@ -3640,14 +3627,14 @@ h2, .h2 {
   width: 0;
   margin-top: -8px;
   content: '';
-  background: #3FC3EF;
+  background: $second-color;
   pointer-events: none;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 
 .lang-opened .lang-item a:hover {
-  color: #3FC3EF;
+  color: $second-color;
 }
 
 .lang-opened .lang-item a:hover:after {
@@ -3695,7 +3682,7 @@ h2, .h2 {
   position: absolute;
   content: '';
   height: 3px;
-  background: #3FC3EF;
+  background: $second-color;
   bottom: -20px;
   left: 50%;
   -webkit-transition: all 0.3s;
@@ -3705,7 +3692,7 @@ h2, .h2 {
 }
 
 .menu-item:hover, .menu-item.active {
-  color: #3FC3EF;
+  color: $second-color;
 }
 
 .menu-item:hover:after, .menu-item.active:after {
@@ -3720,7 +3707,7 @@ h2, .h2 {
 .search {
   width: 85px;
   height: 32px;
-  padding: 10px 33px 0 0;
+  // padding: 10px 33px 0 0;
   position: relative;
   text-align: right;
 }
@@ -3738,7 +3725,7 @@ h2, .h2 {
 }
 
 .search-open__orange .icon__find-orange path {
-  fill: #3FC3EF;
+  fill: $second-color;
 }
 
 .search-input {
@@ -3784,7 +3771,7 @@ h2, .h2 {
 .search-opened .search-input, .search-opened .search-open:hover ~ .search-input {
   width: 275px;
   padding: 0 26px;
-  border-color: #3FC3EF;
+  border-color: $second-color;
   color: #fff;
 }
 
@@ -4305,7 +4292,7 @@ html.stop-scroll {
   content: '';
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-  background: #3FC3EF;
+  background: $second-color;
   width: 0;
   height: 1px;
   margin-top: -1px;
@@ -4536,7 +4523,7 @@ html.stop-scroll {
   content: '';
   width: 36px;
   height: 1px;
-  background: #3FC3EF;
+  background: $second-color;
   -webkit-transform: rotate(-54deg);
           transform: rotate(-54deg);
 }
@@ -4599,7 +4586,7 @@ html.stop-scroll {
   content: '';
   width: 36px;
   height: 1px;
-  background: #3FC3EF;
+  background: $second-color;
   -webkit-transform: rotate(-54deg);
           transform: rotate(-54deg);
 }
@@ -4799,7 +4786,7 @@ html.stop-scroll {
 }
 
 .terms .btn .btn-overlay {
-  background: #3FC3EF;
+  background: $second-color;
 }
 
 .terms .btn:hover {
@@ -4813,7 +4800,7 @@ html.stop-scroll {
 .terms-right a {
   -webkit-transition: all 0.1s ease-in-out;
   transition: all 0.1s ease-in-out;
-  color: #3FC3EF;
+  color: $second-color;
 }
 
 .terms-right a:hover {
@@ -5393,7 +5380,7 @@ html.stop-scroll {
 }
 
 .u-adv-item:hover .u-adv-item-name {
-  color: #3FC3EF;
+  color: $second-color;
 }
 
 .uni-head {
@@ -5411,7 +5398,7 @@ html.stop-scroll {
 }
 
 .uni-head a:hover {
-  color: #3FC3EF;
+  color: $second-color;
 }
 
 .shopping {
@@ -5450,12 +5437,12 @@ html.stop-scroll {
 }
 
 .form[name="register"] .progress-button {
-  background: #3FC3EF;
+  background: $second-color;
 }
 
 .form[name="register"] .progress-button:hover {
   color: #fff;
-  background: #3FC3EF;
+  background: $second-color;
 }
 
 .form[name="register"] .progress-button .progress-inner {
@@ -5503,12 +5490,11 @@ html.stop-scroll {
 }
 
 .input.error {
-  border-color: #3FC3EF;
-  color: #3FC3EF;
+  border-color: $second-color;
+  color: $second-color;
 }
 
 .social {
-  font-size: 0;
   margin: 8px 0 0;
 }
 
@@ -5617,7 +5603,7 @@ html.stop-scroll {
 }
 
 .just-text a {
-  color: #3FC3EF;
+  color: $second-color;
   -webkit-transition: all 0.1s;
   transition: all 0.1s;
 }
@@ -5964,7 +5950,7 @@ html.stop-scroll {
   }
   .stage {
     text-align: center;
-    background-color: #3FC3EF;
+    background-color: $second-color;
     background-image: none !important;
   }
   .stage .overlay-holder {
@@ -6251,7 +6237,7 @@ html.stop-scroll {
   content: '';
   width: 36px;
   height: 1px;
-  background: #3FC3EF;
+  background: $second-color;
   -webkit-transform: rotate(-56deg);
           transform: rotate(-56deg);
 }
@@ -6470,7 +6456,7 @@ html.stop-scroll {
 }
 
 .h-user-name:hover {
-  color: #3FC3EF;
+  color: $second-color;
 }
 
 .h-user-name:after {
@@ -6551,7 +6537,7 @@ html.stop-scroll {
 }
 
 .skew .btn .btn-overlay {
-  background: #3FC3EF;
+  background: $second-color;
   width: 150%;
 }
 
@@ -6565,7 +6551,7 @@ html.stop-scroll {
 }
 
 .skew .btn:hover .btn-overlay {
-  background: #3FC3EF;
+  background: $second-color;
   left: -25%;
 }
 
@@ -6642,7 +6628,7 @@ html.stop-scroll {
   left: 0;
   width: 5px;
   height: 5px;
-  background: #3FC3EF;
+  background: $second-color;
 }
 
 .popular ul a {
@@ -6652,7 +6638,7 @@ html.stop-scroll {
 }
 
 .popular ul a:hover {
-  color: #3FC3EF;
+  color: $second-color;
 }
 
 @media (max-width: 1200px) {
@@ -6918,7 +6904,7 @@ html.stop-scroll {
     max-height: inherit;
   }
   .shops .online-inner-top h1 {
-    color: #3FC3EF;
+    color: $second-color;
     font-size: 26px;
     line-height: 39px;
   }
@@ -6936,11 +6922,11 @@ html.stop-scroll {
 }
 
 .prog-steps-item a:hover {
-  color: #3FC3EF;
+  color: $second-color;
 }
 
 .prog-steps-item .btn-text {
-  color: #3FC3EF;
+  color: $second-color;
 }
 
 .prog-steps-item .btn:hover {
@@ -6952,7 +6938,7 @@ html.stop-scroll {
 }
 
 .prog-steps-item .btn-overlay {
-  background: #3FC3EF;
+  background: $second-color;
 }
 
 .prog-steps-item .images {
@@ -7177,7 +7163,7 @@ html.stop-scroll {
 }
 
 .prog-steps-item-inner .serv-name {
-  color: #3FC3EF;
+  color: $second-color;
   font-size: 28px;
   font-weight: 900;
   line-height: 36px;
@@ -7289,7 +7275,7 @@ html.stop-scroll {
   position: absolute;
   height: 0;
   width: 0;
-  background: #3FC3EF;
+  background: $second-color;
   top: 20px;
   left: 20px;
   -webkit-transition: width 0.1s, height 0.1s 0.1s;
@@ -7313,13 +7299,13 @@ html.stop-scroll {
 .prog-steps-item .animation-rect .block-rect.act:before, .prog-steps-item .animation-rect .block-rect.act:after {
   width: 100%;
   height: 100%;
-  border-color: #3FC3EF;
+  border-color: $second-color;
 }
 
 .prog-steps-item .animation-rect .block-rect.act .block-rect-little {
   height: 5px;
   width: 5px;
-  background: #3FC3EF;
+  background: $second-color;
 }
 
 .prog-steps-item .animation-rect .block-rect.act .block-rect-line {
@@ -7419,7 +7405,7 @@ html.stop-scroll {
   content: '';
   height: 0;
   width: 3px;
-  background: #3FC3EF;
+  background: $second-color;
   left: 1px;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -7431,7 +7417,7 @@ html.stop-scroll {
 }
 
 .faq-nav_item:hover {
-  color: #3FC3EF;
+  color: $second-color;
 }
 
 .faq-nav_item:hover:after {
@@ -7565,8 +7551,8 @@ html.stop-scroll {
 }
 
 .open .faq-quest_title-js {
-  color: #3FC3EF;
-  border-bottom: 1px solid #3FC3EF;
+  color: $second-color;
+  border-bottom: 1px solid $second-color;
 }
 
 .open .faq-quest_title-js:after {
@@ -7582,13 +7568,13 @@ html.stop-scroll {
 }
 
 .faq-quest_title-js.active {
-  color: #3FC3EF;
-  border-bottom: 1px solid #3FC3EF;
+  color: $second-color;
+  border-bottom: 1px solid $second-color;
 }
 
 .faq-quest_title-js:hover {
-  color: #3FC3EF;
-  border-bottom: 1px solid #3FC3EF;
+  color: $second-color;
+  border-bottom: 1px solid $second-color;
 }
 
 .faq-quest_list {
@@ -7599,7 +7585,7 @@ html.stop-scroll {
   line-height: 24px;
   background-color: white;
   display: none;
-  border-bottom: 1px solid #3FC3EF;
+  border-bottom: 1px solid $second-color;
 }
 
 .faq-quest_list p {
@@ -7670,7 +7656,7 @@ html.stop-scroll {
 }
 
 .faq-useful .usfl-blk_item_name:hover, .faq-useful .usfl-blk_item_name.active {
-  color: #3FC3EF;
+  color: $second-color;
 }
 
 .faq-useful .usfl-blk_item:last-child {
@@ -7715,7 +7701,7 @@ html.stop-scroll {
 }
 
 .shopping-hit .btn {
-  background: #3FC3EF;
+  background: $second-color;
   color: white;
   border: none;
   margin: 12px 0 16px;
@@ -7738,7 +7724,7 @@ html.stop-scroll {
 }
 
 .shopping-hit .link:hover {
-  color: #3FC3EF;
+  color: $second-color;
 }
 
 .shopping-hit .mini-sub {
@@ -8269,7 +8255,7 @@ html.stop-scroll {
     display: block;
   }
   .active_mob {
-    color: #3FC3EF;
+    color: $second-color;
   }
   .faq-quest_list1, .faq-quest_list__orange {
     text-align: left !important;
@@ -8354,7 +8340,7 @@ html.stop-scroll {
 .square_container .line_1 {
   width: 6px;
   height: 6px;
-  background: #3FC3EF;
+  background: $second-color;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -8364,7 +8350,7 @@ html.stop-scroll {
 
 .square_container .line_2 {
   height: 0em;
-  background: #3FC3EF;
+  background: $second-color;
   width: 1px;
   position: absolute;
   bottom: 23px;
@@ -8372,7 +8358,7 @@ html.stop-scroll {
 
 .square_container .line_3 {
   height: 1px;
-  background: #3FC3EF;
+  background: $second-color;
   width: 0;
   position: absolute;
   top: 0;
@@ -8381,7 +8367,7 @@ html.stop-scroll {
 
 .square_container .line_4 {
   height: 0%;
-  background: #3FC3EF;
+  background: $second-color;
   width: 0.063em;
   position: absolute;
   top: 0;
@@ -8390,7 +8376,7 @@ html.stop-scroll {
 
 .square_container .line_5 {
   height: 1px;
-  background: #3FC3EF;
+  background: $second-color;
   width: 0%;
   position: absolute;
   right: 0;
@@ -8399,7 +8385,7 @@ html.stop-scroll {
 
 .square_container .line_6 {
   height: 0%;
-  background: #3FC3EF;
+  background: $second-color;
   width: 1px;
   position: absolute;
   bottom: 0;
@@ -8506,8 +8492,8 @@ html.stop-scroll {
 }
 
 .faq-quest_title-js.active {
-  color: #3FC3EF !important;
-  border-bottom: 1px solid #3FC3EF;
+  color: $second-color !important;
+  border-bottom: 1px solid $second-color;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1200px) {
@@ -8588,7 +8574,7 @@ html.stop-scroll {
 
 .btn-orange1 {
   color: #fff !important;
-  background: #3FC3EF !important;
+  background: $second-color !important;
 }
 
 .btn-overlay1 {
@@ -8601,7 +8587,7 @@ html.stop-scroll {
 
 .active_faq {
   position: relative !important;
-  color: #3FC3EF;
+  color: $second-color;
 }
 
 .active_faq:before {
@@ -8610,7 +8596,7 @@ html.stop-scroll {
   height: 44px;
   width: 3px;
   /* width: 2px; */
-  background: #3FC3EF;
+  background: $second-color;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   color: red;
@@ -8679,8 +8665,8 @@ html.stop-scroll {
 
 @media (max-width: 750px) {
   .oblique-btn .btn {
-    border: 1px solid #3FC3EF;
-    color: #3FC3EF;
+    border: 1px solid $second-color;
+    color: $second-color;
     top: -10px;
   }
 }
@@ -8717,7 +8703,7 @@ html.stop-scroll {
   font-size: 12px;
   font-weight: 500;
   line-height: 24px;
-  color: #3FC3EF;
+  color: $second-color;
   text-transform: uppercase;
 }
 
@@ -8802,7 +8788,7 @@ html.stop-scroll {
 
 .searching-input .sb-search .sb-icon-search {
   color: #fff;
-  background-color: #3FC3EF;
+  background-color: $second-color;
   z-index: 90;
   font-size: 22px;
   position: absolute;
@@ -8889,7 +8875,7 @@ html.stop-scroll {
   content: '';
   width: 245px;
   height: 1px;
-  background-color: #3FC3EF;
+  background-color: $second-color;
   position: absolute;
   top: 0;
   -webkit-transform: translateX(-50%);
@@ -8964,7 +8950,7 @@ html.stop-scroll {
 
 .online-tabs-item {
   display: inline-block;
-  background-color: #142440;
+  background-color: $main-color;
   width: 170px;
   height: 170px;
   vertical-align: top;
@@ -8989,7 +8975,7 @@ html.stop-scroll {
   position: absolute;
   content: '';
   height: 3px;
-  background: #3FC3EF;
+  background: $second-color;
   top: 0;
   left: 50%;
   -webkit-transition: all 0.3s;
@@ -9015,7 +9001,7 @@ html.stop-scroll {
 }
 
 .online-tabs-item:hover .online-tabs-name, .online-tabs-item.active .online-tabs-name {
-  color: #3FC3EF;
+  color: $second-color;
 }
 
 @media (max-width: 750px) {
@@ -9066,7 +9052,7 @@ html.stop-scroll {
   
 }
 .shop-name{
-  color: #3FC3EF;
+  color: $second-color;
   margin-top: 50px;
 }
 
@@ -9166,7 +9152,7 @@ html.stop-scroll {
 }
 
 .online-tabs-shops .online-tabs-list .online-tabs-magazine a:hover {
-  color: #3FC3EF;
+  color: $second-color;
 }
 
 @media (max-width: 1200px) {
@@ -9228,7 +9214,7 @@ html.stop-scroll {
   position: absolute;
   left: 50%;
   height: 1px;
-  background: #3FC3EF;
+  background: $second-color;
   width: 100%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
@@ -9293,7 +9279,7 @@ html.stop-scroll {
 
 @media (max-width: 1200px) {
   .online-tabs-item.active {
-    border-top: 3px solid #3FC3EF;
+    border-top: 3px solid $second-color;
   }
 }
 
@@ -9325,7 +9311,7 @@ html.stop-scroll {
 }
 
 .where-online .h2 span {
-  color: #3FC3EF;
+  color: $second-color;
 }
 
 @media (max-width: 750px) {
@@ -9523,10 +9509,10 @@ html.stop-scroll {
 
 @media (max-width: 750px) {
   .category .faq-nav_mobile .faq-quest_item .faq-quest_title-js {
-    color: #3FC3EF;
+    color: $second-color;
   }
   .category .faq-nav_mobile .faq-quest_item .faq-quest_title-js:hover {
-    color: #3FC3EF;
+    color: $second-color;
   }
 }
 
@@ -9571,7 +9557,7 @@ html.stop-scroll {
 }
 
 .inner-top__white .banner-heading {
-  color: #3FC3EF;
+  color: $second-color;
   font-family: 'GothamPro';
   font-size: 45px;
   font-weight: 900;
@@ -9593,7 +9579,7 @@ html.stop-scroll {
 }
 
 .inner-top__white .breadcrumbs > span:last-of-type a span {
-  color: #3FC3EF;
+  color: $second-color;
 }
 
 @media (max-width: 1200px) {
@@ -9625,7 +9611,7 @@ html.stop-scroll {
 }
 
 .faq-nav-block .link:hover {
-  color: #3FC3EF;
+  color: $second-color;
   -webkit-transition: none;
   transition: none;
 }
@@ -9796,7 +9782,7 @@ html.stop-scroll {
 }
 
 .sorting ul li a i:hover {
-  fill: #3FC3EF;
+  fill: $second-color;
 }
 
 .sorting ul li a .sort-top {
@@ -9817,15 +9803,15 @@ html.stop-scroll {
 }
 
 .sorting ul li a .active-sort {
-  fill: #3FC3EF;
+  fill: $second-color;
 }
 
 .sorting ul li a:hover {
-  color: #3FC3EF;
+  color: $second-color;
 }
 
 .sorting ul li .active-sort {
-  color: #3FC3EF;
+  color: $second-color;
 }
 
 @media (max-width: 750px) {
@@ -9899,7 +9885,7 @@ html.stop-scroll {
 }
 
 .magazine-delivery-item .delivery-item__right h2:hover, .magazine-delivery-item .delivery-item__right .h2:hover {
-  color: #3FC3EF;
+  color: $second-color;
 }
 
 @media (max-width: 750px) {
@@ -10047,7 +10033,7 @@ html.stop-scroll {
 }
 
 .rating-stars .rating .star-orange {
-  fill: #3FC3EF;
+  fill: $second-color;
   vertical-align: middle;
 }
 
@@ -10073,7 +10059,7 @@ html.stop-scroll {
 }
 
 .rating-stars .availability .dollar-orange {
-  color: #3FC3EF;
+  color: $second-color;
 }
 
 .rating-stars .availability .dollar-grey {
@@ -10177,7 +10163,7 @@ html.stop-scroll {
 
 .magazine-btn .btn-orange {
   background: transparent;
-  color: #3FC3EF;
+  color: $second-color;
 }
 
 .magazine-btn .btn-orange:hover {
@@ -10185,7 +10171,7 @@ html.stop-scroll {
 }
 
 .magazine-btn .btn-overlay {
-  background: #3FC3EF;
+  background: $second-color;
 }
 
 .magazine-btn .transition {
@@ -10200,7 +10186,7 @@ html.stop-scroll {
 }
 
 .magazine-btn .transition:hover {
-  color: #3FC3EF;
+  color: $second-color;
 }
 
 @media (max-width: 750px) {
@@ -10300,7 +10286,7 @@ html.stop-scroll {
 
 .pagination ul li {
   display: inline-block;
-  color: #3FC3EF;
+  color: $second-color;
   font-family: 'DINPro';
   font-size: 14px;
   font-weight: 400;
@@ -10324,7 +10310,7 @@ html.stop-scroll {
 
 .pagination ul .arrow-prev .icon__arrow_next, .pagination ul .arrow-next .icon__arrow_next {
   margin-left: 0;
-  stroke: #3FC3EF;
+  stroke: $second-color;
 }
 
 @media (max-width: 750px) {
@@ -10339,7 +10325,7 @@ html.stop-scroll {
 
 @media (max-width: 1200px) {
   .pagination ul .arrow-prev a:hover .icon__arrow_next, .pagination ul .arrow-next a:hover .icon__arrow_next {
-    stroke: #3FC3EF;
+    stroke: $second-color;
   }
 }
 
@@ -10372,7 +10358,7 @@ html.stop-scroll {
 }
 
 .transition:hover {
-  color: #3FC3EF;
+  color: $second-color;
 }
 
 @media (max-width: 750px) {
@@ -10382,7 +10368,7 @@ html.stop-scroll {
 }
 
 .transition-orange {
-  color: #3FC3EF;
+  color: $second-color;
 }
 
 .transition-orange:hover {
@@ -10391,7 +10377,7 @@ html.stop-scroll {
 
 @media (max-width: 750px) {
   .transition-orange:hover {
-    color: #3FC3EF;
+    color: $second-color;
   }
 }
 
@@ -10517,7 +10503,7 @@ html.stop-scroll {
   display: inline-block;
   width: 100%;
   position: relative;
-  color: #3FC3EF;
+  color: $second-color;
 }
 
 @media (max-width: 750px) {
@@ -10598,7 +10584,7 @@ html.stop-scroll {
 }
 
 .faq-nav-btn__orange .faq-quest_item .faq-quest-btn__orange {
-  background: #3FC3EF;
+  background: $second-color;
   display: block;
   padding: 9px 0;
   color: #fff;
@@ -10643,7 +10629,7 @@ html.stop-scroll {
 
 .faq-nav-btn__white .faq-quest-btn__white {
   position: relative;
-  color: #3FC3EF;
+  color: $second-color;
   display: block;
   line-height: 24px;
   -webkit-transition: all 0.3s;
@@ -10833,7 +10819,7 @@ html.stop-scroll {
 }
 
 .blog-art__row .blog-art-item:hover .blog-art-item-txt {
-  color: #3FC3EF;
+  color: $second-color;
 }
 
 @media (max-width: 1200px) {
@@ -10931,7 +10917,7 @@ html.stop-scroll {
 }
 
 .best-council p span {
-  color: #3FC3EF;
+  color: $second-color;
 }
 
 .best-council ul {
@@ -10952,7 +10938,7 @@ html.stop-scroll {
   position: absolute;
   width: 5px;
   height: 5px;
-  background-color: #3FC3EF;
+  background-color: $second-color;
   left: -19px;
   top: 10px;
 }
@@ -10967,7 +10953,7 @@ html.stop-scroll {
 }
 
 .best-council ul li a:hover {
-  color: #3FC3EF;
+  color: $second-color;
 }
 
 @media (max-width: 1200px) {
@@ -11037,7 +11023,7 @@ html.stop-scroll {
 }
 
 .promocod.subscription .btn-huge {
-  background-color: #3FC3EF;
+  background-color: $second-color;
   width: 100%;
 }
 
@@ -11107,7 +11093,7 @@ html.stop-scroll {
 .square_container2 .line_01 {
   width: 6px;
   height: 6px;
-  background: #3FC3EF;
+  background: $second-color;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -11117,7 +11103,7 @@ html.stop-scroll {
 
 .square_container2 .line_02 {
   height: 0em;
-  background: #3FC3EF;
+  background: $second-color;
   width: 1px;
   position: absolute;
   bottom: 23px;
@@ -11125,7 +11111,7 @@ html.stop-scroll {
 
 .square_container2 .line_03 {
   height: 1px;
-  background: #3FC3EF;
+  background: $second-color;
   width: 0%;
   position: absolute;
   top: 0;
@@ -11134,7 +11120,7 @@ html.stop-scroll {
 
 .square_container2 .line_04 {
   height: 0%;
-  background: #3FC3EF;
+  background: $second-color;
   width: 0.063em;
   position: absolute;
   top: 0;
@@ -11143,7 +11129,7 @@ html.stop-scroll {
 
 .square_container2 .line_05 {
   height: 1px;
-  background: #3FC3EF;
+  background: $second-color;
   width: 0%;
   position: absolute;
   right: 0;
@@ -11152,7 +11138,7 @@ html.stop-scroll {
 
 .square_container2 .line_06 {
   height: 0%;
-  background: #3FC3EF;
+  background: $second-color;
   width: 1px;
   position: absolute;
   bottom: 0;
@@ -11190,7 +11176,7 @@ html.stop-scroll {
     display: none;
   }
   .open .faq-quest_title-js {
-    color: #3FC3EF !important;
+    color: $second-color !important;
   }
   .faq-quest_title-js:hover {
     color: #524d47;
@@ -11200,8 +11186,8 @@ html.stop-scroll {
 
 @media (max-width: 767px) {
   .open .faq-quest_title-js {
-    color: #3FC3EF !important;
-    border-bottom: 1px solid #3FC3EF;
+    color: $second-color !important;
+    border-bottom: 1px solid $second-color;
   }
   .faq-quest_title-js:hover {
     color: #524d47;
@@ -11273,17 +11259,17 @@ html.stop-scroll {
   background: transparent;
   line-height: 45px;
   height: 45px;
-  border: 1px solid #3FC3EF;
+  border: 1px solid $second-color;
   padding: 0 35px;
   z-index: 4;
 }
 
 .btn-transparent .btn-overlay {
-  background: #3FC3EF;
+  background: $second-color;
 }
 
 .btn-transparent .btn-text {
-  color: #3FC3EF;
+  color: $second-color;
 }
 
 .btn-transparent:hover .btn-text {
@@ -11387,7 +11373,7 @@ html.stop-scroll {
 }
 
 .article-info-title span {
-  color: #3FC3EF;
+  color: $second-color;
 }
 
 @media (max-width: 750px) {
@@ -11818,7 +11804,7 @@ html.stop-scroll {
 }
 
 .contacts-address-all .contact-mail {
-  color: #3FC3EF;
+  color: $second-color;
 }
 
 @media (max-width: 1200px) {
@@ -11887,7 +11873,7 @@ html.stop-scroll {
 }
 
 .contacts .shopping .btn {
-  background: #3FC3EF;
+  background: $second-color;
   color: white;
   border: none;
   margin: 12px 0 16px;
@@ -12064,7 +12050,7 @@ html.stop-scroll {
 }
 
 .about-company .about-company-text p i {
-  color: #3FC3EF;
+  color: $second-color;
   font-style: normal;
 }
 
@@ -12582,13 +12568,13 @@ span.btn-text {
 }
 
 .tags-list ul li a .icon__star-small {
-  fill: #3FC3EF;
+  fill: $second-color;
   margin-left: 5px;
   margin-bottom: -3px;
 }
 
 .tags-list ul li a:hover {
-  color: #3FC3EF;
+  color: $second-color;
 }
 
 @media (max-width: 750px) {
@@ -12725,7 +12711,7 @@ span.btn-text {
 }
 
 .result-text span {
-  color: #3FC3EF;
+  color: $second-color;
 }
 
 @media (max-width: 750px) {
@@ -12974,12 +12960,12 @@ span.btn-text {
 }
 
 form[name="subscript"] .progress-button {
-  background: #3FC3EF;
+  background: $second-color;
 }
 
 form[name="subscript"] .progress-button:hover {
   color: #fff;
-  background: #3FC3EF;
+  background: $second-color;
 }
 
 form[name="subscript"] .progress-button .progress-inner {
@@ -13069,7 +13055,7 @@ form[name="subscript"] .progress-button.done .btn-overlay {
 }
 
 .oblique-btn_white .btn .btn-text {
-  color: #3FC3EF;
+  color: $second-color;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
@@ -13097,7 +13083,7 @@ form[name="subscript"] .progress-button.done .btn-overlay {
     position: relative;
   }
   .oblique-btn_white .btn .btn-overlay {
-    background: #3FC3EF;
+    background: $second-color;
     left: -180%;
   }
   .oblique-btn_white .btn .btn-text {
@@ -13471,7 +13457,7 @@ form[name="subscript"] .progress-button.done .btn-overlay {
 }
 
 .payment-block-text p {
-  color: #3FC3EF;
+  color: $second-color;
   font-family: 'GothamPro';
   font-size: 18px;
   font-weight: 500;
@@ -13522,7 +13508,7 @@ form[name="subscript"] .progress-button.done .btn-overlay {
   position: absolute;
   width: 5px;
   height: 5px;
-  background: #3FC3EF;
+  background: $second-color;
   left: -21px;
   top: 11px;
 }
@@ -13933,7 +13919,7 @@ form[name="subscript"] .progress-button.done .btn-overlay {
 
 @media (max-width: 750px) {
   .price .inner-top .banner-heading {
-    color: #3FC3EF;
+    color: $second-color;
     margin-left: 0;
     text-align: center;
     font-size: 26px;
@@ -13966,11 +13952,11 @@ form[name="subscript"] .progress-button.done .btn-overlay {
 }
 
 .has-error-site input {
-  border: 1px solid #3FC3EF !important;
+  border: 1px solid $second-color !important;
 }
 
 .has-error-site .help-block {
-  color: #3FC3EF;
+  color: $second-color;
   position: absolute;
   top: -25px;
 }
@@ -14325,7 +14311,7 @@ form[name="subscript"] .progress-button.done .btn-overlay {
   position: absolute;
   top: 5px;
   left: 40px;
-  background-color: #3FC3EF;
+  background-color: $second-color;
 }
 
 @media (max-width: 750px) {
@@ -14341,12 +14327,12 @@ form[name="subscript"] .progress-button.done .btn-overlay {
     position: absolute;
     top: -16px;
     left: 0;
-    background-color: #3FC3EF;
+    background-color: $second-color;
   }
 }
 
 .container-all-calculate .form-info__content .form-info__price {
-  color: #3FC3EF;
+  color: $second-color;
   font-family: 'GothamPro', sans-serif;
   font-size: 18px;
   font-weight: 900;
@@ -14478,7 +14464,7 @@ form[name="subscript"] .progress-button.done .btn-overlay {
 }
 
 .container-all-calculate .form-container .form-group-fields .form-group input[type='checkbox'].active::after {
-  background-color: #3FC3EF;
+  background-color: $second-color;
 }
 
 .container-all-calculate .form-container .form-group-fields .form-group input[type='text'] {
@@ -14732,7 +14718,7 @@ form[name="subscript"] .progress-button.done .btn-overlay {
 .hexagon__wrap .form-group:last-child .select2 .select2-selection__rendered {
   top: -7px;
   left: 2px;
-  color: #3FC3EF;
+  color: $second-color;
 }
 
 .hexagon__wrap .form-group:last-child .select2 .select2-selection--single {
@@ -14748,19 +14734,19 @@ form[name="subscript"] .progress-button.done .btn-overlay {
 
 @media (min-width: 1200px) {
   .hexagon__wrap .form-group:hover .hexagon__item {
-    border-left: solid 1px #3FC3EF;
-    border-right: solid 1px #3FC3EF;
+    border-left: solid 1px $second-color;
+    border-right: solid 1px $second-color;
   }
   .hexagon__wrap .form-group:hover .hexagon__item::before {
-    border-top: solid 1.4142px #3FC3EF;
-    border-right: solid 1.4142px #3FC3EF;
+    border-top: solid 1.4142px $second-color;
+    border-right: solid 1.4142px $second-color;
   }
   .hexagon__wrap .form-group:hover .hexagon__item::after {
-    border-bottom: solid 1.4142px #3FC3EF;
-    border-left: solid 1.4142px #3FC3EF;
+    border-bottom: solid 1.4142px $second-color;
+    border-left: solid 1.4142px $second-color;
   }
   .hexagon__wrap .form-group:hover .hexagon__item svg {
-    fill: #3FC3EF;
+    fill: $second-color;
   }
   .hexagon__wrap .form-group:hover .hexagon__title {
     color: #524d47;
@@ -14774,21 +14760,21 @@ form[name="subscript"] .progress-button.done .btn-overlay {
 }
 
 .hexagon__wrap .form-group.active .hexagon__item {
-  background-color: #3FC3EF;
-  border-left: solid 1px #3FC3EF;
-  border-right: solid 1px #3FC3EF;
+  background-color: $second-color;
+  border-left: solid 1px $second-color;
+  border-right: solid 1px $second-color;
   -webkit-transition: all .5s ease;
   transition: all .5s ease;
 }
 
 .hexagon__wrap .form-group.active .hexagon__item::before {
-  border-top: solid 1.4142px #3FC3EF;
-  border-right: solid 1.4142px #3FC3EF;
+  border-top: solid 1.4142px $second-color;
+  border-right: solid 1.4142px $second-color;
 }
 
 .hexagon__wrap .form-group.active .hexagon__item::after {
-  border-bottom: solid 1.4142px #3FC3EF;
-  border-left: solid 1.4142px #3FC3EF;
+  border-bottom: solid 1.4142px $second-color;
+  border-left: solid 1.4142px $second-color;
 }
 
 .hexagon__wrap .form-group.active .hexagon__item svg {
@@ -14911,7 +14897,7 @@ form[name="subscript"] .progress-button.done .btn-overlay {
 
 @media (min-width: 1200px) {
   .tooltip__wrap:hover .tooltip__title {
-    color: #3FC3EF;
+    color: $second-color;
   }
   .tooltip__wrap:hover .tooltip__title::before {
     background-image: url(../img/minified-svg/icon_hint-orange.svg);
@@ -14965,7 +14951,7 @@ form[name="subscript"] .progress-button.done .btn-overlay {
   font-weight: 500;
   line-height: 32px;
   position: relative;
-  background-color: #3FC3EF;
+  background-color: $second-color;
   text-transform: uppercase;
 }
 
@@ -15200,7 +15186,7 @@ form[name="subscript"] .progress-button.done .btn-overlay {
 }
 
 .container-all-info .form-container .form-group.has-error .field-block input[type='text'] {
-  border: 1px solid #3FC3EF;
+  border: 1px solid $second-color;
 }
 
 .container-all-info .form-container .form-group.has-error .help-block {
@@ -15400,7 +15386,7 @@ form[name="subscript"] .progress-button.done .btn-overlay {
   top: 0;
   left: 0;
   line-height: 47px;
-  background: #3FC3EF;
+  background: $second-color;
   color: #fff;
   font-family: 'GothamPro', sans-serif;
   font-size: 18px;
@@ -15451,7 +15437,7 @@ form[name="subscript"] .progress-button.done .btn-overlay {
 
 .tabs-icon svg {
   position: absolute;
-  fill: #3FC3EF;
+  fill: $second-color;
   width: 100%;
   height: 100%;
   left: 0;
@@ -15524,7 +15510,7 @@ form[name="subscript"] .progress-button.done .btn-overlay {
 }
 
 .tabs-link.active > span {
-  color: #3FC3EF;
+  color: $second-color;
 }
 
 .tabs-link:first-child {
@@ -15770,7 +15756,7 @@ form[name="subscript"] .progress-button.done .btn-overlay {
 }
 
 .tp-count svg {
-  fill: #3FC3EF;
+  fill: $second-color;
   position: absolute;
   top: 0;
   left: 0;
@@ -15872,7 +15858,7 @@ form[name="subscript"] .progress-button.done .btn-overlay {
 }
 
 .tpanel-price {
-  color: #3FC3EF;
+  color: $second-color;
   font-family: 'GothamPro', sans-serif;
   font-size: 18px;
   font-weight: 900;
@@ -16135,7 +16121,7 @@ form[name="subscript"] .progress-button.done .btn-overlay {
   display: inline-block;
   width: 5px;
   height: 5px;
-  background-color: #3FC3EF;
+  background-color: $second-color;
   position: absolute;
   top: 20px;
   left: 35px;
@@ -16377,7 +16363,7 @@ form[name="subscript"] .progress-button.done .btn-overlay {
   top: 2px;
   height: 24px;
   width: 45px;
-  background-color: #3FC3EF;
+  background-color: $second-color;
   -webkit-transition: left 0.4s ease;
   transition: left 0.4s ease;
 }
@@ -16508,8 +16494,8 @@ form[name="subscript"] .progress-button.done .btn-overlay {
 }
 
 .dotted {
-  color: #3FC3EF;
-  border-bottom: 2px dotted #3FC3EF;
+  color: $second-color;
+  border-bottom: 2px dotted $second-color;
   white-space: nowrap;
   -webkit-transition: border-color 0.6s ease, color 0.6s ease;
   transition: border-color 0.6s ease, color 0.6s ease;
@@ -16784,7 +16770,7 @@ form[name="subscript"] .progress-button.done .btn-overlay {
 }
 
 .progress-empty__call-us .phone-bold svg {
-  fill: #3FC3EF;
+  fill: $second-color;
   position: absolute;
   top: -3px;
   left: 0;
@@ -16910,7 +16896,7 @@ form[name="subscript"] .progress-button.done .btn-overlay {
 .promocod .btn-orange, .sub_holder .btn-orange {
   color: #524d47;
   background: transparent;
-  border: 1px solid #3FC3EF;
+  border: 1px solid $second-color;
   height: 45px;
   display: inline-block;
   padding: 0 30px;
@@ -16921,12 +16907,12 @@ form[name="subscript"] .progress-button.done .btn-overlay {
 }
 
 .promocod .btn-orange:hover, .sub_holder .btn-orange:hover {
-  background: #3FC3EF;
+  background: $second-color;
   color: #fff;
 }
 
 .promocod .progress-button.done {
-  background: #3FC3EF;
+  background: $second-color;
   border: transparent;
 }
 
@@ -16950,8 +16936,8 @@ form[name="subscript"] .progress-button.done .btn-overlay {
 }
 
 .promocod input[type=text].error {
-  color: #3FC3EF;
-  border-color: #3FC3EF;
+  color: $second-color;
+  border-color: $second-color;
 }
 
 .main-profile-data {
@@ -17150,7 +17136,7 @@ form[name="subscript"] .progress-button.done .btn-overlay {
   top: 50%;
   margin-top: -.5px;
   left: 29px;
-  background: #3FC3EF;
+  background: $second-color;
   -webkit-transition: .3s;
   transition: .3s;
 }
@@ -17163,7 +17149,7 @@ form[name="subscript"] .progress-button.done .btn-overlay {
   top: 50%;
   margin-top: -6.5px;
   left: 35px;
-  background: #3FC3EF;
+  background: $second-color;
   -webkit-transition: .3s;
   transition: .3s;
 }
@@ -17174,7 +17160,7 @@ form[name="subscript"] .progress-button.done .btn-overlay {
 
 .add_adress .orange {
   text-transform: uppercase;
-  border-bottom: 2px dotted #3FC3EF;
+  border-bottom: 2px dotted $second-color;
   margin-top: 8px;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -17252,7 +17238,7 @@ form[name="subscript"] .progress-button.done .btn-overlay {
 }
 
 .checked {
-  background: #3FC3EF;
+  background: $second-color;
   -webkit-transform: scale(0);
           transform: scale(0);
   opacity: 0;
@@ -17370,20 +17356,20 @@ input:checked + label .unchecked {
 }
 
 .rules__title-js.active {
-  color: #3FC3EF;
-  border-bottom: 1px solid #3FC3EF;
+  color: $second-color;
+  border-bottom: 1px solid $second-color;
 }
 
 .rules__title-js:hover {
-  color: #3FC3EF;
-  border-bottom: 1px solid #3FC3EF;
+  color: $second-color;
+  border-bottom: 1px solid $second-color;
 }
 
 .rules__list {
   background-color: white;
   display: none;
   color: #7d7d7d;
-  border-bottom: 1px solid #3FC3EF;
+  border-bottom: 1px solid $second-color;
 }
 
 .open {
@@ -17536,7 +17522,7 @@ input:checked + label .unchecked {
 }
 
 .big .icon__video-play g #base-2 {
-  stroke: #3FC3EF;
+  stroke: $second-color;
   fill: none;
 }
 
@@ -17546,7 +17532,7 @@ input:checked + label .unchecked {
 
 .icon__hexagon-hover {
   height: 45px;
-  stroke: #3FC3EF;
+  stroke: $second-color;
 }
 
 .icon__play {
@@ -17588,7 +17574,7 @@ input:checked + label .unchecked {
 }
 
 .soc:hover.play-video .icon__hexagon-hover:first-child {
-  fill: #3FC3EF;
+  fill: $second-color;
   -webkit-animation: footscale 1 .6s;
   animation: footscale 1 .6s;
 }
@@ -17662,7 +17648,7 @@ input:checked + label .unchecked {
   content: '';
   width: 36px;
   height: 1px;
-  background: #3FC3EF;
+  background: $second-color;
   -webkit-transform: rotate(-54deg);
           transform: rotate(-54deg);
 }
@@ -18588,7 +18574,7 @@ input:checked + label .unchecked {
     border-bottom: 1px solid #d8d8d8;
   }
   .pm-item-cost .price {
-    color: #3FC3EF;
+    color: $second-color;
     font-size: 18px;
     font-weight: 900;
   }
@@ -18810,7 +18796,7 @@ input:checked + label .unchecked {
   .stage-help {
     min-height: 460px;
     background-image: none;
-    background: #3FC3EF;
+    background: $second-color;
   }
   .stage-help .overlay-holder {
     display: block;
@@ -19053,7 +19039,7 @@ input:checked + label .unchecked {
 }
 
 .radio-custom:checked + .radio-custom-label:before {
-  background: #3FC3EF;
+  background: $second-color;
   box-shadow: inset 0 0 0 7px #f7f7f7;
 }
 
@@ -19117,7 +19103,7 @@ input:checked + label .unchecked {
 }
 
 .form-group-txt label strong {
-  color: #3FC3EF;
+  color: $second-color;
   font-family: 'GothamPro', sans-serif;
   font-size: 18px;
   font-weight: 900;
@@ -19663,7 +19649,7 @@ input:checked + label .unchecked {
 }
 
 .balance-text-info span {
-  color: #3FC3EF;
+  color: $second-color;
   font-family: 'DINPro', sans-serif;
   font-size: 18px;
   font-weight: 900;
@@ -20405,13 +20391,13 @@ input:checked + label .unchecked {
 }
 
 .face_1 {
-  background: #3FC3EF;
+  background: $second-color;
   -webkit-transform: rotateY(0deg) translateZ(7.5px);
           transform: rotateY(0deg) translateZ(7.5px);
 }
 
 .face_2 {
-  background: #3FC3EF;
+  background: $second-color;
   -webkit-transform: rotateY(180deg) translateZ(7.5px);
           transform: rotateY(180deg) translateZ(7.5px);
 }
@@ -20764,8 +20750,8 @@ input:checked + label .unchecked {
 .ui-state-highlight,
 .ui-widget-content .ui-state-highlight,
 .ui-widget-header .ui-state-highlight {
-  border: 1px solid #3FC3EF;
-  background: #3FC3EF;
+  border: 1px solid $second-color;
+  background: $second-color;
   color: #fff;
 }
 
@@ -20774,7 +20760,7 @@ input:checked + label .unchecked {
 .ui-widget-header .ui-state-active,
 a.ui-button:active, .ui-button:active,
 .ui-button.ui-state-active:hover {
-  border: 1px solid #3FC3EF;
+  border: 1px solid $second-color;
   background: #fff;
   color: #524d47;
 }
@@ -20934,7 +20920,7 @@ a.ui-button:active, .ui-button:active,
 
 .my-data .has-error .help-block {
   display: block;
-  color: #3FC3EF;
+  color: $second-color;
   font-family: 'DINPro', sans-serif;
   font-size: 12px;
   font-weight: 400;
@@ -20943,7 +20929,7 @@ a.ui-button:active, .ui-button:active,
 }
 
 .my-data .has-error .has-error-input {
-  border: 1px solid #3FC3EF;
+  border: 1px solid $second-color;
 }
 
 .ui-autocomplete.auto-width-prof {
@@ -21214,7 +21200,7 @@ a.ui-button:active, .ui-button:active,
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  color: #3FC3EF;
+  color: $second-color;
 }
 
 .customs-block-text {
@@ -22186,7 +22172,7 @@ a.ui-button:active, .ui-button:active,
 }
 
 .form-group.has-error .field-block input, .form-group.has-error .field-block .select2-selection--single, .form-group.has-error .field-block textarea {
-  border: 1px solid #3FC3EF;
+  border: 1px solid $second-color;
 }
 
 .form-group.has-error .field-block i {
@@ -22198,7 +22184,7 @@ a.ui-button:active, .ui-button:active,
   left: 145px;
   top: 50px;
   display: block;
-  color: #3FC3EF;
+  color: $second-color;
   font-family: 'DINPro', sans-serif;
   font-size: 12px;
   font-weight: 400;
@@ -22270,7 +22256,7 @@ a.ui-button:active, .ui-button:active,
 }
 
 .form-group-check .radio-custom:checked + .radio-custom-label:before {
-  background: #3FC3EF;
+  background: $second-color;
   box-shadow: inset 0 0 0 7px #f7f7f7;
 }
 
@@ -22322,7 +22308,7 @@ a.ui-button:active, .ui-button:active,
 
 .field-block-auto input.select2-search__field, .select2-container--region input.select2-search__field {
   border: none;
-  background-color: #3FC3EF;
+  background-color: $second-color;
   color: white;
 }
 
@@ -22376,7 +22362,7 @@ a.ui-button:active, .ui-button:active,
 
 .select2-container--prof input.select2-search__field {
   border: none;
-  background-color: #3FC3EF;
+  background-color: $second-color;
   color: white;
 }
 
@@ -22855,7 +22841,7 @@ a.ui-button:active, .ui-button:active,
 #delivery-address .help-block
 {
     display: block;
-    color: #3FC3EF;
+    color: $second-color;
     font-family: 'DINPro', sans-serif;
     font-size: 12px;
     font-weight: 400;
@@ -22867,7 +22853,7 @@ a.ui-button:active, .ui-button:active,
 
 .href-style {
     cursor:pointer;
-    color:#3FC3EF;
+    color:$second-color;
     text-decoration:underline;
 }
 
@@ -22945,7 +22931,7 @@ a.ui-button:active, .ui-button:active,
   }
 }
 .quick-order h2{
-  color: #3FC3EF;
+  color: $second-color;
   font-size: 26px;
   font-weight: 500;
   text-transform: uppercase;
@@ -22971,7 +22957,7 @@ html[lang=uk] .quick-order h2 {
 }
 .quick-order .form-group.has-error select,
 .quick-order .form-group.has-error input{
-  border: 1px solid #3FC3EF;
+  border: 1px solid $second-color;
 }.quick-order .help-block-error{
   display: none;
 }.quick-order .field-quickordermodel-promo{
@@ -23023,7 +23009,7 @@ html[lang=uk] .quick-order h2 {
   margin: 0 0 10px;
 }.quick-order a{
   text-decoration: underline;
-  color: #3FC3EF;
+  color: $second-color;
 }.quick-order svg{
   width: 15px;
   fill: #5f065c;
@@ -23106,7 +23092,7 @@ html[lang=uk] .quick-order h2 {
 .quick-order-section-small .form-group.has-error .input,
 .quick-order-full .form-group.has-error .select,
 .quick-order-full .form-group.has-error .input {
-  border: 1px solid #3FC3EF;
+  border: 1px solid $second-color;
 }
 .quick-order-full .select {
   -webkit-appearance: menulist !important;
@@ -23288,7 +23274,7 @@ html[lang=uk] .quick-order h2 {
   font-weight: 500;
 }#vt-products .saving{
   font-size: 20px;
-  color: #3FC3EF;
+  color: $second-color;
   text-align: center;
   margin: 10px auto;
   width: 250px;
@@ -23436,7 +23422,7 @@ html[lang=uk] .quick-order h2 {
 }
 .our_help .our_help-block .title{
   font-size: 20px;
-  color: #3FC3EF;
+  color: $second-color;
   margin: 15px 0;
 }
 .car_selection .wrapper{
@@ -23503,7 +23489,7 @@ html[lang=uk] .quick-order h2 {
   font-weight: bold;
 }
 .u-arts-item-name-wrapper .price{
-  color: #3FC3EF;
+  color: $second-color;
   font-size: 20px;
   font-weight: bold;
   margin-top: 5px;
@@ -23590,7 +23576,7 @@ html[lang=uk] .quick-order h2 {
   position: absolute;
   content: '';
   height: 3px;
-  background: #3FC3EF;
+  background: $second-color;
   bottom: 0;
   left: 50%;
   -webkit-transition: all 0.3s;
@@ -23607,7 +23593,7 @@ html[lang=uk] .quick-order h2 {
 .form-calc .labels div.active {
   background: #fff;
   font-weight: bold;
-  color: #3FC3EF;
+  color: $second-color;
 }
 .form-calc .labels div.radio {
     display: none;
@@ -23645,7 +23631,7 @@ html[lang=uk] .quick-order h2 {
   position: relative;
 }
 .form-calc .form-group.has-error select, .form-calc .form-group.has-error input:not(#fc-discount) {
-  border: 1px solid #3FC3EF;
+  border: 1px solid $second-color;
 }
 .form-calc .fc-input-group select {
   cursor: pointer;
