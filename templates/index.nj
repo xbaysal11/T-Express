@@ -371,7 +371,7 @@
           <img
           class="pic lazy"
           src="/images/static/step1.png"
-          style="display: inline;"
+         
 />
         </div>
         <div class="col-sm-7 col-xs-12 text-xs-center">
