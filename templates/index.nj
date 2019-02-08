@@ -62,7 +62,6 @@
       </div>
     </div>
   </section>
-  
 
   <!-- Shop Logo -->
   <div class="shop">
@@ -252,8 +251,8 @@
           </div>
           <div class="signature-section">
             <div class="si-text">
-              <p>Ketty Raigott</p>
-              <span>Chairman & Chief Executive Officer</span>
+              <p>Директор Директоров</p>
+              <span>Директор компании</span>
             </div>
             <img src="/images/about/1.png" alt=""/>
           </div>
@@ -382,131 +381,131 @@
             Опираясь на многолетний опыт, смело заявляем — мы и сами заядлые шоперы. Сотрудники T-Express с радостью всем помогут разобраться во всех тонкостях шопинга, подскажут в какое время выгодно совершать покупки и как сократить свои расходы, используя промо-коды и другие скидочные фишки американских онлайн-магазинов.
           </p>
           <div class="alert segment-small">
-            <i class="fas fa-info-circle" ></i>
-
-            T-Express экономит время каждого клиента, предлагая лучшие опции шопинга и доставки из США всего в несколько кликов.
-          </p>
-        </div>
-      </div>
-
-      <div class="row segment-xxlarge">
-        <div class="col-sm-7 col-xs-12">
-          <div class="text-xs-center">
-            <h3>Быстрая доставка, гарантия качества</h3>
-            <p>
-              Мы дорожим своей репутацией, поэтому для нас каждая посылка имеет значение. Нам приятно видеть радость на лицах наших клиентов, когда они получают посылку в целости и сохранности, а самое главное в срок.
-              {# <a href="/ru/calculator">Убедитесь сами!</a> #}
-            </p>
-            <p>
-              В случае утери или порчи посылки по нашей вине, клиенту возмещается ее полная стоимость. Условия возмещения ущерба оговариваются с каждым клиентом индивидуально.
-            </p>
-          </div>
-          <div class="alert segment-small">
             <i class="fa fa-info-circle fa-2" ></i>
             <p>
-              Все посылки на складе в США проходят через сканирование, а актуальную информацию о местонахождении посылки можно найти в своем личном кабинете.
+              T-Express экономит время каждого клиента, предлагая лучшие опции шопинга и доставки из США всего в несколько кликов.
             </p>
           </div>
         </div>
-        <div class="col-sm-5 col-xs-12 visible-xs-block text-xs-center">
-          <img
+
+        <div class="row segment-xxlarge">
+          <div class="col-sm-7 col-xs-12">
+            <div class="text-xs-center">
+              <h3>Быстрая доставка, гарантия качества</h3>
+              <p>
+                Мы дорожим своей репутацией, поэтому для нас каждая посылка имеет значение. Нам приятно видеть радость на лицах наших клиентов, когда они получают посылку в целости и сохранности, а самое главное в срок.
+                {# <a href="/ru/calculator">Убедитесь сами!</a> #}
+              </p>
+              <p>
+                В случае утери или порчи посылки по нашей вине, клиенту возмещается ее полная стоимость. Условия возмещения ущерба оговариваются с каждым клиентом индивидуально.
+              </p>
+            </div>
+            <div class="alert segment-small">
+              <i class="fa fa-info-circle fa-2" ></i>
+              <p>
+                Все посылки на складе в США проходят через сканирование, а актуальную информацию о местонахождении посылки можно найти в своем личном кабинете.
+              </p>
+            </div>
+          </div>
+          <div class="col-sm-5 col-xs-12 visible-xs-block text-xs-center">
+            <img
           class="pic lazy"
           src="/images/static/step3.png"
           style="display: inline;"
 />
-        </div>
+          </div>
 
-        <!-- <div class="col-sm-5 col-xs-12 hidden-xs">
+          <!-- <div class="col-sm-5 col-xs-12 hidden-xs">
                   <img class="pic lazy" src="/assets/images/static/why-2.svg" style="display: inline;">
               </div> -->
-      </div>
+        </div>
 
-      <div class="row segment-large">
-        <div class="col-sm-5 col-xs-12 text-xs-center">
-          <img
+        <div class="row segment-large">
+          <div class="col-sm-5 col-xs-12 text-xs-center">
+            <img
           class="pic lazy"
           src="/images/static/step2.png"
           style="display: inline;"
 />
-        </div>
-        <div class="col-sm-7 col-xs-12">
-          <div class="text-xs-center">
-            <h3>GIFT CARD США - ЭТО УДОБНО</h3>
-            <p>
-              Это карты с американским биллингом для покупки товаров и оплаты услуг в США. Вы покупаете гифт-карту, чтобы обойти систему безопасности интернет-магазинов в США, которые не принимают банковские карты с иностранным билл-адресом. Поскольку карты не именные, то вы можете использовать их самостоятельно, либо подарить.
-            </p>
           </div>
-
-          <div class="alert segment-small">
-            <i class="fa fa-info-circle" ></i>
-
-            <p>
-              <a href="https://soroka-vorovka.com/help/gift-cards-usa">Список с GIFT картами вот с этого сайта
-              </a>
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- testimonial-area start -->
-  <div class="testimonial-area">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6 offset-lg-3">
-          <div class="testimonial-active owl-carousel">
-            <div class="testimonial-wrap">
-              <div class="testimonial-img">
-                <img src="/images/testimonial/T-EXPlogo.png" alt=""/>
-              </div>
-              <div class="testimonial-item">
-                <div class="testimonial-content">
-                  <p>
-                    Доставка товаров из США в Кыргызстан - от 625 сом. При доставке нестандартных грузов, тариф оговаривается индивидуально.
-                  </p>
-                  {# <h4>Manela Watson</h4>
-                <span>Derector of ATV</span> #}
-                </div>
-              </div>
-              <div class="test-c d-none d-lg-block"></div>
-              <div class="test-b d-none d-lg-block"></div>
+          <div class="col-sm-7 col-xs-12">
+            <div class="text-xs-center">
+              <h3>GIFT CARD США - ЭТО УДОБНО</h3>
+              <p>
+                Это карты с американским биллингом для покупки товаров и оплаты услуг в США. Вы покупаете гифт-карту, чтобы обойти систему безопасности интернет-магазинов в США, которые не принимают банковские карты с иностранным билл-адресом. Поскольку карты не именные, то вы можете использовать их самостоятельно, либо подарить.
+              </p>
             </div>
-            <div class="testimonial-wrap">
-              <div class="testimonial-img">
-                <img src="/images/testimonial/T-EXPlogo.png" alt=""/>
-              </div>
-              <div class="testimonial-item">
-                <div class="testimonial-content">
-                  <p>
-                    Мы также можем принять и отправить вашу личную посылку из США в Кыргызстан. Сдать свои посылки вы можете в городе Нью-Йорк представителю нашей компании, для этого свяжитесь с нашими менеджерами в городе Бишкек или Нью-Йорк.
-                  </p>
-                  {# <h4>Manela Watson</h4>
-                <span>Derector of ATV</span> #}
-                </div>
-              </div>
-              <div class="test-c d-none d-lg-block"></div>
-              <div class="test-b d-none d-lg-block"></div>
-            </div>
-            <div class="testimonial-wrap">
-              <div class="testimonial-img">
-                <img src="/images/testimonial/T-EXPlogo.png" alt=""/>
-              </div>
-              <div class="testimonial-item">
-                <div class="testimonial-content">
-                  <p>
-                    В тех случаях, когда вам необходимы дополнительные услуги (например, сделать фото товаров, проверить размеры или добавить упаковочные материалы при упаковке), связанные с посылками, которые уже прилетели на наш склад, вы можете заказать их с помощью спецзапросов.
-                  </p>
-                  {# <h4>Manela Watson</h4>
-                <span>Derector of ATV</span> #}
-                </div>
-              </div>
-              <div class="test-c d-none d-lg-block"></div>
-              <div class="test-b d-none d-lg-block"></div>
+
+            <div class="alert segment-small">
+              <i class="fa fa-info-circle" ></i>
+
+              <p>
+                <a href="https://soroka-vorovka.com/help/gift-cards-usa">Список с GIFT картами вот с этого сайта
+                </a>
+              </p>
             </div>
           </div>
         </div>
       </div>
+    </section>
+    <!-- testimonial-area start -->
+    <div class="testimonial-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 offset-lg-3">
+            <div class="testimonial-active owl-carousel">
+              <div class="testimonial-wrap">
+                <div class="testimonial-img">
+                  <img src="/images/testimonial/T-EXPlogo.png" alt=""/>
+                </div>
+                <div class="testimonial-item">
+                  <div class="testimonial-content">
+                    <p>
+                      Доставка товаров из США в Кыргызстан - от 625 сом. При доставке нестандартных грузов, тариф оговаривается индивидуально.
+                    </p>
+                    {# <h4>Manela Watson</h4>
+                <span>Derector of ATV</span> #}
+                  </div>
+                </div>
+                <div class="test-c d-none d-lg-block"></div>
+                <div class="test-b d-none d-lg-block"></div>
+              </div>
+              <div class="testimonial-wrap">
+                <div class="testimonial-img">
+                  <img src="/images/testimonial/T-EXPlogo.png" alt=""/>
+                </div>
+                <div class="testimonial-item">
+                  <div class="testimonial-content">
+                    <p>
+                      Мы также можем принять и отправить вашу личную посылку из США в Кыргызстан. Сдать свои посылки вы можете в городе Нью-Йорк представителю нашей компании, для этого свяжитесь с нашими менеджерами в городе Бишкек или Нью-Йорк.
+                    </p>
+                    {# <h4>Manela Watson</h4>
+                <span>Derector of ATV</span> #}
+                  </div>
+                </div>
+                <div class="test-c d-none d-lg-block"></div>
+                <div class="test-b d-none d-lg-block"></div>
+              </div>
+              <div class="testimonial-wrap">
+                <div class="testimonial-img">
+                  <img src="/images/testimonial/T-EXPlogo.png" alt=""/>
+                </div>
+                <div class="testimonial-item">
+                  <div class="testimonial-content">
+                    <p>
+                      В тех случаях, когда вам необходимы дополнительные услуги (например, сделать фото товаров, проверить размеры или добавить упаковочные материалы при упаковке), связанные с посылками, которые уже прилетели на наш склад, вы можете заказать их с помощью спецзапросов.
+                    </p>
+                    {# <h4>Manela Watson</h4>
+                <span>Derector of ATV</span> #}
+                  </div>
+                </div>
+                <div class="test-c d-none d-lg-block"></div>
+                <div class="test-b d-none d-lg-block"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
 
-{% endblock %}
+  {% endblock %}

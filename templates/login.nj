@@ -2,40 +2,50 @@
 
 {% block title %}ВХОД - T-Express{% endblock %}
 
-{% block link %}<link href="/css/login.css" rel="stylesheet"> {% endblock %}
+{% block link %}<link href="/css/login.css" rel="stylesheet">
+{% endblock %}
 
 {% block content %}
-<div class="layout">
-  <div class="empty" ></div>
-      <div class="container_log">
-        <div class="title_log">
-          <h3>Авторизация</h3>
-          <p class="p_log">
-            Введите свой e-mail и пароль для входа <br />
-            <br />
-            <a class="a_log" href="#">Регистрация</a>
-          </p>
-          <br />
-        </div>
+  <div class="layout">
+    <div class="empty" ></div>
+    <div class="container_log">
+      <div class="title_log">
+        <h3>Авторизация</h3>
+        <p class="p_log">
+          Введите свой e-mail и пароль для входа
+          <br/>
+          <br/>
+          <a class="a_log" href="registration.html">Регистрация</a>
+        </p>
+        <br/>
+      </div>
 
-        <div class="registration">
-          <div class="mail_log">
-            <br />
-            <p class="p_log">Электронная почта</p>
-            <input placeholder="Электронная почта" /> <br />
-            <p class="password p_log">Пароль</p>
-            <input class="pass_input" placeholder="Пароль" /> <br />
-          </div>
-          <div class="extra_info"><button class="btn">Войти</button></div>
-          <div class="new_password"><a href="#">Запросить новый пароль</a></div>
+      <div class="registration">
+        <div class="mail_log">
+          <br/>
+          <p class="p_log">Электронная почта</p>
+          <input placeholder="Электронная почта"/>
+          <br/>
+          <p class="password p_log">Пароль</p>
+          <input class="pass_input" placeholder="Пароль"/>
+          <br/>
         </div>
-        <div class="come_in">
-          <div class="img_log">
-            <img src="https://img.icons8.com/color/48/000000/google-logo.png" />
-            <a class="abc" href="#"> Войти с Google </a>
-          </div>
-          <p class="p_log">Уже есть учетная запись?? <a class="a_log" href="#">Войти</a></p>
+        <div class="extra_info">
+          <button class="btn">Войти</button>
+        </div>
+        <div class="new_password">
+          <a href="#">Запросить новый пароль</a>
         </div>
       </div>
+      <div class="come_in">
+        <div class="img_log">
+          <img src="https://img.icons8.com/color/48/000000/google-logo.png"/>
+          <a class="abc" href="#">
+            Войти с Google
+          </a>
+        </div>
+        {# <p class="p_log">Уже есть учетная запись?? <a class="a_log" href="#">Войти</a></p> #}
+      </div>
     </div>
+  </div>
 {% endblock %}

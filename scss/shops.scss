@@ -1,8 +1,8 @@
 @charset "UTF-8";
-
-$main-color: #7e57c2;
-$second-color: #db26fa;
-$third-color: #796698;
+$main-color: #163e69;
+$item: #0c5baf2c;
+$second-color: #0c1b4c;
+$third-color: #0f1a46;
 
 * {
   box-sizing: border-box;
@@ -2777,7 +2777,7 @@ html, body {
 
 body {
   font-family: 'DINPro', sans-serif;
-  font-size: 14px;
+  // font-size: 14px;
   line-height: 24px;
   color: #524d47;
 }
@@ -8985,8 +8985,7 @@ html.stop-scroll {
 }
 
 .online-tabs-item:hover, .online-tabs-item.active {
-  background-color: transparent;
-
+  background-color: $item;
 }
 
 .online-tabs-item:hover:before, .online-tabs-item.active:before {
