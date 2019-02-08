@@ -25,11 +25,11 @@
         <div class="name_div">
           <div class="name_reg">
             <p class="a_reg">Имя</p>
-            <input class="input_name" placeholder="Baysal"/>
+            <input class="input_name" placeholder="Имя"/>
           </div>
           <div class="surname_reg">
             <p class="a_reg">Фамилия</p>
-            <input class="input_surname" placeholder="Banderolkin"/>
+            <input class="input_surname" placeholder="Фамилия"/>
           </div>
         </div>
         <br/>
@@ -40,12 +40,17 @@
         <div class="extra_info">
           <div class="check_reg clearfix">
             <p class="agreement">
-              <input type="checkbox"/>Я согласен с
+              <input type="checkbox"/>
+              <span>Я согласен с</span>
               <a class="a_reg" href="#">условиями использовани *
               </a>
             </p>
           </div>
-          <button class="btn_reg">Регистрация</button>
+          <a href="#" >
+            <button class="btn_reg">
+              <a>Регистрация</a>
+            </button>
+          </a>
         </div>
         <div class="attention">
           <p>
@@ -55,12 +60,14 @@
         </div>
       </div>
       <div class="come_in">
-        <div class="img_reg">
-          <img src="https://img.icons8.com/color/48/000000/google-logo.png"/>
-          <a class="abc a_reg" href="#">
-            Войти с Google
-          </a>
-        </div>
+        <a href="#">
+          <div class="img_reg">
+            <img src="https://img.icons8.com/color/48/000000/google-logo.png"/>
+            <a class="abc a_reg" href="#">
+              Войти с Google
+            </a>
+          </div>
+        </a>
         <p>Уже есть учетная запись??
           <a href="login.html">Войти</a>
         </p>

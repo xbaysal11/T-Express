@@ -1,3 +1,48 @@
+$main-color: #163e69;
+$item: #0c5baf2c;
+$second-color: #0c1b4c;
+$third-color: #0f1a46;
+$fourth-color: #06081a;
+$input: rgba(7, 47, 224, 0.212);
+
+%button {
+  &:hover {
+    transition: 0.5s;
+    background-color: $main-color;
+    border: 1px solid $main-color;
+    a {
+      // cursor: default;
+      color: white;
+      &:hover {
+        color: white;
+      }
+    }
+  }
+}
+
+.layout {
+  background-color: #f2f3f3ad;
+}
+%input {
+  height: 34px;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border-color 0.15s ease-in-out,
+    -webkit-box-shadow 0.15s ease-in-out;
+  -o-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  &:focus {
+    border-color: #66afe9;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),
+      0 0 8px rgba(102, 175, 233, 0.6);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),
+      0 0 8px rgba(102, 175, 233, 0.6);
+  }
+}
 .container_reg {
   width: 400px;
   margin: 0 auto;
@@ -25,7 +70,6 @@
   font-size: 90%;
 }
 .a_reg {
-  color: rgb(56, 149, 224);
   text-decoration: none;
 }
 .title .a_reg:hover {
@@ -42,14 +86,17 @@ div {
 }
 .input_surname {
   width: 81%;
+  @extend %input;
 }
 .input_name {
   width: 80%;
+  @extend %input;
 }
 .name {
   margin-left: 0.7%;
 }
 .registration {
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
   background: #ffffff;
   border-radius: 5px;
   padding-bottom: 5%;
@@ -84,18 +131,19 @@ div {
 }
 .mail_reg input {
   width: 90.6%;
+  @extend %input;
 }
 h2 {
   margin: 0;
   padding: 0;
 }
 .btn_reg {
-  color: #fff;
-  border-radius: 7px;
-  height: 35px;
-  width: 94%;
-  border: 4px solid rgb(85, 168, 237);
-  background-color: rgb(85, 168, 237);
+  border-radius: 4px;
+  background-color: #fff;
+  width: 97%;
+  border: 1px solid rgb(85, 168, 237);
+  color: rgb(85, 168, 237);
+  @extend %button;
 }
 .input_reg {
   border-radius: 5px;
@@ -108,21 +156,21 @@ h2 {
 }
 .name_reg p {
   margin: 15% 0% 8% 0%;
-  color: rgb(187, 197, 207);
+  color: $main-color;
   font-weight: bold;
   font-size: 90%;
 }
 .surname_reg p {
   margin: 15% 0% 8% 0%;
-  color: rgb(187, 197, 207);
   font-weight: bold;
+  color: $main-color;
   font-size: 90%;
 }
 .mail_reg p {
-  color: rgb(187, 197, 207);
   font-weight: bold;
   font-size: 90%;
   margin: 0% 0% 4% 0%;
+  color: $main-color;
 }
 .clearfix::after {
   content: "";
@@ -130,9 +178,17 @@ h2 {
   display: table;
 }
 .agreement {
+  width: 100%;
   float: left;
   padding: 5% 0 5% 0;
-  font-size: 90%;
+  font-size: 0.8rem;
+  // display: inline;
+  span {
+    margin-left: 2%;
+  }
+  a {
+    font-size: 0.8rem;
+  }
 }
 .check_reg input {
   float: left;
@@ -162,9 +218,6 @@ h2 {
   font-weight: bold;
 }
 
-.come_in a:hover {
-  color: rgb(203, 209, 215);
-}
 .come_in {
   margin-top: 8%;
 }
@@ -177,12 +230,22 @@ h2 {
   font-size: 80%;
 }
 .img_reg {
+  @extend %button;
+
   width: 40%;
   margin: 0 auto;
   border: 1px solid rgb(85, 168, 237);
   padding: 3% 2% 3% 0;
   border-radius: 4px;
   margin-top: 10px;
+  p {
+    a {
+      color: rgb(85, 168, 237);
+      &:hover {
+        color: rgb(84, 90, 101);
+      }
+    }
+  }
 }
 .head_blogs {
   background-color: rgba(0, 0, 0, 0.5);
