@@ -8,7 +8,8 @@
 
 $main-color: #163e69;
 $second-color: #0c1b4c;
-$third-color: #0f1a46;
+$third-color: #070b1d;
+$fourth-color: #06081a;
 
 // -------------------------------------------------
 
@@ -16,9 +17,9 @@ $third-color: #0f1a46;
   // font-family: "Rubik", sans-serif;
   font-family: "Montserrat", sans-serif;
 }
-.fa-2 {
-  margin-top: 3%;
-}
+// .fa-2 {
+//   margin-top: 3%;
+// }
 .fa-info-circle {
   font-size: 50px;
   color: $main-color;
@@ -580,16 +581,16 @@ mobile menu
   overflow: hidden;
 }
 .slide {
-  &:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background-image: linear-gradient($main-color, rgba(0, 0, 0, 0));
-    opacity: 0.7;
-  }
+  // &:before {
+  //   content: "";
+  //   position: absolute;
+  //   top: 0;
+  //   right: 0;
+  //   bottom: 0;
+  //   left: 0;
+  //   background-image: linear-gradient($main-color, rgba(0, 0, 0, 0));
+  //   opacity: 0.7;
+  // }
   position: relative;
 }
 .slide:after {
@@ -850,9 +851,6 @@ mobile menu
 }
 .more a {
   color: black;
-  &:hover {
-    color: white;
-  }
 }
 
 .more button {
@@ -863,9 +861,13 @@ mobile menu
   color: black;
 }
 .more button:hover {
+  color: white;
   transition: all 0.5s;
   background: $second-color;
   border: 1px solid $second-color;
+  a {
+    color: white;
+  }
 }
 .about-content p {
   margin-bottom: 30px;
@@ -877,6 +879,7 @@ mobile menu
   margin-top: 100px;
 }
 .about-content span {
+  font-size: 0.9rem;
   display: block;
   padding-left: 30px;
   padding-bottom: 20px;
@@ -1133,7 +1136,10 @@ mobile menu
     right: 0;
     bottom: 0;
     left: 0;
-    background-image: linear-gradient(rgba(0, 0, 0, 0), $main-color);
+    background-image: linear-gradient(
+      rgba(22, 62, 105, 0.1),
+      rgba(22, 62, 105, 0.83)
+    );
     opacity: 1;
   }
 }
@@ -1486,13 +1492,15 @@ mobile menu
 }
 .alert {
   display: flex;
+  align-items: center !important;
+  -ms-flex-align: center !important;
   p {
     padding: 2% 0 0 2%;
   }
-  img {
-    width: 7%;
-    height: auto;
-  }
+  // img {
+  //   width: 7%;
+  //   height: auto;
+  // }
 }
 
 /*==========================================
@@ -1824,7 +1832,7 @@ mobile menu
   display: block;
   height: 45px;
   width: 45px;
-  background: #fff;
+  background: white;
   color: #333;
   line-height: 45px;
   border-radius: 50%;
@@ -1835,14 +1843,17 @@ mobile menu
 }
 .social li a:hover {
   background: $second-color;
-  color: #fff;
 }
 .footer-top p {
-  color: #fff;
+  color: rgb(212, 212, 212);
+
   margin-bottom: 30px;
 }
 .footer-top a {
-  color: #fff;
+  color: rgb(212, 212, 212);
+  &:hover {
+    color: white;
+  }
 }
 .Recent-News-area p {
   margin-bottom: 10px;
@@ -1891,7 +1902,7 @@ mobile menu
 }
 
 .footer-bottom {
-  background: $third-color;
+  background: $fourth-color;
   padding: 10px 0;
 }
 .footer-bottom-content {

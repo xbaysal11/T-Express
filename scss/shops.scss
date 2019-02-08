@@ -1,5 +1,6 @@
 @charset "UTF-8";
 $main-color: #163e69;
+$item: #0c5baf2c;
 $second-color: #0c1b4c;
 $third-color: #0f1a46;
 
@@ -8984,8 +8985,7 @@ html.stop-scroll {
 }
 
 .online-tabs-item:hover, .online-tabs-item.active {
-  background-color: transparent;
-
+  background-color: $item;
 }
 
 .online-tabs-item:hover:before, .online-tabs-item.active:before {
