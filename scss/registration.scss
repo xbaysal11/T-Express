@@ -1,6 +1,3 @@
-body {
-  font-family: "Roboto Slab", serif;
-}
 .container_reg {
   width: 400px;
   margin: 0 auto;
@@ -188,9 +185,9 @@ h2 {
   margin-top: 10px;
 }
 .head_blogs {
-    background-color: rgba(0, 0, 0, 0.5);
-    height: 90px;
-  }
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 90px;
+}
 @media screen and (max-width: 600px) {
   .container {
     width: 100%;

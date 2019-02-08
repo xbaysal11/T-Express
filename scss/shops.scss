@@ -3,6 +3,8 @@ $main-color: #163e69;
 $item: #0c5baf2c;
 $second-color: #0c1b4c;
 $third-color: #0f1a46;
+$fourth-color: #06081a;
+$input: rgba(7, 47, 224, 0.212);
 
 * {
   box-sizing: border-box;
@@ -8693,7 +8695,7 @@ html.stop-scroll {
   right: 45px;
   border: none;
   outline: none;
-  background-color: #f2f2f2;
+  background-color: $input;
   width: 305px;
   height: 45px;
   margin: 0;

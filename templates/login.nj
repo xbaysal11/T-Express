@@ -31,7 +31,9 @@
           <br/>
         </div>
         <div class="extra_info">
-          <button class="btn">Войти</button>
+          <button class="btn">
+            <a>Войти</a>
+          </button>
         </div>
         <div class="new_password">
           <a href="#">Запросить новый пароль</a>

@@ -1,6 +1,25 @@
-body {
-  font-family: "Roboto Slab", serif;
+$main-color: #163e69;
+$item: #0c5baf2c;
+$second-color: #0c1b4c;
+$third-color: #0f1a46;
+$fourth-color: #06081a;
+$input: rgba(7, 47, 224, 0.212);
+
+%button {
+  &:hover {
+    transition: 0.5s;
+    background-color: $main-color;
+    border: 1px solid $main-color;
+    a {
+      color: white;
+    }
+  }
 }
+
+.layout {
+  background-color: #f2f3f3ad;
+}
+
 .container_log {
   width: 400px;
   margin: 0 auto;
@@ -44,6 +63,8 @@ div {
   display: border-box;
 }
 .registration {
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+
   background: #ffffff;
   border-radius: 5px;
   padding-bottom: 5%;
@@ -62,8 +83,11 @@ div {
   margin-bottom: 5%;
 }
 
-.extra_info .abc {
-  font-size: 90%;
+.extra_info .btn {
+  width: 97%;
+  border: 1px solid rgb(85, 168, 237);
+  color: rgb(85, 168, 237);
+  @extend %button;
 }
 .come_in {
   text-align: center;
@@ -79,7 +103,25 @@ div {
 }
 .mail_log input {
   margin-top: -1%;
-  width: 90.6%;
+  width: 97.5%;
+  height: 34px;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border-color 0.15s ease-in-out,
+    -webkit-box-shadow 0.15s ease-in-out;
+  -o-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  &:focus {
+    border-color: #66afe9;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),
+      0 0 8px rgba(102, 175, 233, 0.6);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),
+      0 0 8px rgba(102, 175, 233, 0.6);
+  }
 }
 
 h2 {
@@ -116,14 +158,12 @@ h2 {
   font-size: 90%;
 }
 .mail_log p {
-  color: rgb(187, 197, 207);
+  color: $main-color;
   font-weight: bold;
   font-size: 90%;
   margin: 0% 0% 4% 0%;
 }
-.come_in a:hover {
-  color: rgb(203, 209, 215);
-}
+
 .come_in {
   margin-top: 8%;
 }
@@ -145,6 +185,7 @@ h2 {
   padding: 3% 2% 3% 0;
   border-radius: 4px;
   margin-top: 10px;
+  @extend %button;
 }
 .pass_input {
   margin-bottom: 4%;
