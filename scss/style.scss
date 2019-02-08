@@ -6,21 +6,22 @@
 // @import "../node_modules/@fontawesome/fontawesome-free/scss/solid";
 // @import "../node_modules/@fontawesome/fontawesome-free/scss/v4-shims";
 
-$main-color: rgb(126, 87, 194);
-$second-color: #db26fa;
-$third-color: #796698;
+$main-color: #163e69;
+$second-color: #0c1b4c;
+$third-color: #0f1a46;
 
 // -------------------------------------------------
 
 * {
-  font-family: "Rubik", sans-serif;
+  // font-family: "Rubik", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 .fa-2 {
   margin-top: 3%;
 }
 .fa-info-circle {
   font-size: 50px;
-  color: $second-color;
+  color: $main-color;
 }
 
 body {
@@ -161,6 +162,7 @@ a:focus {
 ====================================*/
 
 .header-top {
+  font-size: 14px;
   background: $main-color;
 }
 .header-top ul.header-contact {
@@ -168,7 +170,7 @@ a:focus {
 }
 .header-top li {
   display: inline-block;
-  padding: 15px;
+  padding: 8px;
   color: #fff;
 }
 .header-top li i {
@@ -200,7 +202,7 @@ a:focus {
   right: -35px;
   top: 30%;
   width: 1px;
-  height: 25px;
+  height: 15px;
   background: white;
   opacity: 0.5;
 }
@@ -285,9 +287,10 @@ a:focus {
   color: #fff;
 }
 .logo {
+  padding: 0;
   height: auto;
-  width: 4vw;
-  color: white;
+  width: 20%;
+  // color: white;
   margin-top: 1%;
 }
 .logo a {
@@ -573,7 +576,7 @@ mobile menu
 --------------------------------------------------------------*/
 .hero {
   position: relative;
-  height: 840px;
+  // height: 840px;
   overflow: hidden;
 }
 .slide {
@@ -606,7 +609,7 @@ mobile menu
 }
 
 .hero .slide {
-  height: 840px;
+  height: calc(100vh - 37px);
   position: relative;
   background-repeat: no-repeat;
   position: relative;
@@ -627,8 +630,10 @@ mobile menu
 }
 
 .hero .slide .row {
+  padding: 0 30px;
   display: table-cell;
   vertical-align: middle;
+  font-size: 20px;
 }
 
 .hero .slick-prev,
@@ -733,10 +738,10 @@ mobile menu
 }
 .hero-style-1 .slide-caption h2,
 .hero-style-2 .slide-caption h2 {
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 600;
   color: white;
-  line-height: 75px;
+  line-height: 55px;
   margin: 33px 0;
 }
 
@@ -861,8 +866,6 @@ mobile menu
   transition: all 0.5s;
   background: $second-color;
   border: 1px solid $second-color;
-  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
-    0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 .about-content p {
   margin-bottom: 30px;
@@ -1118,24 +1121,31 @@ mobile menu
 .how_it_work {
   padding: 10%;
   color: #fff;
-  background: url(../images/static/ship.png) no-repeat center top / cover;
+  background: url(../images/static/ship.jpeg) no-repeat center top / cover;
   position: relative;
   background-attachment: fixed;
+  z-index: 1;
   &:before {
+    // z-index: 1;
     content: "";
     position: absolute;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
-    background-image: linear-gradient(rgba(255, 255, 255, 0), $main-color);
-    opacity: 0.6;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), $main-color);
+    opacity: 1;
   }
 }
 .how_it_work .text-center {
   padding: 2%;
+  color: white;
+  z-index: 1;
 }
 
+.how_it_work .container {
+  position: inherit;
+}
 .how_it_work .row {
   display: flex;
   justify-content: space-around;
@@ -1274,7 +1284,7 @@ mobile menu
   bottom: 0;
   width: 60px;
   height: 3px;
-  background: $second-color;
+  background: $main-color;
 }
 /*====================================
 1.1 pricing-area start
@@ -1396,8 +1406,8 @@ mobile menu
   bottom: -50px;
 }
 .testimonial-img img {
-  border-radius: 50%;
-  border: 5px solid #bbb;
+  // border-radius: 50%;
+  // border: 5px solid $main-color;
   // width: 50px;
   // height: 20px;
 }
@@ -1442,7 +1452,7 @@ mobile menu
   position: absolute;
   left: 47%;
   top: 0;
-  content: "\f10d";
+  // content: "\f10d";
   font-family: "FontAwesome";
   color: #999;
   font-size: 30px;
@@ -1799,7 +1809,7 @@ mobile menu
 1.6 footer-area start
 =========================================*/
 .footer-area {
-  background: $main-color;
+  background: $third-color;
 }
 .footer-top {
   padding: 60px 0 30px 0;
@@ -1881,7 +1891,7 @@ mobile menu
 }
 
 .footer-bottom {
-  background: $main-color;
+  background: $third-color;
   padding: 10px 0;
 }
 .footer-bottom-content {
@@ -1897,7 +1907,12 @@ mobile menu
 =================================*/
 .hero-style-1.hero-style-2 .slide-caption {
   padding-bottom: 0;
-  padding-top: 40px;
+  margin-top: -100px;
+}
+@media (max-width: 600px) {
+  .hero-style-1.hero-style-2 .slide-caption {
+    margin-top: 40px;
+  }
 }
 .section-area.section-style-2 {
   background: #fff;

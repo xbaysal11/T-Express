@@ -1,6 +1,6 @@
-$main-color: #7e57c2;
-$second-color: #db26fa;
-$third-color: #582c9e;
+$main-color: #163e69;
+$second-color: #0c1b4c;
+$third-color: #0f1a46;
 
 .container_of {
   border: 1px $main-color solid;
@@ -68,7 +68,7 @@ $third-color: #582c9e;
 
 .foot {
   margin-top: 8%;
-  background-color: $third-color;
+  background-color: $second-color;
   height: 40%;
   display: flex;
   justify-content: center;
@@ -82,7 +82,7 @@ $third-color: #582c9e;
 }
 
 .left_cal {
-  color: $second-color;
+  color: $third-color;
 }
 
 .left_cal p {
@@ -94,21 +94,21 @@ $third-color: #582c9e;
   font-weight: 700;
   font-size: 40px;
 }
-.left_cal span{
+.left_cal span {
   color: rgb(211, 175, 131);
 }
 
 .right_cal {
   margin-top: 11.5%;
   margin-bottom: 20px;
-  border: $second-color 3px solid;
+  border: $main-color 3px solid;
   border-radius: 5px;
   color: #fff;
   text-align: center;
   font-size: 70%;
   padding: 3% 0 3% 3%;
   &:hover {
-    background-color: #db26fa;
+    background-color: $main-color;
   }
 }
 
