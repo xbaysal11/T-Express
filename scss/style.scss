@@ -6,7 +6,7 @@
 // @import "../node_modules/@fontawesome/fontawesome-free/scss/solid";
 // @import "../node_modules/@fontawesome/fontawesome-free/scss/v4-shims";
 
-$main-color: #7e57c2;
+$main-color: rgb(126, 87, 194);
 $second-color: #db26fa;
 $third-color: #796698;
 
@@ -15,7 +15,7 @@ $third-color: #796698;
 * {
   font-family: "Rubik", sans-serif;
 }
-.fa-2{
+.fa-2 {
   margin-top: 3%;
 }
 .fa-info-circle {
@@ -32,8 +32,8 @@ body {
 .empty {
   margin: 0;
   padding: 0;
-  height: 7.5vh;
-  background-color: $main-color;
+  height: 5.5vh;
+  // background-color: $main-color;
 }
 
 @media (max-width: 767px) {
@@ -214,21 +214,21 @@ a:focus {
   width: 100%;
   position: absolute;
   z-index: 99;
-  background-color: rgba(255, 255, 255, 0.1);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  background-color: $main-color;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 .account_login-area li:first-child {
   padding-left: 0;
 }
 .account_login-area li i {
-  // color: $second-color;
-  // font-size: 15px;
+  color: $second-color;
+  font-size: 15px;
 }
 
 .account_login-area .account-item {
   position: relative;
   color: #333;
-  padding: 10px 37px;
+  padding: 10px 27px;
 }
 
 .account_login-area .account-item i {
@@ -322,6 +322,9 @@ a:focus {
   text-transform: uppercase;
   position: relative;
   padding-bottom: 15px;
+}
+.fa-clock:before {
+  color: white;
 }
 .main-menu nav ul li a:before {
   position: absolute;
@@ -656,7 +659,7 @@ mobile menu
 
 .hero .slick-next:before {
   font-family: "Font Awesome 5 Free";
-  content: "";
+  content: "\f105";
   opacity: 1;
   color: #fff;
 }
@@ -1445,7 +1448,9 @@ mobile menu
   font-size: 30px;
 }
 .testimonial-item h4 {
-  font-family: "Roboto", sans-serif;
+  // font-family: "Roboto", sans-serif;
+  font-family: "Rubik", sans-serif;
+
   font-weight: 500;
   font-size: 18px;
   color: $main-color;
@@ -1604,9 +1609,20 @@ mobile menu
   padding: 30px 0;
   background: #f5f5f5;
 }
+.fa-map-marker-alt:before {
+  color: $main-color;
+}
+.fa-envelope-open:before {
+  color: $main-color;
+}
+.fa-phone:before {
+  color: $main-color;
+}
 .team-content h4 {
   font-size: 20px;
-  font-family: "Roboto", sans-serif;
+  // font-family: "Roboto", sans-serif;
+  font-family: "Rubik", sans-serif;
+
   font-weight: 500;
   cursor: pointer;
   transition: all 0.3s;

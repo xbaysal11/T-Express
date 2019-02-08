@@ -15,20 +15,21 @@
         <div class="col-md-10 col-sm-12 col-12 col-lg-10">
           <ul class="d-flex account_login-area">
             <li class="account-item">
-              <i class="fas fa-phone"></i>
+              <i class="fas  fa-phone"></i>
+              {# <i class="fab fa-facebook"></i> #}
               <h5>
-                <span>Call Us Now</span>T+(008) 001-234-567
+                <span>Позвоните Нам Сейчас</span>+996 505 511 155
               </h5>
             </li>
             <li class="account-item account-item-2">
               <i class="fas fa-envelope-open"></i>
               <h5>
-                <span>Mail Us Today</span>youremail@gmail.com</h5>
+                <span>Напишите Нам Сегодня</span>ostinroad@gmail.com</h5>
             </li>
             <li class="account-item">
               <i class="fas fa-map-marker-alt"></i>
               <h5>
-                <span>Company Location</span>1230 Banena Street, London</h5>
+                <span>Местоположение</span>Кыргызстан, г.Бишкек, Эркиндик 12</h5>
             </li>
           </ul>
         </div>

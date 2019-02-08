@@ -13,18 +13,18 @@
             <li class="account-item">
               <i class="fas fa-phone"></i>
               <h5>
-                <span>Call Us Now</span>T+(008) 001-234-567
+                <span>Позвоните Нам Сейчас</span>+996 505 511 155
               </h5>
             </li>
             <li class="account-item account-item-2">
               <i class="fas fa-envelope-open"></i>
               <h5>
-                <span>Mail Us Today</span>youremail@gmail.com</h5>
+                <span>Напишите Нам Сегодня</span>ostinroad@gmail.com</h5>
             </li>
             <li class="account-item">
               <i class="fas fa-map-marker-alt"></i>
               <h5>
-                <span>Company Location</span>1230 Banena Street, London</h5>
+                <span>Местоположение</span>Кыргызстан, г.Бишкек, Эркиндик 12</h5>
             </li>
           </ul>
         </div>
@@ -56,52 +56,52 @@
         <div class="col-lg-5 col-md-12">
           <div class="contact-page-item">
             <h2>Наши контакты</h2>
-            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+            <p>Наша компания является официальным представителем американской компании T-Express в Кыргызстане.</p>
             <div class="adress">
-              <h3>Address</h3>
-              <span>245 King Street, Touterie Victoria 8520 Australia</span>
+              <h3>Адрес</h3>
+              <span>Кыргызстан, г.Бишкек, б-р Эркиндик 12, 1 этаж</span>
             </div>
             <div class="phone">
-              <h3>Phone</h3>
-              <span>0-123-456-7890</span>
-              <span>0-123-456-7890</span>
+              <h3>Номер Телефона</h3>
+              <span>+996 553 511 155</span>
+              <span>+996 505 511 155</span>
             </div>
             <div class="email">
               <h3>Email</h3>
-              <span>sample@gmail.com</span>
+              <span>ostinroad@gmail.com</span>
             </div>
           </div>
         </div>
         <div class="col-lg-7 col-md-12">
           <div class="contact-area">
-            <h2>Quick Contact Form</h2>
+            <h2>Связаться</h2>
             <div class="contact-form">
               <form method="post" class="contact-validation-active" id="contact-form">
                 <div class="half-col">
-                  <input type="text" name="name" id="name" class="form-control" placeholder="Your Name">
+                  <input type="text" name="name" id="name" class="form-control" placeholder="Укажите своё ФИО">
                 </div>
                 <div class="half-col">
-                  <input type="email" name="email" id="email" class="form-control" placeholder="Your Email">
+                  <input type="email" name="email" id="email" class="form-control" placeholder="Ваш Email">
                 </div>
                 <div class="half-col">
-                  <input type="text" name="phone" id="phone" class="form-control" placeholder="Your Phone">
+                  <input type="text" name="phone" id="phone" class="form-control" placeholder="Ваш номер телефона">
                 </div>
                 <div class="half-col">
-                  <input type="text" name="address" id="address" class="form-control" placeholder="Address">
+                  <input type="text" name="address" id="address" class="form-control" placeholder="Адрес">
                 </div>
                 <div>
-                  <textarea class="form-control" name="note"  id="note" placeholder="Case Description..."></textarea>
+                  <textarea class="form-control" name="note"  id="note" placeholder="Описание..."></textarea>
                 </div>
                 <div class="submit-btn-wrapper">
-                  <button type="submit" class="theme-btn-s3">Send</button>
+                  <button type="submit" class="theme-btn-s3">Отправить!</button>
                   <div id="loader">
                     <i class="fa fa-refresh fa-spin fa-3x fa-fw"></i>
                   </div>
                 </div>
                 <div class="clearfix error-handling-messages">
-                  <div id="success">Thank you</div>
+                  <div id="success">Спасибо!</div>
                   <div id="error">
-                    Error occurred while sending email. Please try again later.
+                    Ошибка при отправке Email. Пожалуйста, повторите позже.
                   </div>
                 </div>
               </form>
@@ -112,7 +112,7 @@
       <div class="row">
         <div class="col col-xs-12">
           <div class="contact-map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57763.58882182253!2d55.38442113562169!3d25.195692423227655!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43496ad9c645%3A0xbde66e5084295162!2z4Kam4KeB4Kas4Ka-4KaHIC0g4Kam4KeB4Kas4Ka-4KaHIOCmhuCmruCmv-CmsOCmvuCmpCAtIOCmuOCmguCmr-CngeCmleCnjeCmpCDgpobgprDgpqwg4KaG4Kau4Ka_4Kaw4Ka-4Kak!5e0!3m2!1sbn!2sbd!4v1540725271741" allowfullscreen></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2924.285501877304!2d74.60300671525599!3d42.86681777915614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x389eb7ce268c4dc5%3A0x17821c70295d2f3!2zMTIg0L_RgNC-0YHQvy4g0K3RgNC60LjQvdC00LjQuiwg0JHQuNGI0LrQtdC6!5e0!3m2!1sru!2skg!4v1549618397678"  allowfullscreen></iframe>
           </div>
         </div>
       </div>
