@@ -42,7 +42,7 @@
             <p class="agreement">
               <input type="checkbox"/>
               <span>Я согласен с</span>
-              <a class="a_reg" href="#">условиями использовани *
+              <a class="a_reg" href="agreement.html">условиями использовани *
               </a>
             </p>
           </div>
