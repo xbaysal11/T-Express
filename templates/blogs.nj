@@ -9,31 +9,35 @@
 {% block content %}
 
   <div class="empty" ></div>
-  <div class="header-top header-top-2">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-10 col-sm-12 col-12 col-lg-10">
-          <ul class="d-flex account_login-area">
-            <li class="account-item">
-              <i class="fas  fa-phone"></i>
-              {# <i class="fab fa-facebook"></i> #}
-              <h5>
-                <span>Позвоните Нам Сейчас</span>+996 505 511 155
-              </h5>
-            </li>
-            <li class="account-item account-item-2">
-              <i class="fas fa-envelope-open"></i>
-              <h5>
-                <span>Напишите Нам Сегодня</span>ostinroad@gmail.com</h5>
-            </li>
-            <li class="account-item">
-              <i class="fas fa-map-marker-alt"></i>
-              <h5>
-                <span>Местоположение</span>Кыргызстан, г.Бишкек, Эркиндик 12</h5>
-            </li>
-          </ul>
-        </div>
+  <div class="our-contacts">
+    <div class="info-block text-center">
+      <div class="icon">
+        <i class="fas fa-map-marked-alt"></i>
       </div>
+      <h5>Адрес:</h5>
+      <p>Эркиндик 12</p>
+    </div>
+    <div class="info-block text-center">
+      <div class="icon">
+        <i class="fas fa-mobile-alt"></i>
+      </div>
+      <h5>Телефон:</h5>
+      <p>+996 505 511 155</p>
+      <p>+996 500 511 155</p>
+    </div>
+    <div class="info-block text-center">
+      <div class="icon">
+        <i class="far fa-envelope"></i>
+      </div>
+      <h5>E-mail:</h5>
+      <p>ostinroad@gmail.com</p>
+    </div>
+    <div class="info-block text-center">
+      <div class="icon">
+        <i class="fab fa-instagram"></i>
+      </div>
+      <h5>Instagram:</h5>
+      <p>@instagram.com</p>
     </div>
   </div>
 

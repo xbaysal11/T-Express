@@ -192,26 +192,26 @@
         <h2>Как это работает?</h2>
         <p class="text-white">До американских цен всего 4 шага!</p>
       </div>
-      <div class="row text-center segment-xlarge">
+      <div class="row text-center segment-xs-xlarge">
         <div class="col-xs-12 col-sm-3">
-          <img alt="Регистрируйтесь" src="/images/static/28.png"/>
+          <img alt="Регистрируйтесь" src="/images/static/3.png"/>
           <h3>Регистрируйтесь</h3>
           <p class="text-white">
             Чтобы получить адрес для совершения покупок за рубежом
           </p>
         </div>
         <div class="col-xs-12 col-sm-3 segment-xs-xlarge">
-          <img alt="Выбирайте" src="/images/static/27.png"/>
+          <img alt="Выбирайте" src="/images/static/1.png"/>
           <h3>Выбирайте</h3>
           <p class="text-white">Товары в любом интернет-магазине США и Европы</p>
         </div>
         <div class="col-xs-12 col-sm-3 segment-xs-xlarge">
-          <img alt="Отправляйте" src="/images/static/30.png"/>
+          <img alt="Отправляйте" src="/images/static/2.png"/>
           <h3>Отправляйте</h3>
           <p class="text-white">Купленные товары себе и своим близким домой</p>
         </div>
         <div class="col-xs-12 col-sm-3 segment-xs-xlarge">
-          <img alt="Получайте" src="/images/static/31.png"/>
+          <img alt="Получайте" src="/images/static/4.png"/>
           <h3>Получайте</h3>
           <p class="text-white">Посылки прямо у себя дома или в пунктах выдачи</p>
         </div>
@@ -370,7 +370,7 @@
         <div class="col-sm-5 col-xs-12 text-xs-center">
           <img
           class="pic lazy"
-          src="/images/static/step1.png"
+          src="/images/static/11.png"
          
 />
         </div>
@@ -410,7 +410,7 @@
           <div class="col-sm-5 col-xs-12 visible-xs-block text-xs-center">
             <img
           class="pic lazy"
-          src="/images/static/step3.png"
+          src="/images/static/33.png"
           style="display: inline;"
 />
           </div>
@@ -424,7 +424,7 @@
           <div class="col-sm-5 col-xs-12 text-xs-center">
             <img
           class="pic lazy"
-          src="/images/static/step2.png"
+          src="/images/static/22.png"
           style="display: inline;"
 />
           </div>
@@ -456,15 +456,16 @@
             <div class="testimonial-active owl-carousel">
               <div class="testimonial-wrap">
                 <div class="testimonial-img">
-                  <img src="/images/testimonial/T-EXPlogo.png" alt=""/>
+                  <img src="/images/testimonial/2.jpg" alt=""/>
                 </div>
                 <div class="testimonial-item">
                   <div class="testimonial-content">
                     <p>
                       Доставка товаров из США в Кыргызстан - от 625 сом. При доставке нестандартных грузов, тариф оговаривается индивидуально.
                     </p>
-                    {# <h4>Manela Watson</h4>
-                <span>Derector of ATV</span> #}
+                    <h4>
+                      --- Manela Watson ---
+                    </h4>
                   </div>
                 </div>
                 <div class="test-c d-none d-lg-block"></div>
@@ -472,15 +473,16 @@
               </div>
               <div class="testimonial-wrap">
                 <div class="testimonial-img">
-                  <img src="/images/testimonial/T-EXPlogo.png" alt=""/>
+                  <img src="/images/testimonial/2.jpg" alt=""/>
                 </div>
                 <div class="testimonial-item">
                   <div class="testimonial-content">
                     <p>
                       Мы также можем принять и отправить вашу личную посылку из США в Кыргызстан. Сдать свои посылки вы можете в городе Нью-Йорк представителю нашей компании, для этого свяжитесь с нашими менеджерами в городе Бишкек или Нью-Йорк.
                     </p>
-                    {# <h4>Manela Watson</h4>
-                <span>Derector of ATV</span> #}
+                    <h4>
+                      --- Manela Watson ---
+                    </h4>
                   </div>
                 </div>
                 <div class="test-c d-none d-lg-block"></div>
@@ -488,15 +490,17 @@
               </div>
               <div class="testimonial-wrap">
                 <div class="testimonial-img">
-                  <img src="/images/testimonial/T-EXPlogo.png" alt=""/>
+                  <img src="/images/testimonial/2.jpg" alt=""/>
                 </div>
                 <div class="testimonial-item">
                   <div class="testimonial-content">
                     <p>
                       В тех случаях, когда вам необходимы дополнительные услуги (например, сделать фото товаров, проверить размеры или добавить упаковочные материалы при упаковке), связанные с посылками, которые уже прилетели на наш склад, вы можете заказать их с помощью спецзапросов.
                     </p>
-                    {# <h4>Manela Watson</h4>
-                <span>Derector of ATV</span> #}
+                    <h4>
+                      --- Manela Watson ---
+                    </h4>
+                    {# <span>Derector of ATV</span> #}
                   </div>
                 </div>
                 <div class="test-c d-none d-lg-block"></div>
