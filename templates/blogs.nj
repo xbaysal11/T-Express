@@ -118,20 +118,7 @@
           <p class="blog-art-item-txt">Доставка авто из США: льготы на растаможку в 2019</p>
         </a>
       </div>
-      <div class="row_blogs row float_row">
-        <a href="blogs_second.html" class="col-md-4">
-          <img class="blogs_img" src="https://www.jquery-az.com/html/images/banana.jpg" alt="">
-          <p class="blog-art-item-txt">Доставка авто из США: льготы на растаможку в 2019</p>
-        </a>
-        <a href="blogs_second.html" class="col-md-4">
-          <img class="blogs_img" src="https://www.jquery-az.com/html/images/banana.jpg" alt="">
-          <p class="blog-art-item-txt">Доставка авто из США: льготы на растаможку в 2019</p>
-        </a>
-        <a href="blogs_second.html" class="col-md-4">
-          <img class="blogs_img" src="https://www.jquery-az.com/html/images/banana.jpg" alt="">
-          <p class="blog-art-item-txt">Доставка авто из США: льготы на растаможку в 2019</p>
-        </a>
-      </div>
+     
     </div>
   </div>
 {% endblock %}

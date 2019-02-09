@@ -8,6 +8,9 @@ $input: rgba(141, 162, 255, 0.32);
   background-color: rgba(0, 0, 0, 0.5);
   height: 90px;
 }
+.container_blogs{
+  margin-bottom: 5%;
+}
 
 .title_blogs {
   color: rgb(82, 77, 71);
@@ -46,13 +49,12 @@ $input: rgba(141, 162, 255, 0.32);
   width: 250px;
   height: 165px;
 }
-
 .nav_right {
   width: 25%;
   color: rgb(89, 85, 85);
   font-size: 90%;
   height: 100%;
-  margin-top: 3.5%;
+  margin-top: 6%;
   float: right;
   border: 1px rgb(226, 226, 226) solid;
 }
