@@ -335,17 +335,17 @@
                 <p>Ширина</p>
               </div>
               <div class="div_input">
-                <input type="number" class="input_names" placeholder="0"/>
-                <input type="number" class="input_names" placeholder="0"/>
-                <input type="number" class="input_names" placeholder="0"/>
-                <input type="number" class="input_names" placeholder="0"/>
+                <input type="number" class="input_names" id="num-weight" placeholder="0"/>
+                <input type="number" class="input_names" id="num-length" placeholder="0"/>
+                <input type="number" class="input_names" id="num-height" placeholder="0"/>
+                <input type="number" class="input_names" id="num-width" placeholder="0"/>
               </div>
               <footer class="foot">
                 <div class="foot_div">
                   <a href="" >
                     <div class="right_cal">ВЫЧИСЛИТЬ СТОИМОСТЬ ТРАНСПОРТИРОВКИ</div>
                   </a>
-                  <div class="left_cal">
+                  <div class="left_cal" id="player">
                     <span>Предполагаемая стоимость</span>
                     <p>2019 SOM</p>
                   </div>
