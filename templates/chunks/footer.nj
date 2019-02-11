@@ -10,7 +10,6 @@
 <script type="text/javascript" src="/js/slick.min.js"></script>
 <!-- Custom script for this template -->
 <script type="text/javascript" src="/js/script.js"></script>
-<script type="text/javascript" src="/js/calculator.js"></script>
 <div class="footer-area">
   <div class="footer-top">
     <div class="container">
