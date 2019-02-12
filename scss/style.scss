@@ -1,10 +1,5 @@
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
-// @import "https://use.fontawesome.com/releases/v5.7.1/css/all.css";
-// @import "../node_modules/@fontawesome/fontawesome-free/scss/fontawesome";
-// @import "../node_fontawesomemodules/@/fontawesome-free/scss/brands";
-// @import "../node_modules/@fontawesome/fontawesome-free/scss/regular";
-// @import "../node_modules/@fontawesome/fontawesome-free/scss/solid";
-// @import "../node_modules/@fontawesome/fontawesome-free/scss/v4-shims";
+@import "./scss/all.scss";
 
 $main-color: #163e69;
 $second-color: #0c1b4c;
@@ -18,9 +13,7 @@ $input: rgba(2, 84, 192, 0.247);
   // font-family: "Rubik", sans-serif;
   font-family: "Montserrat", sans-serif;
 }
-// .fa-2 {
-//   margin-top: 3%;
-// }
+
 .agree {
   padding: 2% 10%;
   h1 {
@@ -512,7 +505,7 @@ mobile menu
   display: inline-block;
   margin-top: 3px;
 }
-.col-sm-5 .col-xs-12 .visible-xs-block .text-xs-center{
+.col-sm-5 .col-xs-12 .visible-xs-block .text-xs-center {
   display: flex;
   align-items: center;
   -ms-flex-item-align: center;
@@ -660,7 +653,7 @@ mobile menu
 }
 
 .hero .slick-prev:before {
-  font-family: "FontAwesome";
+  font-family: "Font Awesome 5 Brands";
   content: "\f104";
   opacity: 1;
   color: #fff;
@@ -1534,13 +1527,13 @@ mobile menu
   //   height: auto;
   // }
 
-p {
-  a {
-    color: #333;
-    line-height: 25px;
-    font-size: 16px;
+  p {
+    a {
+      color: #333;
+      line-height: 25px;
+      font-size: 16px;
+    }
   }
-}
 }
 
 /*==========================================
