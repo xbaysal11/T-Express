@@ -2,6 +2,8 @@
 ================================================== -->
 <script type="text/javascript" src="/js/jquery.min.js"></script>
 <script type="text/javascript" src="/js/bootstrap.min.js"></script>
+
+
 <!-- Plugins for this template -->
 <script type="text/javascript" src="/js/jquery-plugin-collection.js"></script>
 <script type="text/javascript" src="/js/jquery.slicknav.min.js"></script>

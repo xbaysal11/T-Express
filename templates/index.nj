@@ -3,513 +3,458 @@
 
 {% block content %}
 
-  <section class="hero hero-slider-wrapper hero-style-1 hero-style-2">
-    <div class="hero-slider">
-      <div class="slide">
-        <img src="/images/slider/1.jpg" alt class="slider-bg">
-        <div class="container">
-          <div class="row">
-            <div class="col col-lg-9 slide-caption">
-              <h2>
-                <span>Наша компания является официальным
-                </span>
-                <span>
-                  представителем американской компании T-Express в Кыргызстане.</span></h2>
-              <div class="btns">
-                <div class="btn-style">
-                  <a href="/contact.html">Связаться с нами</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="slide">
-        <img src="/images/slider/2.jpg" alt class="slider-bg">
-        <div class="container">
-          <div class="row">
-            <div class="col col-lg-9 slide-caption">
-              <h2>
-                <span>Офисы компании находятся в городе Бишкек,
-                </span>
-                <span>Кыргызстан и в городе Нью-Йорк, США.</span></h2>
-              <div class="btns">
-                <div class="btn-style">
-                  <a href="/contact.html">Связаться с нами</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="slide">
-        <img src="/images/slider/3.jpg" alt class="slider-bg">
-        <div class="container">
-          <div class="row">
-            <div class="col col-lg-9 slide-caption">
-              <h2>
-                <span>Компания оперирует двумя
-                </span>
-                <span>складами в штате Нью-Йорк и Дэлавер.</span></h2>
-              <div class="btns">
-                <div class="btn-style">
-                  <a href="/contact.html">Связаться с нами</a>
-                </div>
+<section class="hero hero-slider-wrapper hero-style-1 hero-style-2">
+  <div class="hero-slider">
+    <div class="slide">
+      <img src="/images/slider/1.jpg" alt class="slider-bg">
+      <div class="container">
+        <div class="row">
+          <div class="col col-lg-9 slide-caption">
+            <h2>
+              <span>Наша компания является официальным
+              </span>
+              <span>
+                представителем американской компании T-Express в Кыргызстане.</span></h2>
+            <div class="btns">
+              <div class="btn-style">
+                <a href="/contact.html">Связаться с нами</a>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </section>
+    <div class="slide">
+      <img src="/images/slider/2.jpg" alt class="slider-bg">
+      <div class="container">
+        <div class="row">
+          <div class="col col-lg-9 slide-caption">
+            <h2>
+              <span>Офисы компании находятся в городе Бишкек,
+              </span>
+              <span>Кыргызстан и в городе Нью-Йорк, США.</span></h2>
+            <div class="btns">
+              <div class="btn-style">
+                <a href="/contact.html">Связаться с нами</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="slide">
+      <img src="/images/slider/3.jpg" alt class="slider-bg">
+      <div class="container">
+        <div class="row">
+          <div class="col col-lg-9 slide-caption">
+            <h2>
+              <span>Компания оперирует двумя
+              </span>
+              <span>складами в штате Нью-Йорк и Дэлавер.</span></h2>
+            <div class="btns">
+              <div class="btn-style">
+                <a href="/contact.html">Связаться с нами</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
-  <!-- Shop Logo -->
-  <div class="shop">
-    <div class="container">
-      <ul class="shop_logo">
-        <li class="shop_logo_item">
-          <a
-          href="https://www.crazy8.com/home?lang=en"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="jsx-1554089227"
-          ><img
-            src="/images/static/crazy-8.svg"
-            srcset="
+<!-- Shop Logo -->
+<div class="shop">
+  <div class="container">
+    <ul class="shop_logo">
+      <li class="shop_logo_item">
+        <a href="https://www.crazy8.com/home?lang=en" target="_blank" rel="noopener noreferrer" class="jsx-1554089227"><img
+            src="/images/static/crazy-8.svg" srcset="
               /images/static/crazy-8.svg   1x,
               /images/static/amazon@2x.png 2x,
               /images/static/amazon@3x.png 3x
             "
-            alt="Amazon"
-            title="Amazon"
-            class="jsx-1554089227"
-/></a>
-        </li>
-        <li class="shop_logo_item">
-          <a
-          href="https://www.oshkosh.com/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="jsx-1554089227"
-          ><img
-            src="/images/static/haYAb39.png"
+            alt="Amazon" title="Amazon" class="jsx-1554089227" /></a>
+      </li>
+      <li class="shop_logo_item">
+        <a href="https://www.oshkosh.com/" target="_blank" rel="noopener noreferrer" class="jsx-1554089227"><img src="/images/static/haYAb39.png"
             srcset="
               /images/static/haYAb39.png  1x,
               /images/static/ebay@2x.png 2x,
               /images/static/ebay@3x.png 3x
             "
-            alt="Ebay"
-            title="Ebay"
-            class="jsx-1554089227"
-/></a>
-        </li>
-        <li class="shop_logo_item">
-          <a
-          href="https://www.gymboree.com/home?lang=en"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="jsx-1554089227"
-          ><img
-            src="/images/static/Gymboree-logo.png"
-            srcset="
+            alt="Ebay" title="Ebay" class="jsx-1554089227" /></a>
+      </li>
+      <li class="shop_logo_item">
+        <a href="https://www.gymboree.com/home?lang=en" target="_blank" rel="noopener noreferrer" class="jsx-1554089227"><img
+            src="/images/static/Gymboree-logo.png" srcset="
               /images/static/Gymboree-logo.png   1x,
               /images/static/bestbuy@2x.png 2x,
               /images/static/bestbuy@3x.png 3x
             "
-            alt="Best Buy"
-            title="Best Buy"
-            class="jsx-1554089227"
-/></a>
-        </li>
-        <li class="shop_logo_item">
-          <a
-          href="#"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="jsx-1554089227"
-          ><img
-            src="/images/static/Diapers_Logo.png"
+            alt="Best Buy" title="Best Buy" class="jsx-1554089227" /></a>
+      </li>
+      <li class="shop_logo_item">
+        <a href="#" target="_blank" rel="noopener noreferrer" class="jsx-1554089227"><img src="/images/static/Diapers_Logo.png"
             srcset="
               /images/static/Diapers_Logo.png    1x,
               /images/static/walmart@2x.png 2x,
               /images/static/walmart@3x.png 3x
             "
-            alt="Walmart"
-            title="Walmart"
-            class="jsx-1554089227"
-/></a>
-        </li>
-        <li class="shop_logo_item">
-          <a
-          href="https://oldnavy.gap.com/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="jsx-1554089227"
-          ><img
-            src="/images/static/Old_Navy_Logo.svg.png"
+            alt="Walmart" title="Walmart" class="jsx-1554089227" /></a>
+      </li>
+      <li class="shop_logo_item">
+        <a href="https://oldnavy.gap.com/" target="_blank" rel="noopener noreferrer" class="jsx-1554089227"><img src="/images/static/Old_Navy_Logo.svg.png"
             srcset="
               /images/static/Old_Navy_Logo.svg.png   1x,
               /images/static/zappos@2x.png 2x,
               /images/static/zappos@3x.png 3x
             "
-            alt="Zappos"
-            title="Zappos"
-            class="jsx-1554089227"
-/></a>
-        </li>
-        <li class="shop_logo_item">
-          <a
-          href="https://www.childrensplace.com/us/home"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="jsx-1554089227"
-          ><img
-            src="/images/static/the-childrens-place-logo.png"
-            srcset="
+            alt="Zappos" title="Zappos" class="jsx-1554089227" /></a>
+      </li>
+      <li class="shop_logo_item">
+        <a href="https://www.childrensplace.com/us/home" target="_blank" rel="noopener noreferrer" class="jsx-1554089227"><img
+            src="/images/static/the-childrens-place-logo.png" srcset="
               /images/static/the-childrens-place-logo.png   1x,
               /images/static/apple@2x.png 2x,
               /images/static/apple@3x.png 3x
             "
-            alt="Apple"
-            title="Apple"
-            class="jsx-1554089227"
-/></a>
-        </li>
-      </ul>
+            alt="Apple" title="Apple" class="jsx-1554089227" /></a>
+      </li>
+    </ul>
 
-      <div class="more">
-        <button type="text">
-          <a href="/shops.html" >Подробнее</a>
-        </button>
+    <div class="more">
+      <button type="text">
+        <a href="/shops.html">Подробнее</a>
+      </button>
+    </div>
+  </div>
+</div>
+
+<!--section-section end -->
+<section class="how_it_work transition">
+  <div class="container medium">
+    <div class="text-center">
+      <h2>Как это работает?</h2>
+      <p class="text-white">До американских цен всего 4 шага!</p>
+    </div>
+    <div class="row text-center segment-xs-xlarge">
+      <div class="col-xs-12 col-sm-3">
+        <img alt="Регистрируйтесь" src="/images/static/3.png" />
+        <h3>Регистрируйтесь</h3>
+        <p class="text-white">
+          Чтобы получить адрес для совершения покупок за рубежом
+        </p>
+      </div>
+      <div class="col-xs-12 col-sm-3 segment-xs-xlarge">
+        <img alt="Выбирайте" src="/images/static/1.png" />
+        <h3>Выбирайте</h3>
+        <p class="text-white">Товары в любом интернет-магазине США и Европы</p>
+      </div>
+      <div class="col-xs-12 col-sm-3 segment-xs-xlarge">
+        <img alt="Отправляйте" src="/images/static/2.png" />
+        <h3>Отправляйте</h3>
+        <p class="text-white">Купленные товары себе и своим близким домой</p>
+      </div>
+      <div class="col-xs-12 col-sm-3 segment-xs-xlarge">
+        <img alt="Получайте" src="/images/static/4.png" />
+        <h3>Получайте</h3>
+        <p class="text-white">Посылки прямо у себя дома или в пунктах выдачи</p>
       </div>
     </div>
   </div>
-
-  <!--section-section end -->
-  <section class="how_it_work transition">
-    <div class="container medium">
-      <div class="text-center">
-        <h2>Как это работает?</h2>
-        <p class="text-white">До американских цен всего 4 шага!</p>
+</section>
+<!-- .about-area start -->
+<div class="about-area">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="about-img">
+          <iframe src="https://www.youtube.com/embed/9YffrCViTVk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        </div>
       </div>
-      <div class="row text-center segment-xs-xlarge">
-        <div class="col-xs-12 col-sm-3">
-          <img alt="Регистрируйтесь" src="/images/static/3.png"/>
-          <h3>Регистрируйтесь</h3>
-          <p class="text-white">
-            Чтобы получить адрес для совершения покупок за рубежом
+      <div class="col-lg-6 sec-p">
+        <div class="about-content">
+          <div class="about-icon">
+            <i class="fi flaticon-travel"></i>
+          </div>
+          <h2>О компании:</h2>
+          <p>
+            T-Express не просто доставляет посылки из США — мы обучаем всем тонкостям онлайн-шопинга, предоставляя
+            возможность клиентам максимально выгодно совершать свои покупки.
+          </p>
+          <span>
+            Наша компания является официальным представителем американской компании T-Express в Кыргызстане.
+          </span>
+          <span>
+            Офисы компании находятся в городе Бишкек, Кыргызстан и в городе Нью-Йорк, США.
+          </span>
+          <span>Компания оперирует двумя складами в штате Нью-Йорк и Дэлавер.</span>
+        </div>
+        <div class="signature-section">
+          <div class="si-text">
+            <p>Директор Директоров</p>
+            <span>Директор компании</span>
+          </div>
+          <img src="/images/about/1.png" alt="" />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- about-area end -->
+
+<!-- start track-section -->
+
+<!-- end track-section -->
+<!-- feature-area start -->
+
+<!-- counter-area start -->
+<div class="counter-area">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-5 col-md-6 col-sm-12">
+        <div class="counter-grids">
+          <div class="grid">
+            <div>
+              <h2>
+                <span class="odometer" data-count="4,012">00</span></h2>
+            </div>
+            <p>Доставленные<br>
+              товары</p>
+          </div>
+          <div class="grid">
+            <div>
+              <h2>
+                <span class="odometer" data-count="605">00</span></h2>
+            </div>
+            <p>Охваченные
+              <br>страны</p>
+          </div>
+          <div class="grid">
+            <div>
+              <h2>
+                <span class="odometer" data-count="920">00</span></h2>
+            </div>
+            <p>Довольные
+              <br>
+              клиенты</p>
+          </div>
+          <div class="grid">
+            <div>
+              <h2>
+                <span class="odometer" data-count="3,592">00</span></h2>
+            </div>
+            <p>Тонны
+              <br>товаров</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-7 col-md-6 col-sm-12">
+        <div class="counter-content">
+          <div class="container_of">
+            <div class="kg">
+              <div class="col-lg-6">
+                <span>Мера длины</span>
+                <select name="length_unit" id="length_unit" class="calculate">
+                  <option value="cm">CM</option>
+                  <option value="in">IN</option>
+                </select>
+              </div>
+              <div class="col-lg-6">
+                <span>Мера веса</span>
+                <select name="weight_unit" id="weight_unit" class="calculate">
+                  <option value="kg">KG</option>
+                  <option value="lb">LB</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="names">
+              <p>Вес</p>
+              <p>Длина</p>
+              <p>Высота</p>
+              <p>Ширина</p>
+            </div>
+            <div class="div_input">
+              <input type="number" class="input_names" id="num-weight" placeholder="0" />
+              <input type="number" class="input_names" id="num-length" placeholder="0" />
+              <input type="number" class="input_names" id="num-height" placeholder="0" />
+              <input type="number" class="input_names" id="num-width" placeholder="0" />
+            </div>
+            <footer class="foot">
+              <div class="foot_div">
+
+                <input type="button" value="ВЫЧИСЛИТЬ СТОИМОСТЬ ТРАНСПОРТИРОВКИ" class='right_cal' id='calculate'>
+
+                <div class="left_cal">
+                  <span>Предполагаемая стоимость</span>
+                  <p id="ans"> </p>
+                </div>
+
+              </div>
+            </footer>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- counter-area end -->
+<!-- why -->
+<section class="why">
+  <div class="container narrow">
+    <div class="text-center">
+      <h2>Почему T-Express ?</h2>
+    </div>
+
+    <div class="row segment-xxlarge">
+      <div class="col-sm-5 col-xs-12 text-xs-center">
+        <img class="pic lazy" src="/images/static/11.png" />
+      </div>
+      <div class="col-sm-7 col-xs-12 text-xs-center">
+        <h3>
+          T-Express экономит время</h3>
+        <p>
+          Опираясь на многолетний опыт, смело заявляем — мы и сами заядлые шоперы. Сотрудники T-Express с радостью всем
+          помогут разобраться во всех тонкостях шопинга, подскажут в какое время выгодно совершать покупки и как
+          сократить свои расходы, используя промо-коды и другие скидочные фишки американских онлайн-магазинов.
+        </p>
+        <div class="alert segment-small">
+          <i class="fa fa-info-circle fa-2"></i>
+          <p>
+            T-Express экономит время каждого клиента, предлагая лучшие опции шопинга и доставки из США всего в
+            несколько кликов.
           </p>
         </div>
-        <div class="col-xs-12 col-sm-3 segment-xs-xlarge">
-          <img alt="Выбирайте" src="/images/static/1.png"/>
-          <h3>Выбирайте</h3>
-          <p class="text-white">Товары в любом интернет-магазине США и Европы</p>
-        </div>
-        <div class="col-xs-12 col-sm-3 segment-xs-xlarge">
-          <img alt="Отправляйте" src="/images/static/2.png"/>
-          <h3>Отправляйте</h3>
-          <p class="text-white">Купленные товары себе и своим близким домой</p>
-        </div>
-        <div class="col-xs-12 col-sm-3 segment-xs-xlarge">
-          <img alt="Получайте" src="/images/static/4.png"/>
-          <h3>Получайте</h3>
-          <p class="text-white">Посылки прямо у себя дома или в пунктах выдачи</p>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- .about-area start -->
-  <div class="about-area">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6">
-          <div class="about-img">
-            <iframe
-            src="https://www.youtube.com/embed/9YffrCViTVk"
-            frameborder="0"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
-          </div>
-        </div>
-        <div class="col-lg-6 sec-p">
-          <div class="about-content">
-            <div class="about-icon">
-              <i class="fi flaticon-travel"></i>
-            </div>
-            <h2>О компании:</h2>
-            <p>
-              T-Express не просто доставляет посылки из США — мы обучаем всем тонкостям онлайн-шопинга, предоставляя возможность клиентам максимально выгодно совершать свои покупки.
-            </p>
-            <span>
-              Наша компания является официальным представителем американской компании T-Express в Кыргызстане.
-            </span>
-            <span>
-              Офисы компании находятся в городе Бишкек, Кыргызстан и в городе Нью-Йорк, США.
-            </span>
-            <span>Компания оперирует двумя складами в штате Нью-Йорк и Дэлавер.</span>
-          </div>
-          <div class="signature-section">
-            <div class="si-text">
-              <p>Директор Директоров</p>
-              <span>Директор компании</span>
-            </div>
-            <img src="/images/about/1.png" alt=""/>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- about-area end -->
-
-  <!-- start track-section -->
-
-  <!-- end track-section -->
-  <!-- feature-area start -->
-
-  <!-- counter-area start -->
-  <div class="counter-area">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-5 col-md-6 col-sm-12">
-          <div class="counter-grids">
-            <div class="grid">
-              <div>
-                <h2>
-                  <span class="odometer" data-count="4,012">00</span></h2>
-              </div>
-              <p>Доставленные<br>
-                товары</p>
-            </div>
-            <div class="grid">
-              <div>
-                <h2>
-                  <span class="odometer" data-count="605">00</span></h2>
-              </div>
-              <p>Охваченные
-                <br>страны</p>
-            </div>
-            <div class="grid">
-              <div>
-                <h2>
-                  <span class="odometer" data-count="920">00</span></h2>
-              </div>
-              <p>Довольные
-                <br>
-                клиенты</p>
-            </div>
-            <div class="grid">
-              <div>
-                <h2>
-                  <span class="odometer" data-count="3,592">00</span></h2>
-              </div>
-              <p>Тонны
-                <br>товаров</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-7 col-md-6 col-sm-12">
-          <div class="counter-content">
-            <div class="container_of">
-              <div class="kg">
-                <div class="col-lg-6">
-                  <span>Мера длины</span>
-                  <select name="length_unit" id="length_unit" class="calculate">
-                    <option value="cm">CM</option>
-                    <option value="in">IN</option>
-                  </select>
-                </div>
-                <div class="col-lg-6">
-                  <span>Мера веса</span>
-                  <select name="weight_unit" id="weight_unit" class="calculate">
-                    <option value="kg">KG</option>
-                    <option value="lb">LB</option>
-                  </select>
-                </div>
-              </div>
-
-              <div class="names">
-                <p>Вес</p>
-                <p>Длина</p>
-                <p>Высота</p>
-                <p>Ширина</p>
-              </div>
-              <div class="div_input">
-                <input type="number" class="input_names" placeholder="0"/>
-                <input type="number" class="input_names" placeholder="0"/>
-                <input type="number" class="input_names" placeholder="0"/>
-                <input type="number" class="input_names" placeholder="0"/>
-              </div>
-              <footer class="foot">
-                <div class="foot_div">
-                  <a href="" >
-                    <div class="right_cal">ВЫЧИСЛИТЬ СТОИМОСТЬ ТРАНСПОРТИРОВКИ</div>
-                  </a>
-                  <div class="left_cal">
-                    <span>Предполагаемая стоимость</span>
-                    <p>2019 SOM</p>
-                  </div>
-
-                </div>
-              </footer>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- counter-area end -->
-  <!-- why -->
-  <section class="why">
-    <div class="container narrow">
-      <div class="text-center">
-        <h2>Почему T-Express ?</h2>
       </div>
 
       <div class="row segment-xxlarge">
-        <div class="col-sm-5 col-xs-12 text-xs-center">
-          <img
-          class="pic lazy"
-          src="/images/static/11.png"
-         
-/>
-        </div>
-        <div class="col-sm-7 col-xs-12 text-xs-center">
-          <h3>
-            T-Express экономит время</h3>
-          <p>
-            Опираясь на многолетний опыт, смело заявляем — мы и сами заядлые шоперы. Сотрудники T-Express с радостью всем помогут разобраться во всех тонкостях шопинга, подскажут в какое время выгодно совершать покупки и как сократить свои расходы, используя промо-коды и другие скидочные фишки американских онлайн-магазинов.
-          </p>
-          <div class="alert segment-small">
-            <i class="fa fa-info-circle fa-2" ></i>
+        <div class="col-sm-7 col-xs-12">
+          <div class="text-xs-center">
+            <h3>Быстрая доставка, гарантия качества</h3>
             <p>
-              T-Express экономит время каждого клиента, предлагая лучшие опции шопинга и доставки из США всего в несколько кликов.
+              Мы дорожим своей репутацией, поэтому для нас каждая посылка имеет значение. Нам приятно видеть радость на
+              лицах наших клиентов, когда они получают посылку в целости и сохранности, а самое главное в срок.
+              {# <a href="/ru/calculator">Убедитесь сами!</a> #}
+            </p>
+            <p>
+              В случае утери или порчи посылки по нашей вине, клиенту возмещается ее полная стоимость. Условия
+              возмещения ущерба оговариваются с каждым клиентом индивидуально.
+            </p>
+          </div>
+          <div class="alert segment-small">
+            <i class="fa fa-info-circle fa-2"></i>
+            <p>
+              Все посылки на складе в США проходят через сканирование, а актуальную информацию о местонахождении
+              посылки можно найти в своем личном кабинете.
             </p>
           </div>
         </div>
+        <div class="col-sm-5 col-xs-12 visible-xs-block text-xs-center">
+          <img class="pic lazy" src="/images/static/33.png" style="display: inline;" />
+        </div>
 
-        <div class="row segment-xxlarge">
-          <div class="col-sm-7 col-xs-12">
-            <div class="text-xs-center">
-              <h3>Быстрая доставка, гарантия качества</h3>
-              <p>
-                Мы дорожим своей репутацией, поэтому для нас каждая посылка имеет значение. Нам приятно видеть радость на лицах наших клиентов, когда они получают посылку в целости и сохранности, а самое главное в срок.
-                {# <a href="/ru/calculator">Убедитесь сами!</a> #}
-              </p>
-              <p>
-                В случае утери или порчи посылки по нашей вине, клиенту возмещается ее полная стоимость. Условия возмещения ущерба оговариваются с каждым клиентом индивидуально.
-              </p>
-            </div>
-            <div class="alert segment-small">
-              <i class="fa fa-info-circle fa-2" ></i>
-              <p>
-                Все посылки на складе в США проходят через сканирование, а актуальную информацию о местонахождении посылки можно найти в своем личном кабинете.
-              </p>
-            </div>
-          </div>
-          <div class="col-sm-5 col-xs-12 visible-xs-block text-xs-center">
-            <img
-          class="pic lazy"
-          src="/images/static/33.png"
-          style="display: inline;"
-/>
-          </div>
-
-          <!-- <div class="col-sm-5 col-xs-12 hidden-xs">
+        <!-- <div class="col-sm-5 col-xs-12 hidden-xs">
                   <img class="pic lazy" src="/assets/images/static/why-2.svg" style="display: inline;">
               </div> -->
-        </div>
-
-        <div class="row segment-large">
-          <div class="col-sm-5 col-xs-12 text-xs-center">
-            <img
-          class="pic lazy"
-          src="/images/static/22.png"
-          style="display: inline;"
-/>
-          </div>
-          <div class="col-sm-7 col-xs-12">
-            <div class="text-xs-center">
-              <h3>GIFT CARD США - ЭТО УДОБНО</h3>
-              <p>
-                Это карты с американским биллингом для покупки товаров и оплаты услуг в США. Вы покупаете гифт-карту, чтобы обойти систему безопасности интернет-магазинов в США, которые не принимают банковские карты с иностранным билл-адресом. Поскольку карты не именные, то вы можете использовать их самостоятельно, либо подарить.
-              </p>
-            </div>
-
-            <div class="alert segment-small">
-              <i class="fa fa-info-circle" ></i>
-
-              <p>
-                <a href="https://soroka-vorovka.com/help/gift-cards-usa">Список с GIFT картами вот с этого сайта
-                </a>
-              </p>
-            </div>
-          </div>
-        </div>
       </div>
-    </section>
-    <!-- testimonial-area start -->
-    <div class="testimonial-area">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6 offset-lg-3">
-            <div class="testimonial-active owl-carousel">
-              <div class="testimonial-wrap">
-                <div class="testimonial-img">
-                  <img src="/images/testimonial/2.jpg" alt=""/>
-                </div>
-                <div class="testimonial-item">
-                  <div class="testimonial-content">
-                    <p>
-                      Доставка товаров из США в Кыргызстан - от 625 сом. При доставке нестандартных грузов, тариф оговаривается индивидуально.
-                    </p>
-                    <h4>
-                      --- Manela Watson ---
-                    </h4>
-                  </div>
-                </div>
-                <div class="test-c d-none d-lg-block"></div>
-                <div class="test-b d-none d-lg-block"></div>
-              </div>
-              <div class="testimonial-wrap">
-                <div class="testimonial-img">
-                  <img src="/images/testimonial/2.jpg" alt=""/>
-                </div>
-                <div class="testimonial-item">
-                  <div class="testimonial-content">
-                    <p>
-                      Мы также можем принять и отправить вашу личную посылку из США в Кыргызстан. Сдать свои посылки вы можете в городе Нью-Йорк представителю нашей компании, для этого свяжитесь с нашими менеджерами в городе Бишкек или Нью-Йорк.
-                    </p>
-                    <h4>
-                      --- Manela Watson ---
-                    </h4>
-                  </div>
-                </div>
-                <div class="test-c d-none d-lg-block"></div>
-                <div class="test-b d-none d-lg-block"></div>
-              </div>
-              <div class="testimonial-wrap">
-                <div class="testimonial-img">
-                  <img src="/images/testimonial/2.jpg" alt=""/>
-                </div>
-                <div class="testimonial-item">
-                  <div class="testimonial-content">
-                    <p>
-                      В тех случаях, когда вам необходимы дополнительные услуги (например, сделать фото товаров, проверить размеры или добавить упаковочные материалы при упаковке), связанные с посылками, которые уже прилетели на наш склад, вы можете заказать их с помощью спецзапросов.
-                    </p>
-                    <h4>
-                      --- Manela Watson ---
-                    </h4>
-                    {# <span>Derector of ATV</span> #}
-                  </div>
-                </div>
-                <div class="test-c d-none d-lg-block"></div>
-                <div class="test-b d-none d-lg-block"></div>
-              </div>
-            </div>
+
+      <div class="row segment-large">
+        <div class="col-sm-5 col-xs-12 text-xs-center">
+          <img class="pic lazy" src="/images/static/22.png" style="display: inline;" />
+        </div>
+        <div class="col-sm-7 col-xs-12">
+          <div class="text-xs-center">
+            <h3>GIFT CARD США - ЭТО УДОБНО</h3>
+            <p>
+              Это карты с американским биллингом для покупки товаров и оплаты услуг в США. Вы покупаете гифт-карту,
+              чтобы обойти систему безопасности интернет-магазинов в США, которые не принимают банковские карты с
+              иностранным билл-адресом. Поскольку карты не именные, то вы можете использовать их самостоятельно, либо
+              подарить.
+            </p>
+          </div>
+
+          <div class="alert segment-small">
+            <i class="fa fa-info-circle"></i>
+
+            <p>
+              <a href="https://soroka-vorovka.com/help/gift-cards-usa">Список с GIFT картами вот с этого сайта
+              </a>
+            </p>
           </div>
         </div>
       </div>
     </div>
+</section>
+<!-- testimonial-area start -->
+<div class="testimonial-area">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 offset-lg-3">
+        <div class="testimonial-active owl-carousel">
+          <div class="testimonial-wrap">
+            <div class="testimonial-img">
+              <img src="/images/testimonial/2.jpg" alt="" />
+            </div>
+            <div class="testimonial-item">
+              <div class="testimonial-content">
+                <p>
+                  Доставка товаров из США в Кыргызстан - от 625 сом. При доставке нестандартных грузов, тариф
+                  оговаривается индивидуально.
+                </p>
+                <h4>
+                  --- Manela Watson ---
+                </h4>
+              </div>
+            </div>
+            <div class="test-c d-none d-lg-block"></div>
+            <div class="test-b d-none d-lg-block"></div>
+          </div>
+          <div class="testimonial-wrap">
+            <div class="testimonial-img">
+              <img src="/images/testimonial/2.jpg" alt="" />
+            </div>
+            <div class="testimonial-item">
+              <div class="testimonial-content">
+                <p>
+                  Мы также можем принять и отправить вашу личную посылку из США в Кыргызстан. Сдать свои посылки вы
+                  можете в городе Нью-Йорк представителю нашей компании, для этого свяжитесь с нашими менеджерами в
+                  городе Бишкек или Нью-Йорк.
+                </p>
+                <h4>
+                  --- Manela Watson ---
+                </h4>
+              </div>
+            </div>
+            <div class="test-c d-none d-lg-block"></div>
+            <div class="test-b d-none d-lg-block"></div>
+          </div>
+          <div class="testimonial-wrap">
+            <div class="testimonial-img">
+              <img src="/images/testimonial/2.jpg" alt="" />
+            </div>
+            <div class="testimonial-item">
+              <div class="testimonial-content">
+                <p>
+                  В тех случаях, когда вам необходимы дополнительные услуги (например, сделать фото товаров, проверить
+                  размеры или добавить упаковочные материалы при упаковке), связанные с посылками, которые уже
+                  прилетели на наш склад, вы можете заказать их с помощью спецзапросов.
+                </p>
+                <h4>
+                  --- Manela Watson ---
+                </h4>
+                {# <span>Derector of ATV</span> #}
+              </div>
+            </div>
+            <div class="test-c d-none d-lg-block"></div>
+            <div class="test-b d-none d-lg-block"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
-  {% endblock %}
+{% endblock %}

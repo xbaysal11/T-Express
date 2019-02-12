@@ -63,7 +63,9 @@ $input: rgba(141, 162, 255, 0.32);
   padding-bottom: 2%;
   text-align: center;
 }
-
+.input_names:focus{
+  outline: none;
+}
 .input_names::placeholder {
   color: #fff;
 }
@@ -106,6 +108,7 @@ $input: rgba(141, 162, 255, 0.32);
   border: $main-color 3px solid;
   border-radius: 5px;
   color: #fff;
+  width: 100%;
   text-align: center;
   font-size: 70%;
   padding: 3% 0 3% 3%;

@@ -1,10 +1,10 @@
-(function($) {
+(function ($) {
   "use strict";
 
   // Parallax background
   function bgParallax() {
     if ($(".parallax").length) {
-      $(".parallax").each(function() {
+      $(".parallax").each(function () {
         var height = $(this).position().top;
         var resize = height - $(window).scrollTop();
         var doParallax = -(resize / 5);
@@ -23,7 +23,7 @@
   // Hero slider background setting
   function sliderBgSetting() {
     if ($(".hero-slider .slide").length) {
-      $(".hero-slider .slide").each(function() {
+      $(".hero-slider .slide").each(function () {
         var $this = $(this);
         var img = $this.find(".slider-bg").attr("src");
 
@@ -53,7 +53,7 @@
     }
   }
   // // stickey menu
-  $(window).on("scroll", function() {
+  $(window).on("scroll", function () {
     var scroll = $(window).scrollTop(),
       mainHeader = $("#sticky-header"),
       mainHeaderHeight = mainHeader.innerHeight();
@@ -72,7 +72,7 @@
     if ($(".page-loader").length) {
       $(".page-loader")
         .delay(100)
-        .fadeOut(500, function() {
+        .fadeOut(500, function () {
           //Active heor slider
           heroSlider();
         });
@@ -122,23 +122,23 @@
         address: "Please enter your address"
       },
 
-      submitHandler: function(form) {
+      submitHandler: function (form) {
         $.ajax({
           type: "POST",
           url: "mail.php",
           data: $(form).serialize(),
-          success: function() {
+          success: function () {
             $("#loader").hide();
             $("#success").slideDown("slow");
-            setTimeout(function() {
+            setTimeout(function () {
               $("#success").slideUp("slow");
             }, 3000);
             form.reset();
           },
-          error: function() {
+          error: function () {
             $("#loader").hide();
             $("#error").slideDown("slow");
-            setTimeout(function() {
+            setTimeout(function () {
               $("#error").slideUp("slow");
             }, 3000);
           }
@@ -191,14 +191,14 @@
   /*==========================================================================
         WHEN WINDOW SCROLL
     ==========================================================================*/
-  $(window).on("scroll", function() {
+  $(window).on("scroll", function () {
     toggleBackToTopBtn();
   });
 
   /*==========================================================================
         WHEN DOCUMENT LOADING
     ==========================================================================*/
-  $(window).on("load", function() {
+  $(window).on("load", function () {
     pageLoader();
 
     sliderBgSetting();
@@ -225,9 +225,9 @@
   /*================================
       Isotope Portfolio
      ==================================*/
-  $(".grid").imagesLoaded(function() {
+  $(".grid").imagesLoaded(function () {
     // filter items on button click
-    $(".studies-menu").on("click", "button", function() {
+    $(".studies-menu").on("click", "button", function () {
       var filterValue = $(this).attr("data-filter");
       $grid.isotope({
         filter: filterValue
@@ -245,7 +245,7 @@
     });
   });
 
-  $(".studies-menu button").on("click", function() {
+  $(".studies-menu button").on("click", function () {
     $(".studies-menu button").removeClass("active");
     $(this).addClass("active");
   });
@@ -290,9 +290,9 @@
 -------------------------------------------*/
   if ($(".odometer").length) {
     $(".odometer").appear();
-    $(document.body).on("appear", ".odometer", function(e) {
+    $(document.body).on("appear", ".odometer", function (e) {
       var odo = $(".odometer");
-      odo.each(function() {
+      odo.each(function () {
         var countNumber = $(this).attr("data-count");
         $(this).html(countNumber);
       });
@@ -314,9 +314,8 @@
     }
   }
 
-  $(".back-to-top").on("click", function() {
-    $("html,body").animate(
-      {
+  $(".back-to-top").on("click", function () {
+    $("html,body").animate({
         scrollTop: 0
       },
       700
@@ -327,17 +326,19 @@
         = POPUP VIDEO
     -------------------------------------------*/
   if ($(".video-btn").length) {
-    $(".video-btn").on("click", function() {
+    $(".video-btn").on("click", function () {
       $.fancybox({
         href: this.href,
         type: $(this).data("type"),
         title: this.title,
         helpers: {
-          title: { type: "inside" },
+          title: {
+            type: "inside"
+          },
           media: {}
         },
 
-        beforeShow: function() {
+        beforeShow: function () {
           $(".fancybox-wrap").addClass("gallery-fancybox");
         }
       });
@@ -345,3 +346,29 @@
     });
   }
 })(window.jQuery);
+
+
+/*------------------------------------------
+      = CALCULATOR
+  -------------------------------------------*/
+
+
+var weight, length, height, width, answer;
+
+scopeWeight = length * height * width / 5000;
+
+
+function calc() {
+ 
+  weight = +document.querySelector("#num-weight").value;
+  length = +document.querySelector("#num-length").value;
+  height = +document.querySelector("#num-height").value;
+  width = +document.querySelector("#num-width").value;
+
+  answer = weight * length * height * width  ;
+
+  document.getElementById('ans').textContent = answer + ' SOM';
+
+}
+
+document.getElementById('calculate').addEventListener('click', calc);
