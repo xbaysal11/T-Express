@@ -1,5 +1,9 @@
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
-@import "./scss/all.scss";
+@import "../node_modules/@fortawesome/fontawesome-free/scss/v4-shims.scss";
+@import "../node_modules/@fortawesome/fontawesome-free/scss/solid.scss";
+@import "../node_modules/@fortawesome/fontawesome-free/scss/regular.scss";
+@import "../node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss";
+@import "../node_modules/@fortawesome/fontawesome-free/scss/brands.scss";
 
 $main-color: #163e69;
 $second-color: #0c1b4c;
@@ -641,7 +645,7 @@ mobile menu
 .hero .slick-next {
   width: 60px;
   height: 60px;
-  border: 1px solid #959595;
+  // border: 1px solid #959595;
   border-radius: 5px;
   z-index: 10;
   border-radius: 60px;
@@ -653,10 +657,7 @@ mobile menu
 }
 
 .hero .slick-prev:before {
-  font-family: "Font Awesome 5 Brands";
-  content: "\f104";
-  opacity: 1;
-  color: #fff;
+  font-size: 65px;
 }
 
 .hero .slick-next {
@@ -664,15 +665,16 @@ mobile menu
 }
 
 .hero .slick-next:before {
-  font-family: "Font Awesome 5 Free";
-  content: "\f105";
-  opacity: 1;
-  color: #fff;
+  // font-family: "Font Awesome 5 Free";
+  // content: fa-content($fa-var-arrow-alt-circle-right);
+  // opacity: 1;
+  // color: #fff;
+  font-size: 65px;
 }
 
 .hero .slick-prev:hover,
 .hero .slick-next:hover {
-  background: $second-color;
+  // background: $second-color;
   border: none;
 }
 
