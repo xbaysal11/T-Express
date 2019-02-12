@@ -2,7 +2,9 @@
 
 This project was bootstrapped with [GULP JS](https://gulpjs.com/).
 
-## Install the dependencies and devDependencies
+## 1. Install the [Node JS](https://nodejs.org/en/download/)
+
+## 2. Install the dependencies and devDependencies
 
 In the project directory, you need run:
 
@@ -10,7 +12,7 @@ In the project directory, you need run:
 $ npm install
 ```
 
-## Start GULP JS
+## 3. Start GULP JS
 
 In the project directory, you need run:
 
