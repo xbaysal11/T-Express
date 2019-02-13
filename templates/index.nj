@@ -258,15 +258,15 @@
               <div class="col-lg-6">
                 <span>Мера длины</span>
                 <select name="length_unit" id="length_unit" class="calculate">
-                  <option value="cm">CM</option>
-                  <option value="in">IN</option>
+                  <option value="cm" id = "cm">CM</option>
+                  <option value="in" id = "in">IN</option>
                 </select>
               </div>
               <div class="col-lg-6">
                 <span>Мера веса</span>
                 <select name="weight_unit" id="weight_unit" class="calculate">
-                  <option value="kg">KG</option>
-                  <option value="lb">LB</option>
+                  <option value="kg" id = "kg">KG</option>
+                  <option value="lb" id = "lb">LB</option>
                 </select>
               </div>
             </div>
@@ -292,7 +292,6 @@
                   <span>Предполагаемая стоимость</span>
                   <p id="ans"> </p>
                 </div>
-
               </div>
             </footer>
           </div>

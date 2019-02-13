@@ -353,9 +353,9 @@
   -------------------------------------------*/
 
 
-var weight, length, height, width, answer;
+var weight, length, height, width, cm, ins, kg, lb, answer;
 
-scopeWeight = length * height * width / 5000;
+
 
 
 function calc() {
@@ -365,7 +365,13 @@ function calc() {
   height = +document.querySelector("#num-height").value;
   width = +document.querySelector("#num-width").value;
 
-  answer = weight * length * height * width  ;
+  cm = document.querySelector("#cm").value;
+  ins = document.querySelector("#in").value;
+  kg = document.querySelector("#kg").value;
+  lb = document.querySelector("#lb").value;
+  
+  scopeWeight = length * height * width / 5000;
+  answer = weight * length * height * width;
 
   document.getElementById('ans').textContent = answer + ' SOM';
 

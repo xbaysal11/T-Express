@@ -3,54 +3,55 @@
 {% block title %}БЛОГИ - T-Express
 {% endblock %}
 
-{% block link %}<link  type="text/css" href="/css/blogs.css" rel="stylesheet"/>
+{% block link %}
+<link type="text/css" href="/css/blogs.css" rel="stylesheet" />
 {% endblock %}
 
 {% block content %}
 
-  <div class="empty" ></div>
-  <div class="our-contacts">
-    <div class="info-block text-center">
-      <div class="icon">
-        <i class="fas fa-map-marked-alt"></i>
-      </div>
-      <h5>Адрес:</h5>
-      <p>Эркиндик 12</p>
+<div class="empty"></div>
+<div class="our-contacts">
+  <div class="info-block text-center">
+    <div class="icon">
+      <i class="fas fa-map-marked-alt"></i>
     </div>
-    <div class="info-block text-center">
-      <div class="icon">
-        <i class="fas fa-mobile-alt"></i>
-      </div>
-      <h5>Телефон:</h5>
-      <p>+996 505 511 155</p>
-      <p>+996 500 511 155</p>
-    </div>
-    <div class="info-block text-center">
-      <div class="icon">
-        <i class="far fa-envelope"></i>
-      </div>
-      <h5>E-mail:</h5>
-      <p>ostinroad@gmail.com</p>
-    </div>
-    <div class="info-block text-center">
-      <div class="icon">
-        <i class="fab fa-instagram"></i>
-      </div>
-      <h5>Instagram:</h5>
-      <p>@instagram.com</p>
-    </div>
+    <h5>Адрес:</h5>
+    <p>Эркиндик 12</p>
   </div>
+  <div class="info-block text-center">
+    <div class="icon">
+      <i class="fas fa-mobile-alt"></i>
+    </div>
+    <h5>Телефон:</h5>
+    <p>+996 505 511 155</p>
+    <p>+996 500 511 155</p>
+  </div>
+  <div class="info-block text-center">
+    <div class="icon">
+      <i class="far fa-envelope"></i>
+    </div>
+    <h5>E-mail:</h5>
+    <p>ostinroad@gmail.com</p>
+  </div>
+  <div class="info-block text-center">
+    <div class="icon">
+      <i class="fab fa-instagram"></i>
+    </div>
+    <h5>Instagram:</h5>
+    <p>@instagram.com</p>
+  </div>
+</div>
 
-  <div class="container container_blogs">
-    <h1 class="title_blogs">
-      Блог
-    </h1>
+<div class="container container_blogs">
+  <h1 class="title_blogs">
+    Блог
+  </h1>
 
-    <div class="clearfix">
+  <div class="row">
+    <div class="col-md-9">
       <div class="row_blogs row float_row">
         <a href="blogs_second.html" class="col-md-4">
-          <img class="blogs_img" src="https://www.jquery-az.com/html/images/banana.jpg" title="Title of image"
-                        alt="">
+          <img class="blogs_img" src="https://www.jquery-az.com/html/images/banana.jpg" title="Title of image" alt="">
           <p class="blog-art-item-txt">Доставка авто из США: льготы на растаможку в 2019</p>
         </a>
         <a href="blogs_second.html" class="col-md-4">
@@ -62,63 +63,63 @@
           <p class="blog-art-item-txt">Доставка авто из США: льготы на растаможку в 2019</p>
         </a>
       </div>
-      <div class="nav_right">
 
+
+      <div class="row_blogs row float_row">
+        <a href="blogs_second.html" class="col-md-4">
+          <img class="blogs_img" src="https://www.jquery-az.com/html/images/banana.jpg" alt="">
+          <p class="blog-art-item-txt">Доставка авто из США: льготы на растаможку в 2019</p>
+        </a>
+        <a href="blogs_second.html" class="col-md-4">
+          <img class="blogs_img" src="https://www.jquery-az.com/html/images/banana.jpg" alt="">
+          <p class="blog-art-item-txt">Доставка авто из США: льготы на растаможку в 2019</p>
+        </a>
+        <a href="blogs_second.html" class="col-md-4">
+          <img class="blogs_img" src="https://www.jquery-az.com/html/images/banana.jpg" alt="">
+          <p class="blog-art-item-txt">Доставка авто из США: льготы на растаможку в 2019</p>
+        </a>
+      </div>
+
+      <div class="row_blogs row float_row">
+        <a href="blogs_second.html" class="col-md-4">
+          <img class="blogs_img" src="https://www.jquery-az.com/html/images/banana.jpg" title="Title of image" alt="">
+          <p class="blog-art-item-txt">Доставка авто из США: льготы на растаможку в 2019</p>
+        </a>
+        <a href="blogs_second.html" class="col-md-4">
+          <img class="blogs_img" src="http://www.hyperlinkcode.com/images/sample-image.jpg" alt="">
+          <p class="blog-art-item-txt">Доставка авто из США: льготы на растаможку в 2019</p>
+        </a>
+        <a href="blogs_second.html" class="col-md-4">
+          <img class="blogs_img" src="https://www.jquery-az.com/html/images/banana.jpg" alt="">
+          <p class="blog-art-item-txt">Доставка авто из США: льготы на растаможку в 2019</p>
+        </a>
+      </div>
+    </div>
+
+    <div class="nav_right col-md-3">
+      <ul class="blogs_ul">
+        <li>ВСЕ СТАТЬИ</li>
+        <li>НОВИНКИ</li>
+        <li>ОДЕЖДА</li>
+        <li>ОБУВЬ</li>
+        <li>ЭЛЕКТРОНИКА</li>
+        <li>КОСМЕТИКА И УХОД</li>
+        <li>ИГРУШКИ</li>
+        <li>АКСЕССУАРЫ</li>
+        <li>МУЖЧИНАМ</li>
+        <li>ЖЕНЩИНАМ</li>
+        <li>ДЕТЯМ</li>
+        <li>РАЗНОЕ</li>
+        <li>ВЫПЕЧКА</li>
+      </ul>
+      <!-- <div class="nav_top">
         <ul class="blogs_ul">
-          <li>ВСЕ СТАТЬИ</li>
-          <li>НОВИНКИ</li>
-          <li>ОДЕЖДА</li>
-          <li>ОБУВЬ</li>
-          <li>ЭЛЕКТРОНИКА</li>
-          <li>КОСМЕТИКА И УХОД</li>
-          <li>ИГРУШКИ</li>
-          <li>АКСЕССУАРЫ</li>
-          <li>МУЖЧИНАМ</li>
-          <li>ЖЕНЩИНАМ</li>
-          <li>ДЕТЯМ</li>
-          <li>РАЗНОЕ</li>
-          <li>ВЫПЕЧКА</li>
+          <li>1.Доставка авто из <br> США: льготы на растаможку в 2019</li>
+          <li>2.Доставка авто из <br>США: льготы на растаможку в 2019</li>
+          <li>3.Доставка авто из <br>США: льготы на растаможку в 2019</li>
         </ul>
-        <div class="nav_top">
-          <ul class="blogs_ul">
-            <li>1.Доставка авто из <br> США: льготы на растаможку в 2019</li>
-            <li>2.Доставка авто из <br>США: льготы на растаможку в 2019</li>
-            <li>3.Доставка авто из <br>США: льготы на растаможку в 2019</li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="row_blogs row float_row">
-        <a href="blogs_second.html" class="col-md-4">
-          <img class="blogs_img" src="https://www.jquery-az.com/html/images/banana.jpg" alt="">
-          <p class="blog-art-item-txt">Доставка авто из США: льготы на растаможку в 2019</p>
-        </a>
-        <a href="blogs_second.html" class="col-md-4">
-          <img class="blogs_img" src="https://www.jquery-az.com/html/images/banana.jpg" alt="">
-          <p class="blog-art-item-txt">Доставка авто из США: льготы на растаможку в 2019</p>
-        </a>
-        <a href="blogs_second.html" class="col-md-4">
-          <img class="blogs_img" src="https://www.jquery-az.com/html/images/banana.jpg" alt="">
-          <p class="blog-art-item-txt">Доставка авто из США: льготы на растаможку в 2019</p>
-        </a>
-      </div>
-
-      <div class="row_blogs row float_row">
-        <a href="blogs_second.html" class="col-md-4">
-          <img class="blogs_img" src="https://www.jquery-az.com/html/images/banana.jpg" title="Title of image"
-                        alt="">
-          <p class="blog-art-item-txt">Доставка авто из США: льготы на растаможку в 2019</p>
-        </a>
-        <a href="blogs_second.html" class="col-md-4">
-          <img class="blogs_img" src="http://www.hyperlinkcode.com/images/sample-image.jpg" alt="">
-          <p class="blog-art-item-txt">Доставка авто из США: льготы на растаможку в 2019</p>
-        </a>
-        <a href="blogs_second.html" class="col-md-4">
-          <img class="blogs_img" src="https://www.jquery-az.com/html/images/banana.jpg" alt="">
-          <p class="blog-art-item-txt">Доставка авто из США: льготы на растаможку в 2019</p>
-        </a>
-      </div>
-     
+      </div> -->
     </div>
   </div>
+</div>
 {% endblock %}
