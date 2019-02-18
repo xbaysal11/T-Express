@@ -1,0 +1,101 @@
+{% extends "base_admin.nj" %}
+{% block content %}
+  <!DOCTYPE html>
+  <html>
+
+    <body>
+      <div class="workspace">
+
+        <section>
+          <div class="main">
+
+            <div class="content">
+              <div class="newor">
+                <h1>Новый заказ</h1>
+
+                <div class="new-t">
+                  <p>
+                    <h>Сделать заказ</h>
+                    <br>Чтобы оформить заказ, пожалуйста, заполните поля в форме. Обработка заказов происходит в течении 1-2 дней. Информация о текущем статусе заказа вы найдете в комментариях к нему.
+                  </p>
+                </div>
+
+                <div class="new-order">
+
+                  <div class="new-i">
+                    <span>Ссылка на товар</span>
+                    <form>
+                      <input type="" placeholder=" https://www.amazon.com/international" size="35">
+                    </form>
+                  </div>
+
+                  <div class="new-i2">
+                    <span>Название товара</span>
+                    <form>
+                      <input type="" size="30">
+                    </form>
+                  </div>
+
+                  <div class="new-i3">
+                    <span>Стоимость ($)</span>
+                    <form>
+                      <input type="" size="10">
+                    </form>
+                  </div>
+
+                  <div class="new-i4">
+                    <span>Количество</span>
+                    <form>
+                      <input>
+                    </form>
+                  </div>
+
+                </div>
+
+                <div class="new-order2">
+
+                  <div class="new-i5">
+                    <span>Цвет</span>
+                    <form>
+                      <input>
+                    </form>
+                  </div>
+
+                  <div class="new-i6">
+                    <span>Размер</span>
+                    <form>
+                      <input type="">
+                    </form>
+                  </div>
+
+                  <div class="new-i7">
+                    <span>Ширина</span>
+                    <form>
+                      <input>
+                    </form>
+                  </div>
+
+                  <div class="new-i8">
+                    <span>Примечание</span>
+                    <form>
+                      <input size="47">
+                    </form>
+                  </div>
+
+                </div>
+
+                <div class="btnn">
+                  <button class="btnn1">Добавить</button>
+                  <button class="btnn2">Очистить</button>
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+        </section
+    </div>
+      </body>
+
+    </html>
+  {% endblock %}

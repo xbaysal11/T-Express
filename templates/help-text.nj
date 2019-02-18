@@ -1,0 +1,26 @@
+{% extends "base_admin.nj" %}
+{% block content %}
+  <!DOCTYPE html>
+  <html>
+
+    <body>
+      <div class="workspace">
+
+        <section>
+          <div class="main">
+
+            <div class="content">
+              <div class="wrapper">
+
+                <div class="helptext2">
+                  <h1>Помощ при покупке</h1>
+                </div>
+
+              </div>
+            </div>
+          </section
+    </div>
+        </body>
+
+      </html>
+    {% endblock %}

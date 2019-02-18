@@ -1,0 +1,108 @@
+{% extends "base_admin.nj" %}
+{% block content %}
+  <!DOCTYPE html>
+  <html>
+
+    <body>
+      <div class="workspace">
+
+        <section>
+          <div class="main">
+
+            <div class="content">
+              <div class="wrapper">
+                <div class="popular-shops">
+                  <h2>Популярные магазины</h2>
+                  <h4>Эти магазины самые популярные у пользователей T-EXP</h4>
+                  <hr>
+                </div>
+                <div class="shop-list">
+                  <div class="shop-box">
+                    <img src="/images/nike-logo.png" alt="">
+                    <div class="rating">
+                      <p>Рейтинг пользователей</p>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="far fa-star empty"></i>
+                    </div>
+                    <div class="shop-info">
+                      <a href="shop-info.html">
+                        <span>
+                          <i class="fas fa-info"></i>
+                        </span>
+                        <span>Подробнее</span>
+                        <span class="comments">15</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="shop-box">
+                    <img src="/images/nike-logo.png" alt="">
+                    <div class="rating">
+                      <p>Рейтинг пользователей</p>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="far fa-star empty"></i>
+                    </div>
+                    <div class="shop-info">
+                      <a href="shop-info.html">
+                        <span>
+                          <i class="fas fa-info"></i>
+                        </span>
+                        <span>Подробнее</span>
+                        <span class="comments">15</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="shop-box">
+                    <img src="/images/nike-logo.png" alt="">
+                    <div class="rating">
+                      <p>Рейтинг пользователей</p>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="far fa-star empty"></i>
+                    </div>
+                    <div class="shop-info">
+                      <a href="shop-info.html">
+                        <span>
+                          <i class="fas fa-info"></i>
+                        </span>
+                        <span>Подробнее</span>
+                        <span class="comments">15</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="shop-box">
+                    <img src="/images/nike-logo.png" alt="">
+                    <div class="rating">
+                      <p>Рейтинг пользователей</p>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="far fa-star empty"></i>
+                    </div>
+                    <div class="shop-info">
+                      <a href="shop-info.html">
+                        <span>
+                          <i class="fas fa-info"></i>
+                        </span>
+                        <span>Подробнее</span>
+                        <span class="comments">15</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section
+    </div>
+      </body>
+
+    </html>
+  {% endblock %}

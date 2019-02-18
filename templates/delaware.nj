@@ -1,0 +1,184 @@
+{% extends "base_admin.nj" %}
+{% block content %}
+  <!DOCTYPE html>
+  <html>
+
+    <body>
+      <div class="workspace">
+
+        <section>
+          <div class="main">
+
+            <div class="content">
+              <div class="box">
+                <div class="case">
+                  <div class="row">
+                    <div class="avatar">
+                      <img src="/images/user.svg" alt="">
+                    </div>
+                    <div class="user-name">
+                      <h1>Davletbaeva Yrys</h1>
+                      <p>yryska59@gmail.com</p>
+                    </div>
+                  </div>
+                  <div class="edit-profile">
+                    <a href="#" class="edit-btn">
+                      <span>Редактировать профайл</span>
+                    </a>
+                  </div>
+                  <hr>
+                  <div class="list">
+                    <a href="#">
+                      <img src="/images/man-user.svg" alt="">
+                      Мой публичный профиль
+                    </a>
+                  </div>
+                  <hr>
+                  <div class="list-menu">
+                    <ul>
+                      <li>
+                        <a href="#">
+                          <img src="/images/shopping-cart.svg" alt="">
+                          Популярные магазины
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <img src="/images/cancel.svg" alt="">
+                          С чем не мы не работаем
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <img src="/images/abacus.svg" alt="">
+                          Калькулятор доставки
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <img src="/images/play-button.svg" alt="">
+                          Видео как это работает
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="adress-box">
+                  <div class="bg-info">
+                    <div class="adress-line">
+                      <h1>Ваши адреса</h1>
+                      <div class="adress-tab">
+                        <div class="adr-title">
+                          <p>Адрес в Нью-Йорке</p>
+                        </div>
+                        <div class="adr-title active-adress">
+                          <p>Адрес в Делавэр</p>
+                        </div>
+                      </div>
+                      <div class="adr-body">
+                        <span>Yrys Davletbaeva</span>
+                        <span>LOAD GmbH W1449590
+                        </span>
+                        <span>Gartenfelder Str. 28 Load</span>
+                        <span>Berlin, 13599
+                        </span>
+                        <span>Phone 03069202222</span>
+                      </div>
+                      <div class="question">
+                        <a href="#" id="myBtn">Как указать адрес для доставки</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div id="myModal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <h1>Как указать адрес для доставки</h1>
+          <hr>
+          <div class="filling-adress">
+            <ul>
+              <li>
+                <div class="adress-line">
+                  <div class="example-one">Первая строка</div>
+                  <div class="example">Ваши имя и фамилия (латиницей)</div>
+                </div>
+              </li>
+              <li>
+                <div class="adress-line">
+                  <div class="example-one">Адрес (первая строка)</div>
+                  <div class="example">
+                    LOAD GmbH W1449590 (вместо 1449590 — уникальный номер, который вы видите в своем аккаунте. По нему мы узнаем, что это ваша посылка). В некоторых европейских магазинах эта строка называется Company name.
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="adress-line">
+                  <div class="example-one">Address (second line)</div>
+                  <div class="example">Gartenfelder Str. 28 Load</div>
+                </div>
+              </li>
+              <li>
+                <div class="adress-line">
+                  <div class="example-one">Город</div>
+                  <div class="example">Berlin</div>
+                </div>
+              </li>
+              <li>
+                <div class="adress-line">
+                  <div class="example-one">Область (State)</div>
+                  <div class="example">Это поле заполнять не нужно</div>
+                </div>
+              </li>
+              <li>
+                <div class="adress-line">
+                  <div class="example-one">Индекс (Zip code)</div>
+                  <div class="example">13599</div>
+                </div>
+              </li>
+              <li>
+                <div class="adress-line">
+                  <div class="example-one">Телефон</div>
+                  <div class="example">03069202222</div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </body>
+
+  </html>
+  <script>
+    // Get the modal
+    var modal = document.getElementById('myModal');
+
+    // Get the button that opens the modal
+    var btn = document.getElementById("myBtn");
+
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+
+    // When the user clicks the button, open the modal
+    btn.onclick = function () {
+      modal.style.display = "block";
+    }
+
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function () {
+      modal.style.display = "none";
+    }
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function (event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+  </script>
+{% endblock %}

@@ -1,0 +1,21 @@
+{% extends "base_admin.nj" %}
+{% block content %}
+  <!DOCTYPE html>
+  <html>
+
+    <body>
+      <div class="workspace">
+
+        <section>
+          <div class="main">
+
+            <div class="content">
+              <h1>Лента отзывов</h1>
+            </div>
+          </div>
+        </section
+    </div>
+      </body>
+
+    </html>
+  {% endblock %}

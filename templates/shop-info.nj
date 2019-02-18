@@ -1,0 +1,61 @@
+{% extends "base_admin.nj" %}
+{% block content %}
+  <!DOCTYPE html>
+  <html>
+
+    <body>
+      <div class="workspace">
+
+        <section>
+          <div class="main">
+
+            <div class="content">
+              <div class="wrapper">
+                <p>Популярные магазины</p>
+                <div class="popular-shops box">
+                  <div class="shop-logo">
+                    <img src="/images/nike-logo.png" alt="">
+                    <div class="rating">
+                      <p>Рейтинг пользователей</p>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="far fa-star empty"></i>
+                    </div>
+                  </div>
+                  <div class="shop-description">
+                    <a href="#">Nike</a>
+                  </div>
+                </div>
+                <h1>Отзывы пользователей об этом магазине</h1>
+                <div class="feedback popular-shops">
+                  <div class="user-box">
+                    <img src="/images/user.svg" alt="">
+                    <div class="user-name">
+                      <span>Yrys Davletbaeva</span>
+                      <span class="time">21.01.2015</span>
+                    </div>
+                  </div>
+                  <div class="rating">
+                    <p>Общая оценка</p>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star empty"></i>
+                  </div>
+                  <div class="user-comments">
+                    <span>Комментарий:</span>
+                    <p>
+                      Магазин крутейший! Отслеживая цену, можно купить брендовые вещи по смешным ценам! Маленькое наблюдение - лучше покупать в будние дни, по выходным цены поднимаются. Была у меня такая печальная история. Пришли кроссовки оба правые, немного отличались по цвету и размер одни 6,5, а другой 7. Написала в поддержку, они, конечно, поняли, что я далеко не из США, НО даже не стали требовать фото в подтверждение, извинились и вернули деньги. Магазин лоялен по отношению к клиентам. Очень довольна их сервисом! А Бандеролька - лучший помощник! Спасибо!!
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section
+    </div>
+      </body>
+
+    </html>
+  {% endblock %}

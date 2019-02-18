@@ -1,0 +1,40 @@
+{% extends "base_admin.nj" %}
+{% block content %}
+  <!DOCTYPE html>
+  <html>
+
+    <body>
+      <div class="workspace">
+
+        <section>
+          <div class="main">
+
+            <div class="content">
+              <div class="wrapper">
+                <div class="help-line">
+                  <h1>Мои заказы "Помощь при покупке"</h1>
+                  <div class="regulations">
+                    <p>Правила оформления заказа</p>
+                  </div>
+                  <button onclick="window.location='new-order.html'">Добавить новый заказ</button>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  <img src=".//images/help.png" width="20px height="20px>
+                  <a href="help-text.html">
+                    Kак это работает</a>
+                  <div class="helptext">
+                    <p>
+                      Мы запустили акцию "Месяц красоты". С 14 февраля по 10 февраля 2019 года мы бесплатно выкупаем для вас косметику и аксессуары в любимых магазинах: Sephora, Beatylish, Jomashop, Michael Kors. В акции участвуют только покупки через склад США. магазины Sephora и Michael Kors обычно отправляют товары на частные адреса наших сотрудников - это +10$ к заказу.
+
+                    </p>
+                  </div>
+                  <input type="text" placeholder="  Поиск">
+                </div>
+              </div>
+            </div>
+          </div>
+        </section
+    </div>
+      </body>
+
+    </html>
+  {% endblock %}

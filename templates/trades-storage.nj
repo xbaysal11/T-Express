@@ -1,0 +1,36 @@
+{% extends "base_admin.nj" %}
+{% block content %}
+  <!DOCTYPE html>
+  <html>
+
+    <body>
+      <div class="workspace">
+
+        <section>
+          <div class="main">
+
+            <div class="content">
+              <div class="wrapper">
+                <div class="goods-storage">
+                  <h1>Посылки на складе</h1>
+                  <div class="message-info">
+                    <p>
+                      Если вы хотите объединить несколько посылок, заполните декларации для них и установите флажки «Отправить».
+                    </p>
+                    <a href="out-of-scope.html">
+                      <img src="/images/cancel.svg" alt="">
+                      С чем не работает T-EXP
+                    </a>
+                  </div>
+                  <input type="text" placeholder="id, трекинг, заголовок, магазин">
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </section
+    </div>
+      </body>
+
+    </html>
+  {% endblock %}

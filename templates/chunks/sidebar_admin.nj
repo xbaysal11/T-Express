@@ -1,0 +1,148 @@
+<link rel="import" href="script.js">
+<div class="sidebar">
+  <div class="toolbar" id="myToolbar">
+
+    <a href="index.html" class="profile">
+      <div class="image">
+        <img src="/images/user.svg" alt="">
+      </div>
+      <div class="title">
+        <div>Мой аккаунт</div>
+        <span>Ваши адреса</span>
+      </div>
+      <div class="arrow-icon">
+        <i class="fas fa-angle-right"></i>
+      </div>
+    </a>
+
+    <a href="expected.html" class="profile active-profile">
+      <div class="image">
+        <img src="/images/clock.svg" alt="">
+      </div>
+      <div class="title">
+        <div>Ожидаемые</div>
+        <span>Ожидаемые посыки</span>
+      </div>
+      <div class="arrow-icon">
+        <i class="fas fa-angle-right"></i>
+      </div>
+    </a>
+
+    <a href="trades-storage.html" class="profile">
+      <div class="image">
+        <img src="/images/planning.svg" alt="">
+      </div>
+      <div class="title">
+        <div>На складе</div>
+        <span>Посылки на складе</span>
+      </div>
+      <div class="arrow-icon">
+        <i class="fas fa-angle-right"></i>
+      </div>
+    </a>
+
+    <a href="in-process.html" class="profile">
+      <div class="image">
+        <img src="/images/folder.svg" alt="">
+      </div>
+      <div class="title">
+        <div>В процессе</div>
+        <span>Пакующиеся посылки</span>
+      </div>
+      <div class="arrow-icon">
+        <i class="fas fa-angle-right"></i>
+      </div>
+    </a>
+
+    <a href="send-goods.html" class="profile">
+      <div class="image">
+        <img src="/images/send.svg" alt="">
+      </div>
+      <div class="title">
+        <div>Отправлено</div>
+        <span>Отправленные посылки</span>
+      </div>
+      <div class="arrow-icon">
+        <i class="fas fa-angle-right"></i>
+      </div>
+    </a>
+
+    <a href="help.html" class="profile">
+      <div class="image">
+        <img src="/images/social-care.svg" alt="">
+      </div>
+      <div class="title">
+        <div>Помощь при закупке</div>
+        <span>Мои заказы</span>
+      </div>
+      <div class="arrow-icon">
+        <i class="fas fa-angle-right"></i>
+      </div>
+    </a>
+
+    <a href="requests.html" class="profile">
+      <div class="image">
+        <img src="/images/video-conference.svg" alt="">
+      </div>
+      <div class="title">
+        <div>Спец запросы</div>
+        <span>Действия с посылками</span>
+      </div>
+      <div class="arrow-icon">
+        <i class="fas fa-angle-right"></i>
+      </div>
+    </a>
+
+    <a href="view-page.html" class="profile">
+      <div class="image">
+        <img src="/images/rating.svg" alt="">
+      </div>
+      <div class="title">
+        <div>Лента отзывов</div>
+        <span>Отзывы о магазинах</span>
+      </div>
+      <div class="arrow-icon">
+        <i class="fas fa-angle-right"></i>
+      </div>
+    </a>
+
+    <a href="support.html" class="profile">
+      <div class="image">
+        <img src="/images/technical-support.svg" alt="">
+      </div>
+      <div class="title">
+        <div>Поддержка</div>
+        <span>Написать нам</span>
+      </div>
+      <div class="arrow-icon">
+        <i class="fas fa-angle-right"></i>
+      </div>
+    </a>
+
+    <a href="calculator.html" class="profile">
+      <div class="image">
+        <img src="/images/abacus.svg" alt="">
+      </div>
+      <div class="title">
+        <div>Калькулятор</div>
+        <span>Расчет доставки</span>
+      </div>
+      <div class="arrow-icon">
+        <i class="fas fa-angle-right"></i>
+      </div>
+    </a>
+    <a id="menu" href="#" class="icon">&#9776;</a>
+  </div>
+</div>
+
+<script>
+  menu.onclick = function myFunction() {
+    var x = document.getElementById("myToolbar");
+
+    if (x.className === "toolbar") {
+      x.className += " responsive";
+    } else {
+      x.className = "toolbar";
+    }
+  }
+</script>

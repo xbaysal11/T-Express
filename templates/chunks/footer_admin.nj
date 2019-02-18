@@ -1,0 +1,52 @@
+<div class="footer">
+  <div class="foo">
+
+    <div class="all-rights">
+      <p>
+        Copyright 2010 - 2018 Qwintry.<br>
+        All Rights Reserved
+      </p>
+      <div class="apps">
+        <a href="#" class="install">
+          <img src="/images/apple.svg" alt="">
+          <span>Скачать в App Store</span>
+        </a>
+        <a href="#" class="install">
+          <img src="/images/google-play.svg" alt="">
+          <span>Скачать в Google Play</span>
+        </a>
+      </div>
+    </div>
+
+    <div class="f-info">
+      <h1>Информация</h1>
+      <a href="#">С чем не работает Бандеролька</a><br>
+      <a href="#">Как пользоваться</a><br>
+      <a href="#">Доставка</a><br>
+      <a href="#">Условия использования</a><br>
+      <a href="#">Услуги</a><br>
+    </div>
+
+    <div class="f-vidoe">
+      <h1>Видео</h1>
+      <a href="#">Как это работает</a><br>
+      <a href="#">Видео: как мы покуем посылки</a><br>
+    </div>
+
+    <div class="f-util">
+      <h1>
+        Полезности
+      </h1>
+      <a href="#">Калькулятор Бандеролька</a><br>
+      <a href="#">Калькулятор USPS</a><br>
+      <a href="#">Как с нами связаться</a><br>
+      <a href="#">Вход в старый личный кабинет</a><br>
+    </div>
+
+    <div class="f-serv">
+      <h1>Наши сервисы</h1>
+      <a href="#">Qwintry Logistics</a>
+      <a href="#">Qwintry Tracker</a>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,53 @@
+{% extends "base_admin.nj" %}
+{% block content %}
+  <!DOCTYPE html>
+  <html>
+
+    <body>
+      <div class="workspace">
+
+        <section>
+          <div class="main">
+
+            <div class="content">
+
+              <div class="sup2">
+                <h1>Новое обращение</h1>
+
+                <div class="s-in">
+                  <span>Тема</span>
+                  <form>
+                    <input type="" size="53">
+                  </form>
+                </div>
+
+                <div class="s-sms">
+                  <span>Сообщение</span>
+                  <form>
+                    <textarea></textarea>
+                  </form>
+                </div>
+
+                <p>Прикрепленные файлы</p>
+
+                <div class="file_upload">
+                  <button type="button">Выбрать</button>
+                  <div>Файл не выбран</div>
+                  <input type="file">
+                </div>
+
+                <div class="butt">
+                  <button>Отправить</button>
+                  <button>Отмена</button>
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+        </section
+    </div>
+      </body>
+
+    </html>
+  {% endblock %}

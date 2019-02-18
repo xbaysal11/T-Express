@@ -1,0 +1,54 @@
+{% extends "base_admin.nj" %}
+{% block content %}
+  <!DOCTYPE html>
+  <html>
+
+    <body>
+      <div class="workspace">
+
+        <section>
+          <div class="main">
+
+            <div class="content">
+              <div class="wrapper">
+                <h1>Настройки профиля</h1>
+                <div class="setting-title">
+                  <a href="user-settings.html" class="setting-personal">
+                    <span>Личные данные</span>
+                  </a>
+                  <a href="#" class="setting-page  active-setting">
+                    <span>Настройки сайта</span>
+                  </a>
+                </div>
+              </div>
+              <div class="setting-change">
+                <h1>Настроки сайта</h1>
+                <div class="settings-web">
+                  <div class="settings-language">
+                    <p>Выберите язык для этой учетной записи</p>
+                  </div>
+                  <div class="settings-input">
+                    <input type="text">
+                  </div>
+                </div>
+                <hr>
+                <h1>Часовой пояс</h1>
+                <div class="settings-web">
+                  <div class="settings-language">
+                    <p>
+                      Выберите Ваше местное время, дата на сайте будет отображаться согласно указанному времени
+                    </p>
+                  </div>
+                  <div class="settings-input">
+                    <input type="text" placeholder="Выберите часовой пояс">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section
+    </div>
+      </body>
+
+    </html>
+  {% endblock %}

@@ -1,0 +1,46 @@
+<section>
+  <header class="row" style="display:flex; flex-direction:row">
+    <div class="sidebar">
+      <a href="#">
+        <img src="/images/w.png">
+      </a>
+    </div>
+    <div class="content">
+      <div class="content-header">
+        <a href="index.html" class="btn-group active-btn">
+          <span>New York</span>
+        </a>
+        <a href="delaware.html" class="btn-group">
+          <span>Delaware</span>
+        </a>
+      </div>
+      <div>
+        <div class="drop-dwn">
+          <div class="avatar">
+            <img src="/images/user.svg">
+          </div>
+          <div class="username">
+            <span>Yrys</span>
+            <span>100$</span>
+          </div>
+          <div class="indicator">
+            <i class="fas fa-angle-down"></i>
+          </div>
+        </div>
+        <div class="drop-content">
+          <p>ID :
+            <span>#516556</span></p>
+          <hr>
+          <div class="navigations">
+            <a href="#">Профиль</a>
+            <a href="#">Пополнить баланс</a>
+            <a href="#">Мои адреса</a>
+            <a href="#">Настройки</a>
+            <a href="#">Статистика</a>
+            <a href="#">Выход</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+</section>

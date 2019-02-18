@@ -1,0 +1,31 @@
+{% extends "base_admin.nj" %}
+{% block content %}
+  <!DOCTYPE html>
+  <html>
+    {% include "head.nj" %}
+    <body>
+      <div class="workspace">
+
+        <section>
+          <div class="main">
+
+            <div class="content">
+              <div class="wrapper">
+                <div class="expected">
+                  <h1>Ожидаемая посылка | Ожидаемые посылки</h1>
+                  <button>Создать ожидаемую посылку</button>
+                </div>
+                <div class="input-block">
+                  <input type="text" placeholder="Поиск товара: трекинг, заголовок, ID">
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </section
+    </div>
+
+      </body>
+
+    </html>
+  {% endblock %}

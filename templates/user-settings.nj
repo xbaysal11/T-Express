@@ -1,0 +1,66 @@
+{% extends "base_admin.nj" %}
+{% block content %}
+  <!DOCTYPE html>
+  <html>
+
+    <body>
+      <div class="workspace">
+
+        <section>
+          <div class="main">
+
+            <div class="content">
+              <div class="wrapper">
+                <h1>Настройки профиля</h1>
+                <div class="setting-title">
+                  <a href="#" class="setting-personal  active-setting">
+                    <span>Личные данные</span>
+                  </a>
+                  <a href="web-settings.html" class="setting-page">
+                    <span>Настройки сайта</span>
+                  </a>
+                </div>
+              </div>
+              <div class="setting-change">
+                <h2>Личные данные</h2>
+                <div class="setting-input">
+                  <label for="firstName">Имя</label>
+                  <input type="text">
+                  <label for="lastName">Фамилия</label>
+                  <input type="text">
+                  <label for="gender">Пол</label>
+                  <input type="text">
+                  <label for="dateBirth">Дата рождения</label>
+                  <input type="text">
+                </div>
+                <hr>
+                <h2>Местоположение</h2>
+                <div class="setting-input">
+                  <label for="country">Город</label>
+                  <input type="text">
+                </div>
+                <hr>
+                <h2>Контактная инфрмация</h2>
+                <div class="setting-input">
+                  <label for="email">Электронная почта</label>
+                  <input type="text">
+                  <label for="phone">Телефон</label>
+                  <input type="text">
+                </div>
+                <hr>
+                <h2>Смена пароля</h2>
+                <div class="setting-input">
+                  <label for="newPassw">Новый пароль</label>
+                  <input type="text">
+                  <label for="passw">Повторите пароль</label>
+                  <input type="text">
+                </div>
+              </div>
+            </div>
+          </div>
+        </section
+    </div>
+      </body>
+
+    </html>
+  {% endblock %}

@@ -1,0 +1,37 @@
+{% extends "base_admin.nj" %}
+{% block content %}
+  <!DOCTYPE html>
+  <html>
+
+    <body>
+      <div class="workspace">
+
+        <section>
+          <div class="main">
+
+            <div class="content">
+              <div class="wrapper">
+                <div class="sending">
+                  <h1>Отправленные посылки</h1>
+                  <div class="filter">
+                    <span>Фильтр:</span>
+                    <a href="#">
+                      В пути
+                      <span>(0)</span>
+                    </a>
+                    <a href="#">
+                      Доставлено
+                      <span>(1)</span>
+                    </a>
+                  </div>
+                  <input type="text" placeholder="id, трекинг, заголовок, адрес">
+                </div>
+              </div>
+            </div>
+          </div>
+        </section
+    </div>
+      </body>
+
+    </html>
+  {% endblock %}
