@@ -356,25 +356,26 @@
 var weight, length, height, width, cm, ins, kg, lb, answer;
 
 
-
-
 function calc() {
- 
-  weight = +document.querySelector("#num-weight").value;
-  length = +document.querySelector("#num-length").value;
-  height = +document.querySelector("#num-height").value;
-  width = +document.querySelector("#num-width").value;
+    if (document.getElementById('weight_unit').value == "kg") {
+    weight = +document.querySelector("#num-weight").value;
+    length = +document.querySelector("#num-length").value;
+    height = +document.querySelector("#num-height").value;
+    width = +document.querySelector("#num-width").value;
 
-  cm = document.querySelector("#cm").value;
-  ins = document.querySelector("#in").value;
-  kg = document.querySelector("#kg").value;
-  lb = document.querySelector("#lb").value;
-  
-  scopeWeight = length * height * width / 5000;
-  answer = weight * length * height * width;
+    answer = weight * length * height * width;
 
-  document.getElementById('ans').textContent = answer + ' SOM';
+    document.getElementById('ans').textContent = answer + ' SOM';
 
+  } else {
+    weight = +document.querySelector("#num-weight").value;
+    length = +document.querySelector("#num-length").value;
+    height = +document.querySelector("#num-height").value;
+    width = +document.querySelector("#num-width").value;
+
+    answer = weight * length * height / width;
+
+    document.getElementById('ans').textContent = answer + ' SOM';
+  }
 }
-
 document.getElementById('calculate').addEventListener('click', calc);
